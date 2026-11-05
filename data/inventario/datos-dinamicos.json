@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T17:24:22.333Z",
+  "generado": "2026-11-05T23:09:27.182Z",
   "base": "https://www.ullswaterinvestments.com/",
   "verificado": true,
   "fuentes": [
@@ -25,11 +25,11 @@
         "/calls/international-cooperation"
       ],
       "meta": {
-        "total": 418,
+        "total": 392,
         "source": "EU Funding & Tenders Portal (SEDIA)",
-        "updated": "2026-11-05T15:38:41.306Z"
+        "updated": "2026-11-05T23:09:41.183Z"
       },
-      "enlaces": 418,
+      "enlaces": 392,
       "error": null
     }
   ]
