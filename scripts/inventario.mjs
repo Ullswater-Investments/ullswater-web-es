@@ -376,13 +376,29 @@ async function leerFuenteDatos(url) {
 // ---------------------------------------------------------------------------
 // Verificación de enlaces externos (--verificar)
 // ---------------------------------------------------------------------------
+// Las redirecciones a una página de inicio de sesión llevan un identificador distinto en cada
+// visita (p. ej., ECAS de la Comisión: …/cas/login?loginRequestId=ECAS_LR-…). Se guardan sin la
+// consulta; si no, el inventario cambiaría en cada ejecución y el Vigía avisaría a diario.
+function urlFinalEstable(url) {
+  try {
+    const u = new URL(url);
+    if (/\/login\b/i.test(u.pathname)) {
+      u.search = '';
+      u.hash = '';
+    }
+    return u.href;
+  } catch {
+    return url;
+  }
+}
+
 async function verificarEnlace(e, turno) {
   const r = { estado: null, url_final: null, tipo_contenido: null, idioma: null, version_es: null, version_es_automatica: null, error: null };
   try {
     await turno(new URL(e.url).hostname);
     const res = await descargar(e.url, 'text/html,application/xhtml+xml,*/*;q=0.8');
     r.estado = res.status;
-    if (res.url && res.url !== e.url) r.url_final = res.url;
+    if (res.url && res.url !== e.url) r.url_final = urlFinalEstable(res.url);
     r.tipo_contenido = (res.headers.get('content-type') || '').split(';')[0].trim() || null;
     if (/html/i.test(r.tipo_contenido || '')) r.idioma = idiomaDe(await res.text()) || res.headers.get('content-language');
     else {
