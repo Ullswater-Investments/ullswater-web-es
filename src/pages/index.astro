@@ -1,0 +1,204 @@
+---
+// Portada. Textos redactados en español a partir de la portada inglesa
+// (https://www.ullswaterinvestments.com/home) y de las páginas de cada servicio,
+// consultadas el 5 de noviembre de 2026. Los próximos cierres salen de data/convocatorias.json.
+//
+// Ojo al editar: Astro 7 elimina el salto de línea entre una palabra y un enlace o una
+// negrita que empiece en la línea siguiente. Deja esos elementos en la misma línea.
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import TarjetaConvocatoria from '../components/TarjetaConvocatoria.astro';
+import { proximosCierres, queCierranEn } from '../lib/convocatorias';
+import { fechaLarga } from '../lib/fecha';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+// Mismo enlace que «Schedule a meeting» en la web inglesa.
+const AGENDA =
+  'https://calendar.google.com/calendar/embed?src=7a3bd11cf6e17f080e9d1a55ed62c5c1d079b85adca160751fc60cc917432da2@group.calendar.google.com';
+const ANIO = 2026;
+const proximas = proximosCierres(4);
+const totalAnio = queCierranEn(ANIO).length;
+const noticias = (await getCollection('noticias', ({ data }) => !data.borrador))
+  .sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf())
+  .slice(0, 3);
+
+// Las páginas de servicios aún no existen en español: enlazan a la web inglesa.
+const servicios = [
+  {
+    nombre: 'Preparación para inversores',
+    texto: 'Preparamos tu empresa para superar la due diligence de los fondos de capital riesgo respaldados por el FEI y convertir tu potencial innovador en una propuesta financiable.',
+    enlace: 'https://www.ullswaterinvestments.com/investment-readiness',
+  },
+  {
+    nombre: 'Búsqueda de fondos europeos',
+    texto: 'Analizamos los objetivos, el sector y el alcance de tu proyecto para dar con el programa más adecuado (Horizonte Europa, Europa Digital o un fondo nacional) y con la convocatoria que te da más posibilidades de éxito.',
+    enlace: 'https://www.ullswaterinvestments.com/eu-fund-matching',
+  },
+  {
+    nombre: 'Posicionamiento estratégico',
+    texto: 'Te ayudamos a ser un socio visible y creíble para la Comisión Europea, el BEI y los consorcios europeos, y a convertir esa posición en proyectos financiados.',
+    enlace: 'https://www.ullswaterinvestments.com/strategic-positioning',
+  },
+];
+
+// Versiones oficiales en español (la web inglesa enlaza las versiones en inglés).
+const programas = [
+  {
+    nombre: 'Horizonte Europa',
+    texto: 'El principal programa de investigación e innovación de la UE.',
+    enlace: 'https://www.horizonteeuropa.es/',
+  },
+  {
+    nombre: 'Pacto Verde Europeo',
+    texto: 'Financiación para proyectos de clima y sostenibilidad.',
+    enlace: 'https://commission.europa.eu/strategy-and-policy/priorities-2019-2024/european-green-deal/finance-and-green-deal_es',
+  },
+  {
+    nombre: 'REPowerEU',
+    texto: 'Financiación para energía limpia y seguridad energética.',
+    enlace: 'https://commission.europa.eu/topics/energy/repowereu_es',
+  },
+  {
+    nombre: 'Defensa europea',
+    texto: 'Financiación para capacidades de defensa y seguridad.',
+    enlace: 'https://commission.europa.eu/topics/defence/future-european-defence_es',
+  },
+];
+---
+<Base
+  titulo="Asesores en financiación europea"
+  descripcion="Consultora en Madrid que ayuda a pymes, startups y centros tecnológicos a conseguir financiación europea: Horizonte Europa, EIC, Europa Digital, CDTI y ENISA."
+  origen="https://www.ullswaterinvestments.com/home"
+>
+  <section class="hero">
+    <h1>Asesores en financiación europea</h1>
+    <p class="entradilla">
+      Ayudamos a pymes, startups, centros tecnológicos y consorcios a conseguir y gestionar
+      financiación pública europea y española, desde Horizonte Europa, el EIC y Europa Digital
+      hasta el CDTI, ENISA o Red.es.
+    </p>
+    <p class="subtitulo">
+      Somos una consultora de financiación europea y <em>venture building</em> con sede en Madrid, con especial
+      experiencia en espacios de datos, datos de salud e IA soberana.
+    </p>
+    <div class="acciones">
+      <a class="boton" href={`${base}/convocatorias/${ANIO}/`}>Ver convocatorias abiertas</a>
+      <a class="boton boton-secundario" href={AGENDA} rel="noopener">Concertar una reunión</a>
+    </div>
+  </section>
+
+  <section>
+    <h2>Próximos cierres</h2>
+    <p class="intro">Las convocatorias europeas con el plazo más cercano.</p>
+    <ul class="lista-conv">
+      {proximas.map((c) => <li><TarjetaConvocatoria c={c} /></li>)}
+    </ul>
+    <p class="ver-todas"><a href={`${base}/convocatorias/${ANIO}/`}>Ver las {totalAnio} convocatorias que cierran en {ANIO} →</a></p>
+  </section>
+
+  <section class="prosa">
+    <h2>Cómo trabajamos</h2>
+    <p>
+      No somos una consultoría de encargos puntuales, sino un socio estratégico integrado en tu
+      equipo. Diseñamos contigo la estrategia de financiación desde el principio y nos ocupamos de
+      todo el proceso: elegir la convocatoria adecuada, formar el consorcio, redactar la propuesta y
+      gestionar la comunicación una vez enviada. Así salen propuestas coherentes y sólidas, y tu
+      equipo puede centrarse en lo que mejor sabe hacer: innovar y ejecutar.
+    </p>
+    <p>
+      Nuestro equipo está formado por consultores sénior con experiencia en finanzas públicas,
+      redacción de propuestas, capital riesgo y política europea. Nuestra misión es impulsar la
+      innovación y el crecimiento sostenible en Europa haciendo comprensible y accesible la
+      financiación pública: los proyectos pioneros y las empresas ambiciosas son el motor del
+      futuro de Europa, y trabajamos para que consigan los recursos que necesitan para crecer.
+    </p>
+  </section>
+
+  <section>
+    <h2>Servicios</h2>
+    <ul class="tarjetas">
+      {servicios.map((s) => (
+        <li class="tarjeta">
+          <h3>{s.nombre}</h3>
+          <p>{s.texto}</p>
+          <p class="mas"><a href={s.enlace} hreflang="en" rel="noopener">Más información (en inglés)</a></p>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="programas">
+    <h2>Programas europeos que conviene conocer</h2>
+    <ul class="tarjetas">
+      {programas.map((p) => (
+        <li class="tarjeta">
+          <h3>{p.nombre}</h3>
+          <p>{p.texto}</p>
+          <p class="mas"><a href={p.enlace} hreflang="es" rel="noopener">Más información</a></p>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="prosa">
+    <h2>Capital riesgo con respaldo europeo</h2>
+    <p>
+      Para las empresas más innovadoras y de mayor crecimiento, el capital riesgo es lo que permite
+      escalar. El Fondo Europeo de Inversiones (FEI), parte del Grupo del Banco Europeo de
+      Inversiones, es el principal impulsor de la financiación de riesgo para el emprendimiento y la
+      innovación en Europa. No invierte directamente en empresas: actúa como inversor ancla en fondos
+      privados de capital riesgo, que son los que invierten en las empresas con más potencial en
+      sectores como las ciencias de la vida, las tecnologías limpias o las TIC. <a href="https://www.eif.org/index" hreflang="en" rel="noopener">Web del FEI (en inglés)</a>
+    </p>
+    <p>
+      <strong>InvestEU</strong> es el mecanismo único de la UE para apoyar la inversión, con el objetivo
+      de movilizar más de 372&nbsp;000 millones de euros de inversión pública y privada. Funciona con una
+      garantía del presupuesto de la UE a socios como el BEI y el FEI, que así pueden asumir proyectos
+      de mayor riesgo, y se organiza en cuatro ámbitos: (1) infraestructuras sostenibles;
+      (2) investigación, innovación y digitalización; (3) pymes, y (4) inversión social y capacidades. <a href="https://investeu.europa.eu/index_en" hreflang="en" rel="noopener">Web de InvestEU (en inglés)</a>
+    </p>
+  </section>
+
+  <section class="cta">
+    <h2>¿Hablamos de tu estrategia europea?</h2>
+    <p>Busquemos juntos las oportunidades de financiación adecuadas para tu proyecto.</p>
+    <a class="boton" href={AGENDA} rel="noopener">Concertar una reunión</a>
+  </section>
+
+  {noticias.length > 0 && (
+    <section>
+      <h2>Últimas noticias</h2>
+      <ul class="tarjetas">
+        {noticias.map((n) => (
+          <li class="tarjeta">
+            <span class="etiqueta">{n.data.programa}</span>
+            <h3><a href={`${base}/noticias/${n.id}/`}>{n.data.titulo}</a></h3>
+            <p>{fechaLarga(n.data.fecha)}</p>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+
+<style>
+  .hero { padding: 8px 0; }
+  .hero h1 { font-size: clamp(2rem, 5vw, 3rem); margin-bottom: .4em; }
+  .entradilla { font-size: clamp(1.1rem, 2.2vw, 1.3rem); max-width: 60ch; margin: 0 0 .6em; }
+  .subtitulo { color: var(--texto-2); max-width: 62ch; margin: 0; }
+  .acciones { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 24px; }
+  .intro { color: var(--texto-2); margin-top: -.6em; }
+  .ver-todas { font-weight: 600; }
+  .tarjeta .mas { margin-top: .8em; }
+  .programas .tarjetas { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  @media (max-width: 480px) {
+    .acciones .boton { flex: 1 1 100%; text-align: center; }
+  }
+  .cta {
+    margin-top: 56px; padding: 28px 24px; border-radius: var(--radio);
+    background: var(--marino); color: #fff; border-bottom: 4px solid var(--dorado);
+  }
+  .cta h2 { color: #fff; margin-top: 0; }
+  .cta p { color: #dbe3ee; max-width: 60ch; }
+  .cta .boton:hover { background: #fff; border-color: #fff; color: var(--marino); }
+</style>

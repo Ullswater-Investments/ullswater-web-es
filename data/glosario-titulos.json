@@ -1,0 +1,1099 @@
+{
+  "descripcion": "Glosario y normas de estilo para traducir al español los títulos de las convocatorias (data/titulos-es.json). Terminología oficial de la UE en español: IATE, Reglamento (UE) 2021/695 (Horizonte Europa), horizonteeuropa.es y versiones españolas de los textos de la Comisión. Hecho y revisado el 5 nov. 2026.",
+  "reglas": [
+    "Escribe en español de España, con un registro profesional y claro. Traduce el sentido de forma natural y fiel, no palabra por palabra. No añadas, quites ni expliques nada.",
+    "No pongas punto final. Si el título inglés lo lleva (títulos 4, 5, 6 y 309), se quita.",
+    "Mayúscula solo en la primera palabra y en los nombres propios, que son organismos, programas, instrumentos, estrategias, planes, iniciativas y premios, y se escriben con la forma que fija el glosario (Horizonte Europa, Nueva Bauhaus Europea, Pacto por una Industria Limpia, Espacio Europeo de Investigación). Los conceptos genéricos que el inglés pone con mayúscula van en minúscula: Social Economy → economía social, Living Labs → laboratorios vivientes, Data Centres → centros de datos, Remote Sensing → teledetección. Después de los dos puntos se sigue en minúscula.",
+    "Los títulos escritos todo en MAYÚSCULAS se pasan a tipo oración. Solo se mantienen en mayúsculas las siglas y los nombres como NEWS: «NEWS: asociaciones periodísticas – colaboraciones».",
+    "Se siguen las convenciones de la UE: Estados miembros, Estado de Derecho, Derecho civil, Derecho penal, la Tierra (el planeta) y el Holocausto. Los genéricos geográficos van en minúscula: océano Austral, mar Negro.",
+    "Se copian tal cual los números, años y rangos (2027, 2028-2034), versiones (web 4.0, 6G, 3C), fórmulas (CO2), códigos (I3-2026-INV1, OA-g-26-91) y nombres de marca o de proyecto (Processes4Planet, AI4Creatives, BATT4EU, 2ZERO, ISOS4I, IAM4EU, EUPI-PV). El porcentaje se escribe con espacio, como pide la RAE (55 %), pero la cifra no se toca.",
+    "Referencias normativas: «Regulation (EU) 2021/522» → «Reglamento (UE) 2021/522» y «Regulation (EU) No 257/2010» → «Reglamento (UE) n.º 257/2010». Además, Phase 2 → fase 2 y Strand 1 → capítulo 1.",
+    "Siglas que se mantienen: las de nombres propios (ERC, EIC, EIT, MSCA, EOSC, ESFRI, EFSA, ECCC, EuroHPC, NGI, RAISE, CCAM, NCC, SEAP, EDIP, FNSSA, GACD, IMCAP, EU-FORA, NEWS) y las técnicas que no tienen sigla española asentada (IoT, PFAS, QKD, PQC, CCUS, CCU, SRM, C5ISR, EEE, PNT, HDV, QoL, ADSM, USI, VHT, 3C).",
+    "Siglas que pasan a la forma española asentada: AI → IA, EU → UE, SME(s) → pyme(s), ICT → TIC, IT → TI, R&D → I+D, R&I → I+i, RD&I → I+D+i, GHG → GEI, LCA → ACV, TSO → GRT, CBRN-E → QBRN-E, PCP → CPP, ERA → EEI (salvo dentro de los nombres de esquema: ERA Chairs…) y SET Plan → Plan EETE. PV, EV y CHP se desarrollan: fotovoltaico, vehículos eléctricos, cogeneración.",
+    "Si el inglés escribe el término completo (artificial intelligence, research and innovation), se escribe completo en español. Si usa la sigla, se usa la sigla. Cuando el inglés da la sigla entre paréntesis tras el término, se traduce el término y se conserva la sigla, en su forma española si existe: «Pre-Commercial Procurement (PCP)» → «compra pública precomercial (CPP)», «Heavy Duty Vehicles (HDV)» → «vehículos pesados (HDV)».",
+    "Las siglas no llevan -s de plural: VHTs → (VHT), SEAPs → las SEAP. Género habitual: la UE, la IA, la EFSA, la EOSC, la CCAM, el ERC, el EIC, el EIT, las pymes, los NCC.",
+    "Comillas siempre españolas «» (‘Proof of market’ → «prueba de mercado»). Si hay comillas dentro de otras, las interiores van “ ”. El genitivo con apóstrofo se pasa a «de» (Europe’s → de Europa, EU’s → de la UE).",
+    "Separadores: los dos puntos del inglés se mantienen. Un « - » o « – » que separa título y subtítulo se cambia por «: » y se sigue en minúscula. Si el título ya tiene dos puntos o lleva dos separadores, el segundo se escribe « – » (semiraya con espacios).",
+    "Las etiquetas finales «- Apply AI» y «– Societal Readiness pilot» van siempre tras semiraya: « – Estrategia de Uso de la Inteligencia Artificial» y « – piloto de madurez social».",
+    "Un guion que une dos entidades no es un separador. Se escribe «entre A y B» o un guion sin espacios: African Union – European Union → «entre la Unión Africana y la Unión Europea», Africa-EU → África-UE. Los rangos de años llevan guion sin espacios.",
+    "Si el inglés junta acción y subtipo sin separador, se pone dos puntos: «TV and online content Animation projects» → «Contenidos televisivos y en línea: proyectos de animación».",
+    "Tipo de acción entre paréntesis: (RIA) o (Research and Innovation Action) → (acción de investigación e innovación), (IA) → (acción de innovación), (CSA) → (acción de coordinación y apoyo). Nunca se deja «(IA)», porque en español se confunde con inteligencia artificial.",
+    "Asociaciones europeas: «(X Partnership)» → «(asociación europea X)» y en plural «(asociaciones europeas X e Y)». Si hay varios paréntesis, se mantienen separados y en el mismo orden que en inglés.",
+    "«&» → «y», salvo en R&I y R&D (I+i, I+D). La barra «/» se sustituye por «y» u «o» según el sentido y «and/or» → «o». Ejemplos: Human/AI → entre las personas y la IA, excess/waste heat → calor excedente o residual, illegal/ smuggled → ilegales o de contrabando, (re-)building → (re)construcción, (sub)domains → (sub)ámbitos.",
+    "Gerundio inglés al inicio → infinitivo: Strengthening → Reforzar, Enhancing → Mejorar, Fostering → Fomentar, Boosting → Impulsar, Advancing → Avanzar en, Leveraging → Aprovechar, Unlocking/Unleashing → Liberar, Scaling (up) → Ampliar la escala de, Addressing → Abordar, Assessing → Evaluar, Understanding → Comprender, Deploying → Desplegar, Developing → Desarrollar, Demonstrating → Demostrar, Supporting → Apoyar, Increasing → Aumentar, Improving → Mejorar, Promoting → Promover, Accelerating → Acelerar, Integrating → Integrar.",
+    "Sustantivo inglés → sustantivo: Development of → Desarrollo de, Demonstration of → Demostración de, Support to/for → Apoyo a/para. Towards → Hacia. Open topic (on) → Tema abierto (sobre).",
+    "Se mantienen el número (singular o plural), el orden de los elementos y la estructura. No se unen ni se parten títulos.",
+    "EU + sustantivo → sustantivo + «de la UE» (EU values → valores de la UE). European, como adjetivo, va en minúscula (europeo). Europe-wide → a escala europea, EU-wide → a escala de la UE, pan-European → paneuropeo.",
+    "Prefijos y compuestos sin guion, según la RAE: socioeconómico, periurbano, paneuropeo, intraafricano, cocreación, codesarrollo, cogobernanza, poscuántico, posdoctoral, reevaluación, refabricación, ultraeficiente, multiescala, bioimpresión. «in situ» va sin guion.",
+    "Se evitan los anglicismos cuando hay término español: hub → centro, online → en línea, stakeholders → partes interesadas, scheme → programa (o sistema, nunca «esquema»), monitoring → seguimiento, modelling → modelización. En inglés solo quedan los nombres propios y de esquema que fija el glosario.",
+    "Lenguaje: masculino genérico o colectivos naturales (alumnado, ciudadanía), sin desdoblamientos, barras ni @.",
+    "Si el título oficial es solo el código (CERV-2026-CITIZENS-VALUES, SOCPL-2026-INFO-REPR), se devuelve el código sin cambios. No se inventa un título ni se toma de otro campo (como «resumen»). Si el código va dentro del título, se mantiene: «I3-2026-INV1: Inversiones en Innovación Interregional, capítulo 1».",
+    "Espacios: se quitan los dobles espacios y el espacio antes de un paréntesis de cierre: «(OA-g-26-91 )» → «(OA-g-26-91)».",
+    "Si aparece un término que no está en el glosario, se elige la forma española más fiel y natural y se usa la misma en todo el lote."
+  ],
+  "terminos": [
+    {
+      "en": "Horizon Europe / Horizon (results)",
+      "es": "Horizonte Europa / Horizonte",
+      "nota": "Reglamento (UE) 2021/695. «Horizon project results» → «resultados de proyectos de Horizonte»"
+    },
+    {
+      "en": "Pillar I / II / III / IV",
+      "es": "pilar I / II / III / IV",
+      "nota": "En minúscula. Al inicio del título: «Pilar I: …»"
+    },
+    {
+      "en": "cluster (Horizon Europe); industrial clusters",
+      "es": "clúster; clústeres industriales",
+      "nota": "Con tilde. Ejemplo: clúster «Salud»"
+    },
+    {
+      "en": "call for proposals / call",
+      "es": "convocatoria de propuestas / convocatoria"
+    },
+    {
+      "en": "topic / open topic",
+      "es": "tema / tema abierto",
+      "nota": "Nunca «convocatoria abierta», que es otra cosa"
+    },
+    {
+      "en": "two-stage / single-stage",
+      "es": "en dos fases / en una fase"
+    },
+    {
+      "en": "work programme",
+      "es": "programa de trabajo"
+    },
+    {
+      "en": "ERC",
+      "es": "ERC",
+      "nota": "Consejo Europeo de Investigación. Nunca «CEI», que en la UE también designa al EIC"
+    },
+    {
+      "en": "ERC Starting / Consolidator / Advanced / Synergy Grant",
+      "es": "se mantiene en inglés",
+      "nota": "Uso habitual en España (horizonteeuropa.es). Femenino: «la ERC Consolidator Grant»; plural: «las ERC Starting Grants»"
+    },
+    {
+      "en": "ERC Proof of Concept",
+      "es": "ERC Proof of Concept",
+      "nota": "En frase: «las ayudas ERC Proof of Concept»"
+    },
+    {
+      "en": "EIC",
+      "es": "EIC",
+      "nota": "Consejo Europeo de Innovación. Nunca «CEI»"
+    },
+    {
+      "en": "EIC Pathfinder / Transition / Accelerator / Pre-accelerator",
+      "es": "se mantienen en inglés",
+      "nota": "Masculino: «el EIC Accelerator». «EIC Pre-accelerator - Widening» → «EIC Pre-accelerator: Widening»"
+    },
+    {
+      "en": "MSCA (Marie Skłodowska-Curie Actions)",
+      "es": "MSCA (acciones Marie Skłodowska-Curie)",
+      "nota": "Respetar la «ł»"
+    },
+    {
+      "en": "MSCA Doctoral Networks",
+      "es": "redes doctorales MSCA",
+      "nota": "Así se nombran en horizonteeuropa.es. «MSCA Doctoral Networks 2027» → «Redes doctorales MSCA 2027». También «RAISE Doctoral Networks» → «Redes doctorales RAISE»"
+    },
+    {
+      "en": "MSCA Postdoctoral Fellowships",
+      "es": "becas posdoctorales MSCA",
+      "nota": "«posdoctoral» es la forma preferida por la RAE; no mezclar con «postdoctoral»"
+    },
+    {
+      "en": "MSCA Staff Exchanges",
+      "es": "intercambios de personal MSCA"
+    },
+    {
+      "en": "MSCA COFUND",
+      "es": "MSCA COFUND",
+      "nota": "No se traduce"
+    },
+    {
+      "en": "MSCA and Citizens",
+      "es": "MSCA y la ciudadanía"
+    },
+    {
+      "en": "MSCA Choose Europe for Science",
+      "es": "MSCA «Elige Europa para la ciencia»",
+      "nota": "Así se llama la iniciativa en español"
+    },
+    {
+      "en": "Choose Europe (for talent to Choose Europe)",
+      "es": "Elige Europa («para que el talento elija Europa»)"
+    },
+    {
+      "en": "EIT",
+      "es": "EIT",
+      "nota": "Instituto Europeo de Innovación y Tecnología"
+    },
+    {
+      "en": "Widening (participation and spreading excellence)",
+      "es": "Widening; desarrollado: ampliar la participación y difundir la excelencia",
+      "nota": "Reglamento (UE) 2021/695. Widening countries → países Widening"
+    },
+    {
+      "en": "Teaming for Excellence, Twinning, ERA Chairs, ERA Fellowships, ERA Research Managers, Excellence Hubs, Hop On",
+      "es": "se mantienen en inglés",
+      "nota": "Son nombres de esquema y así se usan en España"
+    },
+    {
+      "en": "European Research Area (ERA)",
+      "es": "Espacio Europeo de Investigación (EEI)"
+    },
+    {
+      "en": "Digital Europe (Programme)",
+      "es": "programa Europa Digital"
+    },
+    {
+      "en": "Connecting Europe Facility (CEF)",
+      "es": "Mecanismo «Conectar Europa» (MCE)"
+    },
+    {
+      "en": "Works (CEF)",
+      "es": "obras",
+      "nota": "Frente a «studies» → estudios"
+    },
+    {
+      "en": "Creative Europe; strands MEDIA / Culture / Cross-sectoral",
+      "es": "Europa Creativa; capítulos MEDIA / Cultura / Intersectorial",
+      "nota": "La UE traduce strand por «capítulo»"
+    },
+    {
+      "en": "NEWS (Creative Europe)",
+      "es": "NEWS",
+      "nota": "Nombre de la acción; va en mayúsculas"
+    },
+    {
+      "en": "Journalism Partnerships",
+      "es": "asociaciones periodísticas"
+    },
+    {
+      "en": "Media Literacy",
+      "es": "alfabetización mediática"
+    },
+    {
+      "en": "Media Freedom Rapid Response Mechanism",
+      "es": "mecanismo de respuesta rápida para la libertad de los medios de comunicación"
+    },
+    {
+      "en": "European co-development / European slate development",
+      "es": "codesarrollo europeo / desarrollo europeo de carteras de proyectos",
+      "nota": "Criterio propio: un «slate» es una cartera de varios proyectos"
+    },
+    {
+      "en": "Films on the Move",
+      "es": "Films on the Move",
+      "nota": "Nombre de la acción; no se traduce"
+    },
+    {
+      "en": "Audience Development and Film Education",
+      "es": "desarrollo de audiencias y educación cinematográfica"
+    },
+    {
+      "en": "European Film sales agent",
+      "es": "agente de ventas de películas europeas"
+    },
+    {
+      "en": "TV and online content",
+      "es": "contenidos televisivos y en línea"
+    },
+    {
+      "en": "Creative Innovation Lab",
+      "es": "laboratorio de innovación creativa"
+    },
+    {
+      "en": "CERV",
+      "es": "programa Ciudadanos, Igualdad, Derechos y Valores (CERV)",
+      "nota": "Reglamento (UE) 2021/692"
+    },
+    {
+      "en": "remembrance / remembering",
+      "es": "memoria / recordar"
+    },
+    {
+      "en": "Roma (victims)",
+      "es": "(víctimas) gitanas",
+      "nota": "La UE en español usa «gitanos»"
+    },
+    {
+      "en": "LGBTIQ / LGBTIQ+",
+      "es": "LGBTIQ / LGBTIQ+",
+      "nota": "Se mantiene. «LGBTIQ rights» → «derechos de las personas LGBTIQ»"
+    },
+    {
+      "en": "rule of law / fundamental rights",
+      "es": "Estado de Derecho / derechos fundamentales",
+      "nota": "TUE, art. 2"
+    },
+    {
+      "en": "Erasmus+ / Erasmus Charter for Higher Education",
+      "es": "Erasmus+ / Carta Erasmus de Educación Superior"
+    },
+    {
+      "en": "European Universities",
+      "es": "Universidades Europeas",
+      "nota": "Nombre de la iniciativa"
+    },
+    {
+      "en": "European Degree",
+      "es": "título europeo"
+    },
+    {
+      "en": "EU4Health",
+      "es": "programa UEproSalud",
+      "nota": "Reglamento (UE) 2021/522"
+    },
+    {
+      "en": "operating grants / action grants",
+      "es": "subvenciones de funcionamiento / subvenciones para acciones",
+      "nota": "Reglamento Financiero"
+    },
+    {
+      "en": "non-governmental organisations",
+      "es": "organizaciones no gubernamentales"
+    },
+    {
+      "en": "European Defence Fund (EDF)",
+      "es": "Fondo Europeo de Defensa (FED)"
+    },
+    {
+      "en": "European Defence Industry Programme (EDIP)",
+      "es": "Programa Europeo de la Industria de Defensa (EDIP)"
+    },
+    {
+      "en": "SEAP(s) (Structure for European Armament Programme)",
+      "es": "SEAP (estructura para un programa europeo de armamento)",
+      "nota": "Plural: «las SEAP»"
+    },
+    {
+      "en": "European Defence Projects of Common Interest",
+      "es": "proyectos europeos de interés común en el ámbito de la defensa",
+      "nota": "Forma usada por el Consejo"
+    },
+    {
+      "en": "defence industrial readiness pools",
+      "es": "reservas de disponibilidad industrial en defensa",
+      "nota": "Reglamento (UE) 2025/2643 (EDIP), art. 13.1.g, versión española."
+    },
+    {
+      "en": "Ukraine Support Instrument",
+      "es": "Instrumento de Apoyo a Ucrania"
+    },
+    {
+      "en": "unmanned / counter-unmanned systems",
+      "es": "sistemas no tripulados / de lucha contra sistemas no tripulados"
+    },
+    {
+      "en": "air and missile defence",
+      "es": "defensa aérea y antimisiles"
+    },
+    {
+      "en": "Missiles, ammunition and bombs",
+      "es": "misiles, munición y bombas"
+    },
+    {
+      "en": "Joint Undertaking (JU)",
+      "es": "empresa común",
+      "nota": "Empresa Común EuroHPC, Empresa Común Chips"
+    },
+    {
+      "en": "ECCC",
+      "es": "ECCC (Centro Europeo de Competencia en Ciberseguridad)"
+    },
+    {
+      "en": "NCC Network",
+      "es": "red de NCC",
+      "nota": "Centros nacionales de coordinación (en España, INCIBE)"
+    },
+    {
+      "en": "National / Cross-border Cyber Hubs",
+      "es": "centros cibernéticos nacionales / transfronterizos",
+      "nota": "Reglamento de Cibersolidaridad"
+    },
+    {
+      "en": "Regional Cable Hubs / submarine cable",
+      "es": "centros regionales de cables / cable submarino"
+    },
+    {
+      "en": "Integrated Surveillance mechanism",
+      "es": "mecanismo de vigilancia integrada"
+    },
+    {
+      "en": "dual-use",
+      "es": "de doble uso"
+    },
+    {
+      "en": "cybersecurity / cybersecure",
+      "es": "ciberseguridad / ciberseguro"
+    },
+    {
+      "en": "capacities & capabilities",
+      "es": "capacidades y medios"
+    },
+    {
+      "en": "EFSA",
+      "es": "la EFSA"
+    },
+    {
+      "en": "European Food Risk Assessment Fellowship (EU-FORA) Programme",
+      "es": "programa de becas europeas de evaluación de riesgos alimentarios (EU-FORA)"
+    },
+    {
+      "en": "risk assessment",
+      "es": "evaluación de riesgos"
+    },
+    {
+      "en": "animal by-products and derived products",
+      "es": "subproductos animales y productos derivados",
+      "nota": "Reglamento (CE) n.º 1069/2009"
+    },
+    {
+      "en": "pesticides / emergency authorisations",
+      "es": "plaguicidas / autorizaciones de emergencia"
+    },
+    {
+      "en": "approved food additives / feed additives",
+      "es": "aditivos alimentarios autorizados / aditivos para piensos"
+    },
+    {
+      "en": "fellowship(s) / fellows / hosting sites",
+      "es": "beca(s) / becarios / centros de acogida"
+    },
+    {
+      "en": "RIA / Research and Innovation Action",
+      "es": "acción de investigación e innovación",
+      "nota": "Reglamento (UE) 2021/695. Entre paréntesis: «(acción de investigación e innovación)»"
+    },
+    {
+      "en": "IA / Innovation Action",
+      "es": "acción de innovación",
+      "nota": "Nunca «(IA)»"
+    },
+    {
+      "en": "CSA / Coordination and Support Action",
+      "es": "acción de coordinación y apoyo"
+    },
+    {
+      "en": "CO-FUND / COFUND action",
+      "es": "acción CO-FUND (se respeta la grafía del original)",
+      "nota": "Desarrollado: acción de cofinanciación de programas"
+    },
+    {
+      "en": "pre-commercial procurement (PCP)",
+      "es": "compra pública precomercial (CPP)",
+      "nota": "Término asentado en España (CDTI, Ministerio de Ciencia). El Reglamento dice «contratación precomercial»; usar solo «compra pública precomercial»"
+    },
+    {
+      "en": "innovation procurement / public procurement of innovative solutions (PPI)",
+      "es": "compra pública de innovación / compra pública de soluciones innovadoras"
+    },
+    {
+      "en": "lump sum",
+      "es": "a tanto alzado",
+      "nota": "Ejemplo: financiación a tanto alzado"
+    },
+    {
+      "en": "cascade funding / financial support to third parties",
+      "es": "financiación en cascada / ayuda financiera a terceros"
+    },
+    {
+      "en": "pilot (adj.) / large-scale pilots / piloting",
+      "es": "piloto (invariable) / proyectos piloto a gran escala / pruebas piloto",
+      "nota": "Ejemplos: «misión piloto», «programas piloto de acceso»"
+    },
+    {
+      "en": "(RAISE pilot) / RAISE",
+      "es": "(piloto de RAISE) / RAISE"
+    },
+    {
+      "en": "Societal Readiness pilot",
+      "es": "piloto de madurez social",
+      "nota": "Por analogía con TRL → nivel de madurez tecnológica"
+    },
+    {
+      "en": "European Partnership / partnership",
+      "es": "asociación europea",
+      "nota": "Término oficial (IATE, Reglamento (UE) 2021/695). No usar «partenariado», aunque lo empleen el CDTI y las universidades. «(X Partnership)» → «(asociación europea X)»"
+    },
+    {
+      "en": "Made in Europe, Processes4Planet, Clean Steel, Textiles for the Future, Innovative Advanced Materials for the EU (IAM4EU), BATT4EU, 2ZERO, ZEWT, Built4People, CCAM, EUPI-PV, EOSC (partnerships)",
+      "es": "se mantienen en inglés",
+      "nota": "Son nombres de marca. Ejemplo: «(asociaciones europeas Processes4Planet y Clean Steel)»"
+    },
+    {
+      "en": "AI, Data and Robotics / Photonics / Space / Virtual Worlds (partnerships)",
+      "es": "asociación europea de IA, datos y robótica / de fotónica / del espacio / de mundos virtuales",
+      "nota": "Los nombres descriptivos se traducen"
+    },
+    {
+      "en": "European Partnership on Fusion Energy",
+      "es": "asociación europea sobre energía de fusión"
+    },
+    {
+      "en": "European Partnership for Pandemic Preparedness",
+      "es": "asociación europea para la preparación frente a pandemias"
+    },
+    {
+      "en": "European Partnership of Agriculture of Data",
+      "es": "asociación europea de agricultura de datos"
+    },
+    {
+      "en": "African Union – European Union Partnership on Food and Nutrition Security and Sustainable Agriculture (FNSSA)",
+      "es": "Asociación entre la Unión Africana y la Unión Europea sobre seguridad alimentaria y nutricional y agricultura sostenible (FNSSA)"
+    },
+    {
+      "en": "Apply AI",
+      "es": "Estrategia de Uso de la Inteligencia Artificial",
+      "nota": "Nombre oficial en la versión española de COM(2025) 723 final (doc. del Consejo ST 13731/25). Etiqueta final «- Apply AI» → « – Estrategia de Uso de la Inteligencia Artificial». No «Aplicar la IA», que procede de una traducción automática."
+    },
+    {
+      "en": "frontier AI / EU Frontier AI Initiative",
+      "es": "IA de frontera / Iniciativa para la IA de Frontera de la UE",
+      "nota": "COM(2025) 723 final en español: «IA de frontera», «Iniciativa para la IA de Frontera»."
+    },
+    {
+      "en": "AI Continent Action Plan",
+      "es": "Plan de Acción «Continente de IA»"
+    },
+    {
+      "en": "AI Factories / AI Gigafactories",
+      "es": "fábricas de IA / gigafactorías de IA"
+    },
+    {
+      "en": "GenAI / generative AI",
+      "es": "IA generativa"
+    },
+    {
+      "en": "AI foundation models / machine learning",
+      "es": "modelos fundacionales de IA / aprendizaje automático"
+    },
+    {
+      "en": "AI-powered / AI-based / AI-driven",
+      "es": "basado en IA / basado en IA / impulsado por la IA"
+    },
+    {
+      "en": "data-driven / challenge-driven / demand-led / impact-driven",
+      "es": "basado en datos / orientado a retos / impulsado por la demanda / orientado al impacto"
+    },
+    {
+      "en": "deepfakes",
+      "es": "ultrasuplantaciones",
+      "nota": "Término del Reglamento de IA en español"
+    },
+    {
+      "en": "Clean Industrial Deal",
+      "es": "Pacto por una Industria Limpia"
+    },
+    {
+      "en": "Chemical Industry Action Plan",
+      "es": "Plan de Acción para la Industria Química"
+    },
+    {
+      "en": "SET Plan / Strategic Energy Technology (SET) Plan",
+      "es": "Plan EETE / Plan Estratégico Europeo de Tecnología Energética (Plan EETE)",
+      "nota": "Forma oficial en EUR-Lex y CORDIS. No «Plan SET»"
+    },
+    {
+      "en": "European Water Resilience Strategy",
+      "es": "Estrategia Europea de Resiliencia Hídrica"
+    },
+    {
+      "en": "Circular Cities and Regions Initiative",
+      "es": "Iniciativa de Ciudades y Regiones Circulares"
+    },
+    {
+      "en": "New European Bauhaus",
+      "es": "Nueva Bauhaus Europea",
+      "nota": "Femenino: «la Nueva Bauhaus Europea»"
+    },
+    {
+      "en": "One Health (approach)",
+      "es": "(enfoque) «Una sola salud»"
+    },
+    {
+      "en": "EU Missions",
+      "es": "misiones de la UE",
+      "nota": "Nombres: Misión «Adaptación al cambio climático», «Cáncer», «Restaurar nuestros océanos y aguas», «Ciudades inteligentes y climáticamente neutras», «Un pacto sobre el suelo para Europa»"
+    },
+    {
+      "en": "living labs / lighthouses",
+      "es": "laboratorios vivientes / faros",
+      "nota": "Misión del suelo, en español"
+    },
+    {
+      "en": "startups / scaleups",
+      "es": "empresas emergentes / empresas en expansión",
+      "nota": "Estrategia de la UE para las empresas emergentes y en expansión"
+    },
+    {
+      "en": "European Startup and Scaleup Hubs",
+      "es": "centros europeos de empresas emergentes y en expansión"
+    },
+    {
+      "en": "SMEs / SME innovation",
+      "es": "pymes / innovación de las pymes"
+    },
+    {
+      "en": "Destination Earth",
+      "es": "Destination Earth",
+      "nota": "Nombre propio de la iniciativa (DestinE). No se traduce"
+    },
+    {
+      "en": "EOSC / EOSC Federation",
+      "es": "EOSC (Nube Europea de la Ciencia Abierta) / Federación EOSC",
+      "nota": "Femenino: «la EOSC»"
+    },
+    {
+      "en": "ESFRI / research infrastructures / technology infrastructures",
+      "es": "ESFRI / infraestructuras de investigación / infraestructuras tecnológicas"
+    },
+    {
+      "en": "Interregional Innovation Investments (I3) / Strand",
+      "es": "Inversiones en Innovación Interregional (I3) / capítulo",
+      "nota": "Strand 2a → capítulo 2a"
+    },
+    {
+      "en": "Public Sector Loan Facility (PSLF) / Framework Loans / Standalone projects",
+      "es": "instrumento de préstamo al sector público / préstamos marco / proyectos independientes",
+      "nota": "Mecanismo para una Transición Justa"
+    },
+    {
+      "en": "Internal Security Fund (ISF) / standardisation",
+      "es": "Fondo de Seguridad Interior (FSI) / normalización"
+    },
+    {
+      "en": "Intra-Africa Academic Mobility Scheme",
+      "es": "Programa de Movilidad Académica Intraafricana"
+    },
+    {
+      "en": "common agricultural policy / Cohesion policy",
+      "es": "política agrícola común (PAC) / política de cohesión"
+    },
+    {
+      "en": "EU Humanitarian Partnership Certificate",
+      "es": "certificado de asociación humanitaria de la UE"
+    },
+    {
+      "en": "The European Prize for Women Innovators",
+      "es": "Premio Europeo para Mujeres Innovadoras"
+    },
+    {
+      "en": "Rising Innovators category / Women Leadership Category",
+      "es": "categoría «Innovadoras emergentes» / categoría «Liderazgo femenino»"
+    },
+    {
+      "en": "Sport Supports / Science comes to town",
+      "es": "se mantienen en inglés",
+      "nota": "Nombres propios de proyecto o iniciativa"
+    },
+    {
+      "en": "Global Ocean Observing System",
+      "es": "Sistema Mundial de Observación de los Océanos"
+    },
+    {
+      "en": "Member States",
+      "es": "Estados miembros"
+    },
+    {
+      "en": "external borders / digital travel credentials",
+      "es": "fronteras exteriores / credenciales digitales de viaje"
+    },
+    {
+      "en": "preparedness / civil preparedness",
+      "es": "preparación / preparación civil"
+    },
+    {
+      "en": "disaster(s) / disaster resilience / disaster responders / first responders",
+      "es": "catástrofe(s) / resiliencia frente a catástrofes / personal de intervención en catástrofes / primeros intervinientes"
+    },
+    {
+      "en": "CBRN-E (Chemical, Biological, Radiological, Nuclear, Explosives)",
+      "es": "QBRN-E (químicos, biológicos, radiológicos, nucleares y explosivos)",
+      "nota": "La UE usa QBRN, no NRBQ"
+    },
+    {
+      "en": "critical infrastructure(s) / business continuity",
+      "es": "infraestructuras críticas / continuidad de negocio"
+    },
+    {
+      "en": "Open-Source Intelligence",
+      "es": "inteligencia de fuentes abiertas"
+    },
+    {
+      "en": "online (harms)",
+      "es": "(daños) en línea"
+    },
+    {
+      "en": "community policing / crime",
+      "es": "policía de proximidad / delincuencia"
+    },
+    {
+      "en": "hate speech / radicalisation",
+      "es": "discurso de odio / radicalización"
+    },
+    {
+      "en": "evidence-based",
+      "es": "basado en datos contrastados",
+      "nota": "No «basado en la evidencia»"
+    },
+    {
+      "en": "persons with disabilities / independent living",
+      "es": "personas con discapacidad / vida independiente"
+    },
+    {
+      "en": "homelessness / housing-led approaches",
+      "es": "sinhogarismo / enfoques centrados en la vivienda"
+    },
+    {
+      "en": "pre-primary and primary education",
+      "es": "educación infantil y primaria"
+    },
+    {
+      "en": "skills",
+      "es": "competencias",
+      "nota": "Unión de las Competencias. «youth skills» → «competencias de los jóvenes»"
+    },
+    {
+      "en": "capacity building",
+      "es": "desarrollo de capacidades"
+    },
+    {
+      "en": "cultural and creative sectors and industries",
+      "es": "sectores e industrias culturales y creativos"
+    },
+    {
+      "en": "(intangible) cultural heritage / safeguarding",
+      "es": "patrimonio cultural (inmaterial) / salvaguardia"
+    },
+    {
+      "en": "Social Economy",
+      "es": "economía social"
+    },
+    {
+      "en": "neighbourhoods / built environment",
+      "es": "barrios / entorno construido"
+    },
+    {
+      "en": "well-being",
+      "es": "bienestar"
+    },
+    {
+      "en": "green transition",
+      "es": "transición ecológica"
+    },
+    {
+      "en": "co-creation / co-development / co-governance",
+      "es": "cocreación / codesarrollo / cogobernanza"
+    },
+    {
+      "en": "place-based",
+      "es": "de base territorial"
+    },
+    {
+      "en": "enabling environments",
+      "es": "entornos propicios"
+    },
+    {
+      "en": "societal",
+      "es": "social",
+      "nota": "«de la sociedad» si «social» ya aparece en el título"
+    },
+    {
+      "en": "engagement / public engagement",
+      "es": "participación / participación ciudadana",
+      "nota": "«implicación» si «participation» ya aparece en el título"
+    },
+    {
+      "en": "stakeholders",
+      "es": "partes interesadas"
+    },
+    {
+      "en": "resilience",
+      "es": "resiliencia"
+    },
+    {
+      "en": "monitoring / surveillance",
+      "es": "seguimiento / vigilancia"
+    },
+    {
+      "en": "modelling",
+      "es": "modelización"
+    },
+    {
+      "en": "implementation",
+      "es": "aplicación (políticas, estrategias, normas) / ejecución (proyectos, programas) / implantación (tecnologías, sistemas)"
+    },
+    {
+      "en": "deployment / uptake",
+      "es": "despliegue / adopción"
+    },
+    {
+      "en": "scaling / scale-up / upscaling",
+      "es": "ampliación de escala"
+    },
+    {
+      "en": "hub / knowledge hub",
+      "es": "centro / centro de conocimiento",
+      "nota": "Nunca «hub»"
+    },
+    {
+      "en": "multimodal passenger hubs / modal shift",
+      "es": "intercambiadores multimodales de pasajeros / cambio modal"
+    },
+    {
+      "en": "scheme (access, mobility…)",
+      "es": "programa (o sistema)",
+      "nota": "No «esquema»"
+    },
+    {
+      "en": "valorisation / knowledge valorisation",
+      "es": "valorización / valorización del conocimiento"
+    },
+    {
+      "en": "innovation ecosystem(s)",
+      "es": "ecosistema(s) de innovación"
+    },
+    {
+      "en": "research performing organisations",
+      "es": "organizaciones que realizan investigación"
+    },
+    {
+      "en": "venture builders",
+      "es": "venture builders",
+      "nota": "No hay equivalente asentado; se mantiene"
+    },
+    {
+      "en": "proof of market",
+      "es": "prueba de mercado"
+    },
+    {
+      "en": "Fast Track (to Innovation)",
+      "es": "vía rápida (hacia la innovación)"
+    },
+    {
+      "en": "breakthrough(s)",
+      "es": "avance(s) decisivo(s)"
+    },
+    {
+      "en": "next-generation",
+      "es": "de nueva generación"
+    },
+    {
+      "en": "state of the art (n.) / state-of-the-art (adj.)",
+      "es": "estado de la técnica / de vanguardia"
+    },
+    {
+      "en": "world class",
+      "es": "de categoría mundial"
+    },
+    {
+      "en": "key enabling technologies",
+      "es": "tecnologías facilitadoras esenciales"
+    },
+    {
+      "en": "enablers / building blocks",
+      "es": "facilitadores / componentes básicos"
+    },
+    {
+      "en": "horizon scanning / foresight",
+      "es": "exploración del horizonte / prospectiva"
+    },
+    {
+      "en": "data spaces",
+      "es": "espacios de datos"
+    },
+    {
+      "en": "testing and experimentation facilities (TEF)",
+      "es": "instalaciones de ensayo y experimentación (TEF)"
+    },
+    {
+      "en": "European Digital Innovation Hubs (EDIH)",
+      "es": "centros europeos de innovación digital (EDIH)"
+    },
+    {
+      "en": "digital twins / Virtual Human Twins (VHTs)",
+      "es": "gemelos digitales / gemelos humanos virtuales (VHT)"
+    },
+    {
+      "en": "pilot lines",
+      "es": "líneas piloto"
+    },
+    {
+      "en": "computing continuum / edge / cloud / IoT",
+      "es": "continuo de computación / periferia (adj. periférico) / nube / IoT",
+      "nota": "La UE en español usa «nodos periféricos» para edge"
+    },
+    {
+      "en": "compute (infrastructure) / high-performance",
+      "es": "(infraestructura de) computación / de alto rendimiento"
+    },
+    {
+      "en": "Telco Edge Cloud",
+      "es": "nube periférica de telecomunicaciones"
+    },
+    {
+      "en": "data processing / data centres / IT rooms",
+      "es": "procesamiento de datos / centros de datos / salas de TI"
+    },
+    {
+      "en": "Web 4.0 / Virtual Worlds",
+      "es": "web 4.0 / mundos virtuales"
+    },
+    {
+      "en": "standardisation",
+      "es": "normalización"
+    },
+    {
+      "en": "quantum / post-quantum / QKD / PQC",
+      "es": "cuántico / poscuántico / QKD / PQC"
+    },
+    {
+      "en": "Critical (and Strategic) Raw Materials",
+      "es": "materias primas fundamentales (y estratégicas)",
+      "nota": "Reglamento (UE) 2024/1252. No «críticas»"
+    },
+    {
+      "en": "energy intensive industries / process industries",
+      "es": "industrias de gran consumo energético / industrias de procesos"
+    },
+    {
+      "en": "climate action / climate-neutral",
+      "es": "acción por el clima / climáticamente neutro"
+    },
+    {
+      "en": "net-zero (economy) / zero emission",
+      "es": "(economía) de cero emisiones netas / de emisión cero"
+    },
+    {
+      "en": "open strategic autonomy / non-dependence",
+      "es": "autonomía estratégica abierta / no dependencia"
+    },
+    {
+      "en": "GHG emissions",
+      "es": "emisiones de GEI"
+    },
+    {
+      "en": "carbon farming",
+      "es": "carbonocultura",
+      "nota": "Reglamento (UE) 2024/3012"
+    },
+    {
+      "en": "CCUS / CCU / CO2 transport and storage",
+      "es": "CCUS / CCU / transporte y almacenamiento de CO2"
+    },
+    {
+      "en": "Direct Air Capture",
+      "es": "captura directa del aire"
+    },
+    {
+      "en": "PV / solar photovoltaics",
+      "es": "fotovoltaico / energía solar fotovoltaica",
+      "nota": "EUPI-PV se mantiene"
+    },
+    {
+      "en": "(high efficiency) CHP",
+      "es": "cogeneración (de alta eficiencia)"
+    },
+    {
+      "en": "TSO",
+      "es": "gestor de la red de transporte (GRT)"
+    },
+    {
+      "en": "distribution grids",
+      "es": "redes de distribución"
+    },
+    {
+      "en": "wave and tidal energy / concentrated solar thermal / hydropower (plants)",
+      "es": "energía undimotriz y mareomotriz / termosolar de concentración / (centrales) hidroeléctrica(s)"
+    },
+    {
+      "en": "renewable fuels / solid biofuel",
+      "es": "combustibles renovables / biocombustible sólido"
+    },
+    {
+      "en": "fusion power plants",
+      "es": "centrales de fusión"
+    },
+    {
+      "en": "battery cell / Lithium-ion / Sodium-ion",
+      "es": "celda de batería / iones de litio / iones de sodio"
+    },
+    {
+      "en": "Heavy Duty Vehicles (HDV) / EVs",
+      "es": "vehículos pesados (HDV) / vehículos eléctricos"
+    },
+    {
+      "en": "powertrain / (higher) voltage",
+      "es": "sistema de propulsión / (mayor) tensión"
+    },
+    {
+      "en": "e-mobility",
+      "es": "movilidad eléctrica"
+    },
+    {
+      "en": "CCAM",
+      "es": "CCAM",
+      "nota": "Movilidad conectada, cooperativa y automatizada; femenino: «la CCAM»"
+    },
+    {
+      "en": "Positioning, Navigation, and Timing (PNT)",
+      "es": "posicionamiento, navegación y temporización (PNT)"
+    },
+    {
+      "en": "waterborne transport / short sea shipping / inland waterways",
+      "es": "transporte acuático / transporte marítimo de corta distancia / vías navegables interiores"
+    },
+    {
+      "en": "vessels, ships / aircraft",
+      "es": "buques / aeronaves"
+    },
+    {
+      "en": "building renovation",
+      "es": "renovación de edificios"
+    },
+    {
+      "en": "LCA",
+      "es": "ACV (análisis del ciclo de vida)"
+    },
+    {
+      "en": "waste heat / excess heat",
+      "es": "calor residual / calor excedente"
+    },
+    {
+      "en": "additive manufacturing / remanufacturing",
+      "es": "fabricación aditiva / refabricación"
+    },
+    {
+      "en": "Earth Observation / satellite telecommunications",
+      "es": "observación de la Tierra / telecomunicaciones por satélite"
+    },
+    {
+      "en": "invasive alien species",
+      "es": "especies exóticas invasoras",
+      "nota": "Reglamento (UE) n.º 1143/2014"
+    },
+    {
+      "en": "nature-positive (economy)",
+      "es": "(economía) positiva para la naturaleza"
+    },
+    {
+      "en": "transformative change",
+      "es": "cambio transformador"
+    },
+    {
+      "en": "ecosystem services",
+      "es": "servicios ecosistémicos"
+    },
+    {
+      "en": "biodiversity monitoring / cost-effective",
+      "es": "seguimiento de la biodiversidad / eficaz en relación con los costes"
+    },
+    {
+      "en": "wildlife trafficking",
+      "es": "tráfico de especies silvestres"
+    },
+    {
+      "en": "biogeographical regions: Continental, Black Sea, Pannonian, Steppic",
+      "es": "regiones biogeográficas continental, del mar Negro, panónica y estépica",
+      "nota": "Directiva 92/43/CEE"
+    },
+    {
+      "en": "soil health / soil sealing",
+      "es": "salud del suelo / sellado del suelo"
+    },
+    {
+      "en": "organic (farming, crops)",
+      "es": "ecológico (agricultura ecológica, cultivos ecológicos)",
+      "nota": "Reglamento (UE) 2018/848"
+    },
+    {
+      "en": "ecodesign",
+      "es": "diseño ecológico",
+      "nota": "Reglamento (UE) 2024/1781"
+    },
+    {
+      "en": "bio-based / bioeconomy",
+      "es": "de base biológica / bioeconomía"
+    },
+    {
+      "en": "biocidal products",
+      "es": "biocidas"
+    },
+    {
+      "en": "upcycling / benchmarking",
+      "es": "suprarreciclaje / evaluación comparativa"
+    },
+    {
+      "en": "plant health / plant pests",
+      "es": "sanidad vegetal / plagas de los vegetales"
+    },
+    {
+      "en": "climate smart agriculture",
+      "es": "agricultura climáticamente inteligente"
+    },
+    {
+      "en": "AKIS",
+      "es": "AKIS",
+      "nota": "Se mantiene, como en el PEPAC español"
+    },
+    {
+      "en": "generational renewal (in agriculture)",
+      "es": "relevo generacional"
+    },
+    {
+      "en": "seafood / recreational fisheries",
+      "es": "productos del mar / pesca recreativa"
+    },
+    {
+      "en": "European sea basins / blue forests",
+      "es": "cuencas marítimas europeas / bosques azules"
+    },
+    {
+      "en": "non-communicable diseases",
+      "es": "enfermedades no transmisibles"
+    },
+    {
+      "en": "Adverse Drug Reactions",
+      "es": "reacciones adversas a medicamentos"
+    },
+    {
+      "en": "first-in-human (clinical trials)",
+      "es": "(ensayos clínicos) de primera administración en humanos"
+    },
+    {
+      "en": "Point-of-care diagnostics",
+      "es": "diagnóstico en el punto de atención"
+    },
+    {
+      "en": "Comprehensive Cancer Infrastructures",
+      "es": "infraestructuras oncológicas integrales"
+    },
+    {
+      "en": "(novel) targets (cancer treatment)",
+      "es": "(nuevas) dianas"
+    },
+    {
+      "en": "healthcare",
+      "es": "asistencia sanitaria"
+    },
+    {
+      "en": "pathogens with epidemic potential / antimicrobials",
+      "es": "patógenos con potencial epidémico / antimicrobianos"
+    },
+    {
+      "en": "Autonomous Drive Ambition Cities",
+      "es": "Autonomous Drive Ambition Cities",
+      "nota": "Se mantiene en inglés, como en la versión española de COM(2025) 723 final."
+    },
+    {
+      "en": "through the life course",
+      "es": "a lo largo del ciclo vital",
+      "nota": "No «a lo largo de la vida» (lifelong) ni «ciclo de vida» (productos)."
+    }
+  ]
+}

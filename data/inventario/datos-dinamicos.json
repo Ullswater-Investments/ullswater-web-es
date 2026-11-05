@@ -1,0 +1,36 @@
+{
+  "generado": "2026-11-05T17:24:22.333Z",
+  "base": "https://www.ullswaterinvestments.com/",
+  "verificado": true,
+  "fuentes": [
+    {
+      "url": "https://fh-topics.emilio-mulet.workers.dev/",
+      "paginas": [
+        "/home",
+        "/calls",
+        "/calls/calls-for-genai",
+        "/calls/eic-pre-accelerator",
+        "/calls/calls-2026",
+        "/calls/cascade-funding",
+        "/calls/horizon-health",
+        "/calls/horizon-society",
+        "/calls/horizon-security",
+        "/calls/horizon-digital",
+        "/calls/horizon-climate-energy",
+        "/calls/horizon-food-environment",
+        "/calls/horizon-missions",
+        "/calls/horizon-science-widening",
+        "/calls/digital-europe-defence",
+        "/calls/other-eu-programmes",
+        "/calls/international-cooperation"
+      ],
+      "meta": {
+        "total": 418,
+        "source": "EU Funding & Tenders Portal (SEDIA)",
+        "updated": "2026-11-05T15:38:41.306Z"
+      },
+      "enlaces": 418,
+      "error": null
+    }
+  ]
+}

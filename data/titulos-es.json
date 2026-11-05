@@ -1,0 +1,1573 @@
+{
+  "descripcion": "Títulos de las convocatorias en español, por código. «en» es el título oficial que se tradujo: si el portal lo cambia, la web vuelve a mostrar el inglés hasta que se revise la traducción (npm run revisar lo lista).",
+  "titulos": {
+    "CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS": {
+      "en": "Submarine Cable Repair Capacities - Works",
+      "es": "Capacidades de reparación de cables submarinos: obras"
+    },
+    "CERV-2026-CITIZENS-REM-GENCRIME-1": {
+      "en": "Strengthening the remembrance of Roma victims",
+      "es": "Reforzar la memoria de las víctimas gitanas"
+    },
+    "CERV-2026-CITIZENS-REM-GENCRIME-2": {
+      "en": "Strengthening the remembrance of LGBTIQ+ victims and other victims",
+      "es": "Reforzar la memoria de las víctimas LGBTIQ+ y de otras víctimas"
+    },
+    "CERV-2026-CITIZENS-REM-HISTMIGRATION": {
+      "en": "Fostering remembrance of the legacy of colonialism, slavery, and migration, and their impact on contemporary multicultural European societies.",
+      "es": "Fomentar la memoria del legado del colonialismo, la esclavitud y la migración, y de su impacto en las sociedades europeas multiculturales contemporáneas"
+    },
+    "CERV-2026-CITIZENS-REM-HOLOCAUSTJEW": {
+      "en": "Strengthening the remembrance of the Holocaust against Jewish people.",
+      "es": "Reforzar la memoria del Holocausto contra el pueblo judío"
+    },
+    "CERV-2026-CITIZENS-REM-TRANSITION": {
+      "en": "Remembering democratic transitions, the (re-)building of democratic institutions, and strengthening society based on the rule of law, democracy, and fundamental rights.",
+      "es": "Recordar las transiciones democráticas, la (re)construcción de las instituciones democráticas y el fortalecimiento de una sociedad basada en el Estado de Derecho, la democracia y los derechos fundamentales"
+    },
+    "CERV-2026-CITIZENS-VALUES": {
+      "en": "CERV-2026-CITIZENS-VALUES",
+      "es": "CERV-2026-CITIZENS-VALUES"
+    },
+    "CREA-CROSS-2027-INNOVLAB": {
+      "en": "Creative Innovation Lab",
+      "es": "Laboratorio de innovación creativa"
+    },
+    "CREA-CROSS-2027-JOURPART-COLLABORATIONS": {
+      "en": "NEWS - JOURNALISM PARTNERSHIPS - COLLABORATIONS",
+      "es": "NEWS: asociaciones periodísticas – colaboraciones"
+    },
+    "CREA-CROSS-2027-JOURPART-PLURALISM": {
+      "en": "NEWS - JOURNALISM PARTNERSHIPS - PLURALISM",
+      "es": "NEWS: asociaciones periodísticas – pluralismo"
+    },
+    "CREA-CROSS-2027-MEDIALITERACY": {
+      "en": "NEWS - Media Literacy",
+      "es": "NEWS: alfabetización mediática"
+    },
+    "CREA-CROSS-2027-MFP": {
+      "en": "NEWS - Media Freedom Rapid Response Mechanism",
+      "es": "NEWS: mecanismo de respuesta rápida para la libertad de los medios de comunicación"
+    },
+    "CREA-CULT-2027-LIT": {
+      "en": "Circulation of European literary works",
+      "es": "Circulación de obras literarias europeas"
+    },
+    "CREA-MEDIA-2027-AUDFILMEDU": {
+      "en": "Audience Development and Film Education",
+      "es": "Desarrollo de audiencias y educación cinematográfica"
+    },
+    "CREA-MEDIA-2027-CODEV": {
+      "en": "European co-development",
+      "es": "Codesarrollo europeo"
+    },
+    "CREA-MEDIA-2027-DEVSLATE": {
+      "en": "European slate development",
+      "es": "Desarrollo europeo de carteras de proyectos"
+    },
+    "CREA-MEDIA-2027-DEVVGIM": {
+      "en": "European video games and immersive content",
+      "es": "Videojuegos y contenidos inmersivos europeos"
+    },
+    "CREA-MEDIA-2027-FILMDIST": {
+      "en": "European Film Distribution",
+      "es": "Distribución de películas europeas"
+    },
+    "CREA-MEDIA-2027-FILMOVE": {
+      "en": "Films on the Move",
+      "es": "Films on the Move"
+    },
+    "CREA-MEDIA-2027-FILMSALES": {
+      "en": "European Film sales agent",
+      "es": "Agente de ventas de películas europeas"
+    },
+    "CREA-MEDIA-2027-INNOVBUSMOD": {
+      "en": "Innovative tools and business models",
+      "es": "Herramientas y modelos de negocio innovadores"
+    },
+    "CREA-MEDIA-2027-TVONLINE-1": {
+      "en": "TV and online content Animation projects",
+      "es": "Contenidos televisivos y en línea: proyectos de animación"
+    },
+    "CREA-MEDIA-2027-TVONLINE-2": {
+      "en": "TV and online content Documentary projects",
+      "es": "Contenidos televisivos y en línea: proyectos documentales"
+    },
+    "CREA-MEDIA-2027-TVONLINE-3": {
+      "en": "TV and online content Fiction projects",
+      "es": "Contenidos televisivos y en línea: proyectos de ficción"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-AI4SME": {
+      "en": "Strengthening cybersecurity capacities of European SMEs  with cybersecure AI-powered solutions",
+      "es": "Reforzar las capacidades de ciberseguridad de las pymes europeas con soluciones ciberseguras basadas en IA"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-COORDPREP": {
+      "en": "Coordinated preparedness testing and other preparedness actions",
+      "es": "Pruebas de preparación coordinadas y otras acciones de preparación"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-CYBERAI": {
+      "en": "Cybersecure tools, technologies and services relying on AI",
+      "es": "Herramientas, tecnologías y servicios ciberseguros basados en IA"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-DUALUSE": {
+      "en": "Dual-use technologies",
+      "es": "Tecnologías de doble uso"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-EULEG": {
+      "en": "Strengthening EU cybersecurity capacities & capabilities in line with legislative requirements",
+      "es": "Reforzar las capacidades y los medios de ciberseguridad de la UE en consonancia con los requisitos legislativos"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-NCC": {
+      "en": "Enhancing the NCC Network",
+      "es": "Mejorar la red de NCC"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-11-REGCABH": {
+      "en": "Regional Cable Hubs",
+      "es": "Centros regionales de cables"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-12-CBCH": {
+      "en": "Cross-border Cyber Hubs",
+      "es": "Centros cibernéticos transfronterizos"
+    },
+    "DIGITAL-ECCC-2027-DEPLOY-CYBER-12-NATCH": {
+      "en": "National Cyber Hubs",
+      "es": "Centros cibernéticos nacionales"
+    },
+    "DIGITAL-JU-CHIPS-2026-AI-GFP": {
+      "en": "AI compute evaluation and deployment platform for EU infrastructure",
+      "es": "Plataforma de evaluación y despliegue de computación de IA para la infraestructura de la UE"
+    },
+    "DIGITAL-JU-CHIPS-2026-AI1-SG": {
+      "en": "AI chip demonstrators for EU compute infrastructure",
+      "es": "Demostradores de chips de IA para la infraestructura de computación de la UE"
+    },
+    "DIGITAL-JU-CHIPS-2026-SG-JAPAN": {
+      "en": "International collaboration EU and Japan on semiconductors",
+      "es": "Colaboración internacional entre la UE y Japón en materia de semiconductores"
+    },
+    "EDF-EDIP-P-2026-2027-FNLC-SA-SEAP": {
+      "en": "Support for the functioning of SEAPs, including  for the purpose of establishing, managing and maintaining defence industrial readiness pools",
+      "es": "Apoyo al funcionamiento de las SEAP, también con el fin de constituir, gestionar y mantener reservas de disponibilidad industrial en defensa"
+    },
+    "EDF-EDIP-P-2026-FNLC-CSA-PREP": {
+      "en": "Maturing projects for possible future European Defence Projects of Common Interest and preparing their implementation roadmap",
+      "es": "Madurar proyectos con vistas a posibles futuros proyectos europeos de interés común en el ámbito de la defensa y preparar su hoja de ruta de ejecución"
+    },
+    "EDF-EDIP-P-2027-FNLC-CPA-AMDS": {
+      "en": "Air and missile defence systems",
+      "es": "Sistemas de defensa aérea y antimisiles"
+    },
+    "EDF-EDIP-P-2027-FNLC-CPA-C5ISRS": {
+      "en": "C5ISR and other space-related products",
+      "es": "C5ISR y otros productos relacionados con el espacio"
+    },
+    "EDF-EDIP-P-2027-FNLC-CPA-GNPS": {
+      "en": "Ground and naval platforms and systems",
+      "es": "Plataformas y sistemas terrestres y navales"
+    },
+    "EDF-EDIP-P-2027-LS-IRA-KEC": {
+      "en": "Key electronic components",
+      "es": "Componentes electrónicos clave"
+    },
+    "EDF-EDIP-P-2027-LS-IRA-PE": {
+      "en": "Platforms and end-products",
+      "es": "Plataformas y productos finales"
+    },
+    "EDF-EDIP-USI-2026-LS-IRA-MAB": {
+      "en": "Missiles, ammunition and bombs",
+      "es": "Misiles, munición y bombas"
+    },
+    "EDF-EDIP-USI-2027-LS-IRA-CUXS": {
+      "en": "Unmanned systems and counter-unmanned systems",
+      "es": "Sistemas no tripulados y de lucha contra sistemas no tripulados"
+    },
+    "ERASMUS-EDU-2022-ECHE-CERT-FP": {
+      "en": "Erasmus Charter for Higher Education",
+      "es": "Carta Erasmus de Educación Superior"
+    },
+    "ERASMUS-EDU-2026-EUED": {
+      "en": "European Degree Exploratory Action",
+      "es": "Acción exploratoria sobre el título europeo"
+    },
+    "ERASMUS-EDU-2027-EUR-UNIV": {
+      "en": "European Universities",
+      "es": "Universidades Europeas"
+    },
+    "ERC-2027-COG": {
+      "en": "ERC Consolidator Grant",
+      "es": "ERC Consolidator Grant"
+    },
+    "EU4H-2027-SANTE-OG": {
+      "en": "Call for proposals for operating grants in 2027 to non-governmental organisations: financial contribution to the functioning of health non-governmental organisations implementing one or more specific objectives of Regulation (EU) 2021/522  (OA-g-26-91 )",
+      "es": "Convocatoria de propuestas de subvenciones de funcionamiento en 2027 a organizaciones no gubernamentales: contribución financiera al funcionamiento de organizaciones no gubernamentales del ámbito de la salud que persiguen uno o varios objetivos específicos del Reglamento (UE) 2021/522 (OA-g-26-91)"
+    },
+    "EUBA-EFSA-2026-BIOHAW-01": {
+      "en": "Support to EFSA in the risk assessment of alternative methods for the use and disposal of animal by-products and derived products",
+      "es": "Apoyo a la EFSA en la evaluación de riesgos de métodos alternativos de uso y eliminación de subproductos animales y productos derivados"
+    },
+    "EUBA-EFSA-2026-PLANTS-02": {
+      "en": "Database on alternatives to pesticides (emergency authorisations)",
+      "es": "Base de datos sobre alternativas a los plaguicidas (autorizaciones de emergencia)"
+    },
+    "EUBA-EFSA-2027-ENREL-01": {
+      "en": "Selection of hosting sites and fellows for EFSA's European Food Risk Assessment Fellowship (EU-FORA) Programme",
+      "es": "Selección de centros de acogida y becarios para el programa de becas europeas de evaluación de riesgos alimentarios (EU-FORA) de la EFSA"
+    },
+    "EUBA-EFSA-2027-FIP-01": {
+      "en": "Support to the re-evaluation of approved food additives under Regulation (EU) No 257/2010",
+      "es": "Apoyo a la reevaluación de los aditivos alimentarios autorizados con arreglo al Reglamento (UE) n.º 257/2010"
+    },
+    "HORIZON-BRIDGING-2027-01-09": {
+      "en": "EU AI Media Platform – modular multilingual public-interest infrastructure for European news and audiovisual media (IA) - Apply AI",
+      "es": "Plataforma de IA de la UE para los medios de comunicación: infraestructura modular y multilingüe de interés público para los medios informativos y audiovisuales europeos (acción de innovación) – Estrategia de Uso de la Inteligencia Artificial"
+    },
+    "HORIZON-BRIDGING-2027-01-10": {
+      "en": "Autonomous Drive Ambition Cities (IA) - Apply AI",
+      "es": "Autonomous Drive Ambition Cities (acción de innovación) – Estrategia de Uso de la Inteligencia Artificial"
+    },
+    "HORIZON-BRIDGING-2027-01-12": {
+      "en": "Large-Scale piloting of next-generation AI-driven digital platforms for a more affordable, secure and sustainable European energy system (IA) - Apply AI",
+      "es": "Pruebas piloto a gran escala de plataformas digitales de nueva generación impulsadas por la IA para un sistema energético europeo más asequible, seguro y sostenible (acción de innovación) – Estrategia de Uso de la Inteligencia Artificial"
+    },
+    "HORIZON-BRIDGING-2027-01-13": {
+      "en": "EU Frontier AI Initiative: Advanced Scaling Frameworks for High-Performance AI Models (RIA) - Apply AI",
+      "es": "Iniciativa para la IA de Frontera de la UE: marcos avanzados de ampliación de escala para modelos de IA de alto rendimiento (acción de investigación e innovación) – Estrategia de Uso de la Inteligencia Artificial"
+    },
+    "HORIZON-BRIDGING-2027-02-05": {
+      "en": "Advancing promising results from Pillar II collaborative research through the innovation journey",
+      "es": "Hacer avanzar los resultados prometedores de la investigación colaborativa del pilar II a lo largo del itinerario de innovación"
+    },
+    "HORIZON-BRIDGING-2027-03-04": {
+      "en": "Supporting the long-term resilience and European sovereignty of critical research data and knowledge repositories and scientific services for the life sciences",
+      "es": "Apoyar la resiliencia a largo plazo y la soberanía europea de los repositorios críticos de datos de investigación y de conocimiento, y de los servicios científicos para las ciencias de la vida"
+    },
+    "HORIZON-BRIDGING-2027-03-06": {
+      "en": "Access to research infrastructure services to enable R&I addressing industry needs in priority areas",
+      "es": "Acceso a servicios de infraestructuras de investigación para posibilitar una I+i que responda a las necesidades de la industria en ámbitos prioritarios"
+    },
+    "HORIZON-BRIDGING-2027-03-07": {
+      "en": "Europe’s world class research and technology infrastructures as strategic assets for talent to Choose Europe",
+      "es": "Infraestructuras de investigación y tecnológicas de categoría mundial de Europa como activos estratégicos «para que el talento elija Europa»"
+    },
+    "HORIZON-BRIDGING-2027-04-03": {
+      "en": "Bringing innovative climate preparedness and resilience solutions closer to the market",
+      "es": "Acercar al mercado soluciones innovadoras de preparación y resiliencia climáticas"
+    },
+    "HORIZON-BRIDGING-2027-04-08": {
+      "en": "Sustainability and resilience of climate projections and related data records for European and global science and policy",
+      "es": "Sostenibilidad y resiliencia de las proyecciones climáticas y de los registros de datos relacionados para la ciencia y las políticas europeas y mundiales"
+    },
+    "HORIZON-BRIDGING-2027-04-11": {
+      "en": "Detection, monitoring, modelling, and attribution capabilities for Solar Radiation Modification (SRM) activities and assessing their impacts on Earth's climate and ecosystems",
+      "es": "Capacidades de detección, seguimiento, modelización y atribución de las actividades de modificación de la radiación solar (SRM) y evaluación de sus impactos en el clima y los ecosistemas de la Tierra"
+    },
+    "HORIZON-BRIDGING-2027-05-01": {
+      "en": "Skills for innovative SMEs",
+      "es": "Competencias para pymes innovadoras"
+    },
+    "HORIZON-BRIDGING-2027-06-02": {
+      "en": "Valorising Horizon project results via innovation ecosystems",
+      "es": "Valorizar los resultados de proyectos de Horizonte a través de ecosistemas de innovación"
+    },
+    "HORIZON-CID-2027-01-01": {
+      "en": "R&I in Support of the Clean Industrial Deal: Decarbonisation of energy intensive industries (IA) (Processes4Planet and Clean Steel partnerships)",
+      "es": "I+i en apoyo del Pacto por una Industria Limpia: descarbonización de las industrias de gran consumo energético (acción de innovación) (asociaciones europeas Processes4Planet y Clean Steel)"
+    },
+    "HORIZON-CID-2027-01-02": {
+      "en": "R&I in Support of the Clean Industrial Deal: Clean Technologies for Climate Action",
+      "es": "I+i en apoyo del Pacto por una Industria Limpia: tecnologías limpias para la acción por el clima"
+    },
+    "HORIZON-CL2-2027-01-DEMOCRACY-01": {
+      "en": "Advisory support and network for countering and preventing radicalisation, extremism, hate speech and polarisation",
+      "es": "Apoyo consultivo y red para combatir y prevenir la radicalización, el extremismo, el discurso de odio y la polarización"
+    },
+    "HORIZON-CL2-2027-01-DEMOCRACY-02": {
+      "en": "Women’s, LGBTIQ and minority rights in a context of autocracy, conflict and geopolitical shifts",
+      "es": "Derechos de las mujeres, de las personas LGBTIQ y de las minorías en un contexto de autocracia, conflicto y cambios geopolíticos"
+    },
+    "HORIZON-CL2-2027-01-DEMOCRACY-03": {
+      "en": "Student and family engagement for developing a culture of democratic/civic participation",
+      "es": "Implicación del alumnado y las familias para desarrollar una cultura de participación democrática y cívica"
+    },
+    "HORIZON-CL2-2027-01-DEMOCRACY-04": {
+      "en": "Addressing the impact of artificial intelligence, cyberviolence, and deepfakes on equality, democracy and inclusive societies",
+      "es": "Abordar el impacto de la inteligencia artificial, la ciberviolencia y las ultrasuplantaciones en la igualdad, la democracia y las sociedades inclusivas"
+    },
+    "HORIZON-CL2-2027-01-DEMOCRACY-05": {
+      "en": "Development aid and democratic governance",
+      "es": "Ayuda al desarrollo y gobernanza democrática"
+    },
+    "HORIZON-CL2-2027-01-DEMOCRACY-06": {
+      "en": "Identifying user-focused solutions to support news media freedom",
+      "es": "Identificar soluciones centradas en los usuarios para apoyar la libertad de los medios informativos"
+    },
+    "HORIZON-CL2-2027-01-DEMOCRACY-07": {
+      "en": "The role of private companies in democracy",
+      "es": "El papel de las empresas privadas en la democracia"
+    },
+    "HORIZON-CL2-2027-01-DEMOCRACY-08": {
+      "en": "Global Human Rights and EU values",
+      "es": "Derechos humanos a escala mundial y valores de la UE"
+    },
+    "HORIZON-CL2-2027-01-HERITAGE-01": {
+      "en": "Towards a consolidated culture and creativity driven European innovation ecosystem",
+      "es": "Hacia un ecosistema europeo de innovación consolidado e impulsado por la cultura y la creatividad"
+    },
+    "HORIZON-CL2-2027-01-HERITAGE-02": {
+      "en": "AI4Creatives Support Platform: embracing a fair AI revolution",
+      "es": "Plataforma de apoyo AI4Creatives: abrazar una revolución justa de la IA"
+    },
+    "HORIZON-CL2-2027-01-HERITAGE-03": {
+      "en": "Crafting routes to a circular economy",
+      "es": "Forjar caminos hacia una economía circular"
+    },
+    "HORIZON-CL2-2027-01-HERITAGE-04": {
+      "en": "Culture, heritage and creative industries for health and well-being",
+      "es": "Cultura, patrimonio e industrias creativas para la salud y el bienestar"
+    },
+    "HORIZON-CL2-2027-01-HERITAGE-05": {
+      "en": "Re-imagining the creative economy: the interplay between the cultural and creative sectors and industries and the social economy",
+      "es": "Reimaginar la economía creativa: la interacción entre los sectores e industrias culturales y creativos y la economía social"
+    },
+    "HORIZON-CL2-2027-01-HERITAGE-06": {
+      "en": "Future-proofing sustainable cultural tourism",
+      "es": "Preparar el turismo cultural sostenible para el futuro"
+    },
+    "HORIZON-CL2-2027-01-HERITAGE-07": {
+      "en": "Societal impact of cultural heritage",
+      "es": "Impacto social del patrimonio cultural"
+    },
+    "HORIZON-CL2-2027-01-HERITAGE-08": {
+      "en": "Safeguarding & transmission of intangible cultural heritage",
+      "es": "Salvaguardia y transmisión del patrimonio cultural inmaterial"
+    },
+    "HORIZON-CL2-2027-01-TRANSFO-01": {
+      "en": "Impact of access to nature-positive environments in promoting social cohesion and reducing inequalities in urban and peri-urban settings",
+      "es": "Impacto del acceso a entornos positivos para la naturaleza en la promoción de la cohesión social y la reducción de las desigualdades en contextos urbanos y periurbanos"
+    },
+    "HORIZON-CL2-2027-01-TRANSFO-02": {
+      "en": "Impact of in-kind benefits on income distribution and on vulnerable populations",
+      "es": "Impacto de las prestaciones en especie en la distribución de la renta y en las poblaciones vulnerables"
+    },
+    "HORIZON-CL2-2027-01-TRANSFO-03": {
+      "en": "Rethinking sustainable competitiveness beyond traditional perspectives: role and contribution of the Social Economy",
+      "es": "Repensar la competitividad sostenible más allá de las perspectivas tradicionales: papel y contribución de la economía social"
+    },
+    "HORIZON-CL2-2027-01-TRANSFO-04": {
+      "en": "The impact of EU labour mobility on the Member States of the EU",
+      "es": "El impacto de la movilidad laboral de la UE en los Estados miembros de la UE"
+    },
+    "HORIZON-CL2-2027-01-TRANSFO-05": {
+      "en": "The effective use of artificial intelligence in learning environments in pre-primary and primary education",
+      "es": "El uso eficaz de la inteligencia artificial en entornos de aprendizaje de la educación infantil y primaria"
+    },
+    "HORIZON-CL2-2027-01-TRANSFO-06": {
+      "en": "Closing the learning gap: uncovering causes and effective policy interventions for declining youth skills in mathematics, reading, and science",
+      "es": "Cerrar la brecha de aprendizaje: descubrir las causas y las intervenciones políticas eficaces frente al declive de las competencias de los jóvenes en matemáticas, lectura y ciencias"
+    },
+    "HORIZON-CL2-2027-01-TRANSFO-07": {
+      "en": "Persons with disabilities: opportunities for labour inclusion and social protection through the life course",
+      "es": "Personas con discapacidad: oportunidades de inclusión laboral y protección social a lo largo del ciclo vital"
+    },
+    "HORIZON-CL2-2027-01-TRANSFO-08": {
+      "en": "Scaling and deploying innovations in migration management",
+      "es": "Ampliar la escala de las innovaciones en la gestión de la migración y desplegarlas"
+    },
+    "HORIZON-CL2-2027-02-DEMOCRACY-09-two-stage": {
+      "en": "Open topic on reinvigorating and shielding European democracy",
+      "es": "Tema abierto sobre la revitalización y la protección de la democracia europea"
+    },
+    "HORIZON-CL2-2027-02-HERITAGE-09-two-stage": {
+      "en": "Open topic: Impact-driven research on realising the full potential of cultural heritage, arts and cultural and creative industries",
+      "es": "Tema abierto: investigación orientada al impacto para aprovechar todo el potencial del patrimonio cultural, las artes y las industrias culturales y creativas"
+    },
+    "HORIZON-CL2-2027-02-TRANSFO-09-two-stage": {
+      "en": "Improving socio-economic outcomes for persons with dementia and informal caregivers",
+      "es": "Mejorar los resultados socioeconómicos de las personas con demencia y de los cuidadores informales"
+    },
+    "HORIZON-CL3-2027-01-BM-01": {
+      "en": "Open topic on research and innovation for effective management of EU external borders that promotes fundamental rights and EU values",
+      "es": "Tema abierto sobre investigación e innovación para una gestión eficaz de las fronteras exteriores de la UE que promueva los derechos fundamentales y los valores de la UE"
+    },
+    "HORIZON-CL3-2027-01-BM-02": {
+      "en": "Trusted, secure, quality future digital travel credentials",
+      "es": "Futuras credenciales digitales de viaje fiables, seguras y de calidad"
+    },
+    "HORIZON-CL3-2027-01-BM-03": {
+      "en": "Detection and characterisation of threats or illegal/ smuggled goods in cargo",
+      "es": "Detección y caracterización de amenazas o mercancías ilegales o de contrabando en la carga"
+    },
+    "HORIZON-CL3-2027-01-DRS-01": {
+      "en": "Open Topic on advanced protective gear optimized for CBRN-E (Chemical, Biological, Radiological, Nuclear, Explosives) environments and new generation of smart protective equipment for disaster responders",
+      "es": "Tema abierto sobre equipamiento de protección avanzado optimizado para entornos QBRN-E (químicos, biológicos, radiológicos, nucleares y explosivos) y una nueva generación de equipos de protección inteligentes para el personal de intervención en catástrofes"
+    },
+    "HORIZON-CL3-2027-01-DRS-02": {
+      "en": "Societal resilience, engagement of the younger generations and digital innovation for disaster resilience",
+      "es": "Resiliencia social, participación de las generaciones más jóvenes e innovación digital para la resiliencia frente a catástrofes"
+    },
+    "HORIZON-CL3-2027-01-DRS-03": {
+      "en": "Enhancing decision support system for disaster crises: leveraging emerging technologies for improved civil preparedness and crisis management",
+      "es": "Mejorar el sistema de apoyo a la toma de decisiones en crisis por catástrofes: aprovechar las tecnologías emergentes para una mejor preparación civil y gestión de crisis"
+    },
+    "HORIZON-CL3-2027-01-DRS-04": {
+      "en": "Enhancing preparedness for large-scale cross-border disasters",
+      "es": "Mejorar la preparación ante catástrofes transfronterizas a gran escala"
+    },
+    "HORIZON-CL3-2027-01-FCT-01": {
+      "en": "Online harms detection and investigation tools using a short development cycle model",
+      "es": "Herramientas de detección e investigación de daños en línea que utilicen un modelo de ciclo de desarrollo corto"
+    },
+    "HORIZON-CL3-2027-01-FCT-02": {
+      "en": "Community policing in diverse societies in Europe",
+      "es": "Policía de proximidad en sociedades diversas de Europa"
+    },
+    "HORIZON-CL3-2027-01-FCT-03": {
+      "en": "Open topic on enhanced prevention, detection and deterrence of societal issues related to various forms of crime",
+      "es": "Tema abierto sobre una mejor prevención, detección y disuasión de problemas sociales relacionados con diversas formas de delincuencia"
+    },
+    "HORIZON-CL3-2027-01-FCT-04": {
+      "en": "Open topic on increasing security of citizens against terrorism, including in public spaces",
+      "es": "Tema abierto sobre el aumento de la seguridad de la ciudadanía frente al terrorismo, también en los espacios públicos"
+    },
+    "HORIZON-CL3-2027-01-FCT-05": {
+      "en": "Effective and evidence-based responses to the increased availability and use of synthetic drugs and stimulants in Europe",
+      "es": "Respuestas eficaces y basadas en datos contrastados al aumento de la disponibilidad y el consumo de drogas sintéticas y estimulantes en Europa"
+    },
+    "HORIZON-CL3-2027-01-INFRA-01": {
+      "en": "Enhancing physical protection of critical infrastructures",
+      "es": "Mejorar la protección física de las infraestructuras críticas"
+    },
+    "HORIZON-CL3-2027-01-INFRA-02": {
+      "en": "Impact of malicious use of Open-Source Intelligence on critical infrastructure business continuity",
+      "es": "Impacto del uso malintencionado de la inteligencia de fuentes abiertas en la continuidad de negocio de las infraestructuras críticas"
+    },
+    "HORIZON-CL3-2027-01-SSRI-01": {
+      "en": "Accelerating uptake through open proposals for advanced SME innovation",
+      "es": "Acelerar la adopción mediante propuestas abiertas para la innovación avanzada de las pymes"
+    },
+    "HORIZON-CL3-2027-01-SSRI-02": {
+      "en": "Open grounds for future pre-commercial procurement of innovative security technologies",
+      "es": "Preparar el terreno para la futura compra pública precomercial de tecnologías de seguridad innovadoras"
+    },
+    "HORIZON-CL3-2027-01-SSRI-03": {
+      "en": "Demand-led innovation in security",
+      "es": "Innovación impulsada por la demanda en materia de seguridad"
+    },
+    "HORIZON-CL3-2027-02-CS-ECCC-01": {
+      "en": "Artificial Intelligence for Cybersecurity applications",
+      "es": "Inteligencia artificial para aplicaciones de ciberseguridad"
+    },
+    "HORIZON-CL3-2027-02-CS-ECCC-02": {
+      "en": "Secure Computing Continuum (IoT, Edge, Cloud, Data spaces)",
+      "es": "Continuo de computación seguro (IoT, periferia, nube, espacios de datos)"
+    },
+    "HORIZON-CL3-2027-02-CS-ECCC-03": {
+      "en": "Secure PQC implementations, Cryptanalysis and Post-quantum Digital Trust",
+      "es": "Implementaciones seguras de PQC, criptoanálisis y confianza digital poscuántica"
+    },
+    "HORIZON-CL3-2027-02-CS-ECCC-04": {
+      "en": "New primitives and protocols for functionalities of future hybrid classical-hybrid and quantum networks",
+      "es": "Nuevas primitivas y protocolos para funcionalidades de las futuras redes híbridas clásico-cuánticas y cuánticas"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-02": {
+      "en": "Advanced manufacturing for key products (IA) (Made in Europe partnership)",
+      "es": "Fabricación avanzada de productos clave (acción de innovación) (asociación europea Made in Europe)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-03": {
+      "en": "Factory processes and automation for de- and re-manufacturing (RIA) (Made in Europe partnership)",
+      "es": "Procesos fabriles y automatización para el desmontaje y la refabricación (acción de investigación e innovación) (asociación europea Made in Europe)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-06": {
+      "en": "Circular innovative advanced materials: facilitating the transition from design to markets (RIA) (Innovative Advanced Materials for the EU and Made in Europe partnerships)",
+      "es": "Materiales avanzados innovadores circulares: facilitar la transición del diseño a los mercados (acción de investigación e innovación) (asociaciones europeas Innovative Advanced Materials for the EU y Made in Europe)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-08": {
+      "en": "Textile circularity through advanced processing and manufacturing technologies and system approaches (IA) (Textiles for the Future partnership)",
+      "es": "Circularidad textil mediante tecnologías avanzadas de procesamiento y fabricación y enfoques sistémicos (acción de innovación) (asociación europea Textiles for the Future)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-16": {
+      "en": "Technologies for innovative processing of raw materials (IA)",
+      "es": "Tecnologías para el procesamiento innovador de materias primas (acción de innovación)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-17": {
+      "en": "Expert network on Critical raw materials (CSA)",
+      "es": "Red de expertos sobre materias primas fundamentales (acción de coordinación y apoyo)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-22": {
+      "en": "Innovative advanced materials and new production processes – reducing dependencies on Critical and Strategic Raw Materials (IA) (Innovative Advanced Materials for the EU and Processes4Planet partnerships)",
+      "es": "Materiales avanzados innovadores y nuevos procesos de producción: reducir las dependencias de las materias primas fundamentales y estratégicas (acción de innovación) (asociaciones europeas Innovative Advanced Materials for the EU y Processes4Planet)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-42": {
+      "en": "Unlocking the potential of academic intellectual assets for industry, SMEs and startups (CSA)",
+      "es": "Liberar el potencial de los activos intelectuales académicos para la industria, las pymes y las empresas emergentes (acción de coordinación y apoyo)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-47": {
+      "en": "Pilot access schemes to Technology Infrastructures for European startups, scaleups and innovative SMEs (CSA)",
+      "es": "Programas piloto de acceso a infraestructuras tecnológicas para empresas emergentes, empresas en expansión y pymes innovadoras europeas (acción de coordinación y apoyo)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-49": {
+      "en": "‘Proof of market’ to improve valorisation and commercialisation of Horizon generated R&I results (IA)",
+      "es": "«Prueba de mercado» para mejorar la valorización y la comercialización de los resultados de I+i generados en Horizonte (acción de innovación)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-50": {
+      "en": "European network for upscaling venture builders’ roles in research performing organisations (CSA)",
+      "es": "Red europea para ampliar la escala de las funciones de los venture builders en las organizaciones que realizan investigación (acción de coordinación y apoyo)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-61": {
+      "en": "Fast Track to Research and Innovation for breakthroughs in industrial technologies (Research and Innovation Action)",
+      "es": "Vía rápida hacia la investigación y la innovación para avances decisivos en tecnologías industriales (acción de investigación e innovación)"
+    },
+    "HORIZON-CL4-2027-01-MAT-PROD-62": {
+      "en": "Fast Track to Innovation for breakthroughs in the Chemical Industry Action Plan  (Research and Innovation Action)",
+      "es": "Vía rápida hacia la innovación para avances decisivos en el marco del Plan de Acción para la Industria Química (acción de investigación e innovación)"
+    },
+    "HORIZON-CL4-2027-02-DIGITAL-EMERGING-52-two-stage": {
+      "en": "New approaches for Human/AI collaboration for the workforce of the future (RIA) (Made in Europe and AI, Data and Robotics partnerships)",
+      "es": "Nuevos enfoques de colaboración entre las personas y la IA para la fuerza laboral del futuro (acción de investigación e innovación) (asociaciones europeas Made in Europe y de IA, datos y robótica)"
+    },
+    "HORIZON-CL4-2027-02-MAT-PROD-32-two-stage": {
+      "en": "Efficient energy input from renewable sources and energy management in the process industries (IA) (Processes4Planet and Innovative Advanced Materials for the EU partnerships)",
+      "es": "Aporte eficiente de energía procedente de fuentes renovables y gestión energética en las industrias de procesos (acción de innovación) (asociaciones europeas Processes4Planet e Innovative Advanced Materials for the EU)"
+    },
+    "HORIZON-CL4-2027-04-DATA-03": {
+      "en": "New approaches for decentralized, federated and sustainable AI data processing (RIA)",
+      "es": "Nuevos enfoques para un procesamiento de datos de IA descentralizado, federado y sostenible (acción de investigación e innovación)"
+    },
+    "HORIZON-CL4-2027-04-DATA-08": {
+      "en": "Demand-side 3C pilot demonstrators on converged Telco Edge Cloud Infrastructure (IA)",
+      "es": "Demostradores piloto 3C del lado de la demanda en infraestructura convergente de nube periférica de telecomunicaciones (acción de innovación)"
+    },
+    "HORIZON-CL4-2027-04-DATA-09": {
+      "en": "Energy efficiency and sustainability of AI data processing in Data Centres (IA)",
+      "es": "Eficiencia energética y sostenibilidad del procesamiento de datos de IA en centros de datos (acción de innovación)"
+    },
+    "HORIZON-CL4-2027-04-DIGITAL-EMERGING-04": {
+      "en": "Apply AI: Challenge-Driven AI Innovation Booster in Apply AI prioritised sectors (RIA) (Partnership in AI, Data and Robotics)",
+      "es": "Estrategia de Uso de la Inteligencia Artificial: impulsor de la innovación en IA orientado a retos en los sectores prioritarios de la estrategia (acción de investigación e innovación) (asociación europea de IA, datos y robótica)"
+    },
+    "HORIZON-CL4-2027-04-DIGITAL-EMERGING-05": {
+      "en": "Apply AI: AI-Driven Robotics for Industry: Enabling System Integration and Adoption (IA) (Partnership in AI, Data and Robotics)",
+      "es": "Estrategia de Uso de la Inteligencia Artificial: robótica impulsada por la IA para la industria – facilitar la integración de sistemas y la adopción (acción de innovación) (asociación europea de IA, datos y robótica)"
+    },
+    "HORIZON-CL4-2027-04-DIGITAL-EMERGING-06": {
+      "en": "International cooperation in AI (IA)",
+      "es": "Cooperación internacional en IA (acción de innovación)"
+    },
+    "HORIZON-CL4-2027-04-DIGITAL-EMERGING-10": {
+      "en": "Horizon scanning and foresight in future enabling digital technologies (CSA)",
+      "es": "Exploración del horizonte y prospectiva sobre futuras tecnologías digitales facilitadoras (acción de coordinación y apoyo)"
+    },
+    "HORIZON-CL4-2027-04-DIGITAL-EMERGING-11": {
+      "en": "EU Frontier AI Initiative:  Developing frontier AI solutions that are safe and computationally efficient within Apply AI (RIA)",
+      "es": "Iniciativa para la IA de Frontera de la UE: desarrollar soluciones de IA de frontera seguras y computacionalmente eficientes en el marco de la Estrategia de Uso de la Inteligencia Artificial (acción de investigación e innovación)"
+    },
+    "HORIZON-CL4-2027-04-HUMAN-01": {
+      "en": "Advanced and Innovative hardware components for Virtual Worlds (RIA) (Virtual Worlds Partnership)",
+      "es": "Componentes de hardware avanzados e innovadores para mundos virtuales (acción de investigación e innovación) (asociación europea de mundos virtuales)"
+    },
+    "HORIZON-CL4-2027-04-HUMAN-02": {
+      "en": "Create a thriving and competitive Virtual Worlds and Web 4.0 ecosystem (CSA) (Virtual Worlds Partnership)",
+      "es": "Crear un ecosistema próspero y competitivo de mundos virtuales y web 4.0 (acción de coordinación y apoyo) (asociación europea de mundos virtuales)"
+    },
+    "HORIZON-CL4-2027-04-HUMAN-07": {
+      "en": "Facilitate the engagement of European stakeholders in international digital standardisation (CSA)",
+      "es": "Facilitar la participación de las partes interesadas europeas en la normalización digital internacional (acción de coordinación y apoyo)"
+    },
+    "HORIZON-CL4-2027-05-DIGITAL-EMERGING-03": {
+      "en": "Advanced integrated photonic devices for extended features and ultra-low power consumption (RIA) (Photonics Partnership)",
+      "es": "Dispositivos fotónicos integrados avanzados para funcionalidades ampliadas y consumo energético ultrabajo (acción de investigación e innovación) (asociación europea de fotónica)"
+    },
+    "HORIZON-CL4-2027-SPACE-03-12": {
+      "en": "Digital solutions for autonomy for space transportation systems, design and simulation tools - Digital enablers and building blocks (Space Partnership)",
+      "es": "Soluciones digitales para la autonomía de los sistemas de transporte espacial, herramientas de diseño y simulación: facilitadores digitales y componentes básicos (asociación europea del espacio)"
+    },
+    "HORIZON-CL4-2027-SPACE-03-21": {
+      "en": "ISOS4I Pilot Mission Integrated Ground Test and consolidation of space-compatible USI solutions",
+      "es": "Ensayo integrado en tierra de la misión piloto ISOS4I y consolidación de soluciones USI compatibles con el espacio"
+    },
+    "HORIZON-CL4-2027-SPACE-03-33": {
+      "en": "Digital enablers and building blocks for collaborative Earth Observation and Satellite telecommunications for Space solutions (Space Partnership)",
+      "es": "Facilitadores digitales y componentes básicos para la observación de la Tierra y las telecomunicaciones por satélite colaborativas para soluciones espaciales (asociación europea del espacio)"
+    },
+    "HORIZON-CL4-2027-SPACE-03-34": {
+      "en": "Preparing demonstration missions for collaborative Earth Observation and Satellite telecommunication for Space solutions (Space Partnership)",
+      "es": "Preparar misiones de demostración para la observación de la Tierra y la telecomunicación por satélite colaborativas para soluciones espaciales (asociación europea del espacio)"
+    },
+    "HORIZON-CL4-2027-SPACE-03-71": {
+      "en": "Quantum Space Gravimetry topic",
+      "es": "Tema de gravimetría cuántica espacial"
+    },
+    "HORIZON-CL4-2027-SPACE-07-83": {
+      "en": "Space critical EEE components for EU non-dependence",
+      "es": "Componentes EEE espaciales críticos para la no dependencia de la UE"
+    },
+    "HORIZON-CL4-2027-SPACE-07-84": {
+      "en": "Space critical equipment for EU non-dependence",
+      "es": "Equipos espaciales críticos para la no dependencia de la UE"
+    },
+    "HORIZON-CL5-2026-11-D3-04": {
+      "en": "De-risking renewable fuel technologies through transnational pre-commercial procurement of renewable fuel industrial value chains",
+      "es": "Reducir el riesgo de las tecnologías de combustibles renovables mediante la compra pública precomercial transnacional de cadenas de valor industriales de combustibles renovables"
+    },
+    "HORIZON-CL5-2026-11-D3-05": {
+      "en": "Demonstration of solid biofuel supply and conversion to high efficiency CHP from fully sustainable regional value chains",
+      "es": "Demostración del suministro de biocombustible sólido y de su conversión mediante cogeneración de alta eficiencia a partir de cadenas de valor regionales totalmente sostenibles"
+    },
+    "HORIZON-CL5-2026-11-D3-06": {
+      "en": "Resource assessment for deep sedimentary and basement reservoirs",
+      "es": "Evaluación de recursos en yacimientos sedimentarios y de basamento profundos"
+    },
+    "HORIZON-CL5-2026-11-D3-14": {
+      "en": "Improved system design for innovative PV applications (EUPI-PV Partnership)",
+      "es": "Diseño mejorado de sistemas para aplicaciones fotovoltaicas innovadoras (asociación europea EUPI-PV)"
+    },
+    "HORIZON-CL5-2026-11-D3-23": {
+      "en": "Data sharing to support the training and development of AI foundation models in the energy sector",
+      "es": "Intercambio de datos para apoyar el entrenamiento y el desarrollo de modelos fundacionales de IA en el sector energético"
+    },
+    "HORIZON-CL5-2027-01-D1-07": {
+      "en": "Advancing understanding, modelling and prediction of extreme events in a changing climate",
+      "es": "Avanzar en la comprensión, la modelización y la predicción de fenómenos extremos en un clima cambiante"
+    },
+    "HORIZON-CL5-2027-01-D1-08": {
+      "en": "Palaeoclimate science for a better understanding of Earth system dynamics",
+      "es": "Paleoclimatología para una mejor comprensión de la dinámica del sistema Tierra"
+    },
+    "HORIZON-CL5-2027-01-D1-09": {
+      "en": "Assessing the performance of policy instruments to inform climate change mitigation action",
+      "es": "Evaluar el desempeño de los instrumentos de política para fundamentar la acción de mitigación del cambio climático"
+    },
+    "HORIZON-CL5-2027-01-D1-10": {
+      "en": "Understanding and avoiding maladaptation to climate change",
+      "es": "Comprender y evitar la mala adaptación al cambio climático"
+    },
+    "HORIZON-CL5-2027-01-D1-11": {
+      "en": "Africa-EU CO-FUND action on climate",
+      "es": "Acción CO-FUND África-UE sobre el clima"
+    },
+    "HORIZON-CL5-2027-01-D1-12": {
+      "en": "Better understanding and attribution of land and ocean carbon sources and sinks",
+      "es": "Mejor comprensión y atribución de las fuentes y los sumideros de carbono terrestres y oceánicos"
+    },
+    "HORIZON-CL5-2027-01-D1-13": {
+      "en": "Next generation scenarios for informing climate and sustainability transitions",
+      "es": "Escenarios de nueva generación para fundamentar las transiciones en materia de clima y sostenibilidad"
+    },
+    "HORIZON-CL5-2027-02-D2-05": {
+      "en": "Improvement of Adaptability, Flexibility and Efficiency of Existing Recycling Processes (BATT4EU Partnership)",
+      "es": "Mejora de la adaptabilidad, la flexibilidad y la eficiencia de los procesos de reciclado existentes (asociación europea BATT4EU)"
+    },
+    "HORIZON-CL5-2027-02-D2-06": {
+      "en": "Sustainable and Competitive Cell Production Techniques for Lithium-ion And Sodium-ion Batteries (BATT4EU Partnership)",
+      "es": "Técnicas sostenibles y competitivas de producción de celdas para baterías de iones de litio y de iones de sodio (asociación europea BATT4EU)"
+    },
+    "HORIZON-CL5-2027-02-D3-07": {
+      "en": "Concentrated solar thermal systems for decarbonising industrial processes",
+      "es": "Sistemas termosolares de concentración para descarbonizar los procesos industriales"
+    },
+    "HORIZON-CL5-2027-02-D3-08": {
+      "en": "Co-funding Strategic Energy Technology (SET) Plan renewable fuel value chains at EU, national, regional, and local level",
+      "es": "Cofinanciar las cadenas de valor de combustibles renovables del Plan Estratégico Europeo de Tecnología Energética (Plan EETE) a escala de la UE, nacional, regional y local"
+    },
+    "HORIZON-CL5-2027-02-D3-09": {
+      "en": "Innovative technologies and solutions to improve wave and tidal energy systems",
+      "es": "Tecnologías y soluciones innovadoras para mejorar los sistemas de energía undimotriz y mareomotriz"
+    },
+    "HORIZON-CL5-2027-02-D3-10": {
+      "en": "Renewable Energy Valleys in Africa to increase energy security and energy access in Africa",
+      "es": "Valles de energías renovables en África para aumentar la seguridad energética y el acceso a la energía en África"
+    },
+    "HORIZON-CL5-2027-02-D3-15": {
+      "en": "Production technologies for solar photovoltaics beyond the state-of-the-art (EUPI-PV Partnership)",
+      "es": "Tecnologías de producción para la energía solar fotovoltaica más allá del estado de la técnica (asociación europea EUPI-PV)"
+    },
+    "HORIZON-CL5-2027-02-D3-24": {
+      "en": "Large scale operational validation and upscaling of state-of-the-art (Generative) AI tools and models powering a next generation digital energy system",
+      "es": "Validación operativa a gran escala y ampliación de escala de herramientas y modelos de IA (generativa) de vanguardia que impulsen un sistema energético digital de nueva generación"
+    },
+    "HORIZON-CL5-2027-02-D3-30": {
+      "en": "Advancements in Direct Air Capture",
+      "es": "Avances en la captura directa del aire"
+    },
+    "HORIZON-CL5-2027-02-D3-33": {
+      "en": "Support to the SET Plan stakeholders’ groups in geothermal energy",
+      "es": "Apoyo a los grupos de partes interesadas del Plan EETE en el ámbito de la energía geotérmica"
+    },
+    "HORIZON-CL5-2027-03-D5-03": {
+      "en": "Data-driven circular economy for e-mobility ecosystem (2ZERO Partnership)",
+      "es": "Economía circular basada en datos para el ecosistema de la movilidad eléctrica (asociación europea 2ZERO)"
+    },
+    "HORIZON-CL5-2027-03-D5-04": {
+      "en": "Demonstration of zero emission coaches and buses in long distance operations (2ZERO Partnership)",
+      "es": "Demostración de autocares y autobuses de emisión cero en servicios de larga distancia (asociación europea 2ZERO)"
+    },
+    "HORIZON-CL5-2027-03-D5-05": {
+      "en": "Higher Voltage, Megawatt Charging System compatible, modular powertrain for Heavy Duty Vehicles (HDV) (2ZERO Partnership)",
+      "es": "Sistema de propulsión modular, de mayor tensión y compatible con el sistema de carga de megavatios, para vehículos pesados (HDV) (asociación europea 2ZERO)"
+    },
+    "HORIZON-CL5-2027-03-D5-06": {
+      "en": "Fire prevention and mitigation for EVs in confined areas (2ZERO Partnership)",
+      "es": "Prevención y mitigación de incendios de vehículos eléctricos en espacios confinados (asociación europea 2ZERO)"
+    },
+    "HORIZON-CL5-2027-03-D5-08": {
+      "en": "Sustainable aircraft circular design and additive manufacturing, towards a climate neutral aviation",
+      "es": "Diseño circular y fabricación aditiva de aeronaves sostenibles, hacia una aviación climáticamente neutra"
+    },
+    "HORIZON-CL5-2027-03-D5-14": {
+      "en": "Onboard renewable energy solutions and energy saving measures to reduce the fuel consumption of ships by at least 55% (ZEWT Partnership)",
+      "es": "Soluciones de energía renovable a bordo y medidas de ahorro energético para reducir el consumo de combustible de los buques en al menos un 55 % (asociación europea ZEWT)"
+    },
+    "HORIZON-CL5-2027-03-D5-15": {
+      "en": "Prospective evaluation of nuclear power potential for shipping (ZEWT Partnership)",
+      "es": "Evaluación prospectiva del potencial de la energía nuclear para el transporte marítimo (asociación europea ZEWT)"
+    },
+    "HORIZON-CL5-2027-03-D5-16": {
+      "en": "Autonomous vessels in short sea shipping and inland waterways",
+      "es": "Buques autónomos en el transporte marítimo de corta distancia y en las vías navegables interiores"
+    },
+    "HORIZON-CL5-2027-03-D5-17": {
+      "en": "Innovative Solutions for mitigating the environmental impact of waterborne transport in marine and aquatic Ecosystems (ZEWT Partnership)",
+      "es": "Soluciones innovadoras para mitigar el impacto ambiental del transporte acuático en los ecosistemas marinos y acuáticos (asociación europea ZEWT)"
+    },
+    "HORIZON-CL5-2027-03-D5-18": {
+      "en": "Enhanced electric operation and battery durability (ZEWT Partnership)",
+      "es": "Mejora del funcionamiento eléctrico y de la durabilidad de las baterías (asociación europea ZEWT)"
+    },
+    "HORIZON-CL5-2027-03-D5-20": {
+      "en": "Assessing the effect of airport operations on air quality and noise in nearby communities",
+      "es": "Evaluar el efecto de las operaciones aeroportuarias sobre la calidad del aire y el ruido en las poblaciones cercanas"
+    },
+    "HORIZON-CL5-2027-04-Two-Stage-D2-07": {
+      "en": "Novel approaches towards next-generation battery concepts, leveraging the enabling role of innovative advanced materials (BATT4EU and IAM4EU Partnerships)",
+      "es": "Enfoques novedosos hacia conceptos de baterías de nueva generación que aprovechen el papel facilitador de los materiales avanzados innovadores (asociaciones europeas BATT4EU e IAM4EU)"
+    },
+    "HORIZON-CL5-2027-04-Two-Stage-D5-09": {
+      "en": "Noise reduction breakthroughs for new ultraefficient aircraft",
+      "es": "Avances decisivos en la reducción del ruido para nuevas aeronaves ultraeficientes"
+    },
+    "HORIZON-CL5-2027-05-D2-08": {
+      "en": "Demonstration for Long-duration Battery Energy Storage Systems (BATT4EU Partnership)",
+      "es": "Demostración de sistemas de almacenamiento de energía de larga duración en baterías (asociación europea BATT4EU)"
+    },
+    "HORIZON-CL5-2027-05-D3-31": {
+      "en": "Support to the implementation of an EU policy framework for CO2 transport and storage infrastructure",
+      "es": "Apoyo a la aplicación de un marco político de la UE para la infraestructura de transporte y almacenamiento de CO2"
+    },
+    "HORIZON-CL5-2027-05-D4-05": {
+      "en": "On-site robotic and automated techniques for building renovation and new construction",
+      "es": "Técnicas robóticas y automatizadas in situ para la renovación de edificios y la obra nueva"
+    },
+    "HORIZON-CL5-2027-05-D4-06": {
+      "en": "Thermal energy optimisation and waste heat recovery of high energy demand IT rooms in buildings or small edge data centres",
+      "es": "Optimización de la energía térmica y recuperación del calor residual de salas de TI de alta demanda energética en edificios o de pequeños centros de datos periféricos"
+    },
+    "HORIZON-CL5-2027-05-D4-07": {
+      "en": "Integrating circularity in LCA-based modelling frameworks for renovation of buildings (Built4People Partnership)",
+      "es": "Integrar la circularidad en los marcos de modelización basados en el ACV para la renovación de edificios (asociación europea Built4People)"
+    },
+    "HORIZON-CL5-2027-05-D4-09": {
+      "en": "Demonstration of industrial excess/waste heat conversion to mechanical or electrical power",
+      "es": "Demostración de la conversión del calor industrial excedente o residual en energía mecánica o eléctrica"
+    },
+    "HORIZON-CL5-2027-06-D6-04": {
+      "en": "Holistic solutions for CCAM integration in critical scenarios (CCAM Partnership)",
+      "es": "Soluciones holísticas para la integración de la CCAM en escenarios críticos (asociación europea CCAM)"
+    },
+    "HORIZON-CL5-2027-06-D6-05": {
+      "en": "European CCAM knowledge hub and tools for safe and scalable deployment (CCAM Partnership)",
+      "es": "Centro europeo de conocimiento sobre la CCAM y herramientas para un despliegue seguro y escalable (asociación europea CCAM)"
+    },
+    "HORIZON-CL5-2027-06-D6-08": {
+      "en": "Enhancing Mobility for All: affordable, reliable, and accessible multimodal transport for inclusive rural and urban connectivity – Societal Readiness pilot",
+      "es": "Mejorar la movilidad para todos: transporte multimodal asequible, fiable y accesible para una conectividad rural y urbana inclusiva – piloto de madurez social"
+    },
+    "HORIZON-CL5-2027-06-D6-11": {
+      "en": "Enhancing Resilience and Accuracy in Positioning, Navigation, and Timing (PNT) Systems and e-conspicuity solutions",
+      "es": "Mejorar la resiliencia y la precisión en los sistemas de posicionamiento, navegación y temporización (PNT) y las soluciones de visibilidad electrónica"
+    },
+    "HORIZON-CL5-2027-06-D6-12": {
+      "en": "Support for dissemination events in the field of Transport Research",
+      "es": "Apoyo para eventos de difusión en el ámbito de la investigación en transporte"
+    },
+    "HORIZON-CL5-2027-07-D3-11": {
+      "en": "Demonstration of hydropower technologies for efficient and forward-looking refurbishment of existing hydropower plants",
+      "es": "Demostración de tecnologías hidroeléctricas para la rehabilitación eficiente y con visión de futuro de las centrales hidroeléctricas existentes"
+    },
+    "HORIZON-CL5-2027-07-D3-16": {
+      "en": "Industrial processes and equipment for innovative, reliable and scalable tandem technologies (EUPI-PV Partnership)",
+      "es": "Procesos y equipos industriales para tecnologías tándem innovadoras, fiables y escalables (asociación europea EUPI-PV)"
+    },
+    "HORIZON-CL5-2027-07-D3-17": {
+      "en": "PV based electrification of the economy: Designing & optimising PV systems supporting industrial electrification and promoting participation in electricity markets (EUPI-PV Partnership)",
+      "es": "Electrificación fotovoltaica de la economía: diseñar y optimizar sistemas fotovoltaicos que apoyen la electrificación industrial y promuevan la participación en los mercados de electricidad (asociación europea EUPI-PV)"
+    },
+    "HORIZON-CL5-2027-07-D3-25": {
+      "en": "Advanced TSO control rooms to enhance grid observability, stability and resilience",
+      "es": "Salas de control avanzadas de los GRT para mejorar la observabilidad, la estabilidad y la resiliencia de la red"
+    },
+    "HORIZON-CL5-2027-07-D3-26": {
+      "en": "Advanced Distribution Management Systems (ADSM) for more efficient and flexible distribution grids",
+      "es": "Sistemas avanzados de gestión de la distribución (ADSM) para redes de distribución más eficientes y flexibles"
+    },
+    "HORIZON-CL5-2027-07-D3-27": {
+      "en": "Integrated Approaches for Retrofitting Infrastructures with Innovative Energy Storage Technologies",
+      "es": "Enfoques integrados para la readaptación de infraestructuras con tecnologías innovadoras de almacenamiento de energía"
+    },
+    "HORIZON-CL5-2027-07-D3-28": {
+      "en": "Community of practice - Data-Driven Decision-Making in Energy",
+      "es": "Comunidad de práctica: toma de decisiones basada en datos en el ámbito energético"
+    },
+    "HORIZON-CL5-2027-07-D3-32": {
+      "en": "Delivery of industrial CCUS clusters – Societal Readiness pilot",
+      "es": "Puesta en marcha de clústeres industriales de CCUS – piloto de madurez social"
+    },
+    "HORIZON-CL6-2026-04-GOVERNANCE-01": {
+      "en": "Additional activities for the European Partnership of Agriculture of Data",
+      "es": "Actividades adicionales para la asociación europea de agricultura de datos"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-01": {
+      "en": "Integrating Remote Sensing and in-situ observations of Biodiversity, towards a fully interoperable observation and data framework",
+      "es": "Integrar la teledetección y las observaciones in situ de la biodiversidad, hacia un marco de observación y datos plenamente interoperable"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-02": {
+      "en": "Science-policy support to the implementation of EU and global biodiversity policies and strategies",
+      "es": "Apoyo científico-normativo a la aplicación de las políticas y estrategias de la UE y mundiales en materia de biodiversidad"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-03": {
+      "en": "Technical innovation to protect ecosystems and to scale up their restoration",
+      "es": "Innovación técnica para proteger los ecosistemas y ampliar la escala de su restauración"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-04": {
+      "en": "Living Labs for the eradication and/or management of invasive alien species",
+      "es": "Laboratorios vivientes para la erradicación o la gestión de especies exóticas invasoras"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-05": {
+      "en": "Accelerating the transition to a nature positive economy: Integrating biodiversity into the private sector",
+      "es": "Acelerar la transición hacia una economía positiva para la naturaleza: integrar la biodiversidad en el sector privado"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-06": {
+      "en": "Living labs driving transformative change via knowledge integration and inclusive governance",
+      "es": "Laboratorios vivientes que impulsan el cambio transformador mediante la integración del conocimiento y una gobernanza inclusiva"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-07": {
+      "en": "Health of ecosystems and wild species, predictions and impacts on human health, in the face of existing and emerging stressors, from a One Health approach",
+      "es": "Salud de los ecosistemas y de las especies silvestres, predicciones y repercusiones en la salud humana, frente a factores de estrés existentes y emergentes, desde un enfoque «Una sola salud»"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-08": {
+      "en": "Fostering common farmland birds and mammals for resilient food production systems",
+      "es": "Fomentar las aves y los mamíferos comunes de los medios agrícolas para sistemas de producción de alimentos resilientes"
+    },
+    "HORIZON-CL6-2027-01-BIODIV-09": {
+      "en": "Enhancing the competitiveness of organic crop breeding: focus on intercropping adapted varieties",
+      "es": "Mejorar la competitividad del fitomejoramiento ecológico: especial atención a las variedades adaptadas al cultivo intercalado"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-01": {
+      "en": "Enhancing ecodesign and circularity of consumer electronics",
+      "es": "Mejorar el diseño ecológico y la circularidad de la electrónica de consumo"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-01-two-stage": {
+      "en": "Deploying circular systemic solutions through living labs in cities and regions (Circular Cities and Regions Initiative topic)",
+      "es": "Desplegar soluciones sistémicas circulares mediante laboratorios vivientes en ciudades y regiones (tema de la Iniciativa de Ciudades y Regiones Circulares)"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-02": {
+      "en": "Enhancing ecodesign and circularity of construction products",
+      "es": "Mejorar el diseño ecológico y la circularidad de los productos de construcción"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-02-two-stage": {
+      "en": "Open topic: Using the Circular Cities and Regions Initiative to strengthen urban manufacturing in support of the Clean Industrial Deal",
+      "es": "Tema abierto: utilizar la Iniciativa de Ciudades y Regiones Circulares para reforzar la fabricación urbana en apoyo del Pacto por una Industria Limpia"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-03": {
+      "en": "Developing novel recycling technologies for complex plastic materials applying biotech solutions",
+      "es": "Desarrollar nuevas tecnologías de reciclado para materiales plásticos complejos mediante la aplicación de soluciones biotecnológicas"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-04": {
+      "en": "Capacity building for extending product lifecycles through repair and refurbishment",
+      "es": "Desarrollo de capacidades para prolongar los ciclos de vida de los productos mediante la reparación y el reacondicionamiento"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-05": {
+      "en": "Innovative circular solutions for end-of-life footwear through collection, sorting and recycling",
+      "es": "Soluciones circulares innovadoras para el calzado al final de su vida útil mediante la recogida, la clasificación y el reciclado"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-06": {
+      "en": "Towards a Europe of Bioeconomy Places",
+      "es": "Hacia una Europa de territorios de bioeconomía"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-07": {
+      "en": "Improving biomass flows for a sustainable and circular bioeconomy",
+      "es": "Mejorar los flujos de biomasa para una bioeconomía sostenible y circular"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-08": {
+      "en": "Biotechnology application for CCU",
+      "es": "Aplicación de la biotecnología a la CCU"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-09": {
+      "en": "Increasing the circularity of bio-based sector: upcycling and recycling for higher value and environmental benefits",
+      "es": "Aumentar la circularidad del sector de base biológica: suprarreciclaje y reciclado para obtener mayor valor y beneficios medioambientales"
+    },
+    "HORIZON-CL6-2027-01-CIRCBIO-10": {
+      "en": "Strengthening forest research for the support of Ukraine",
+      "es": "Reforzar la investigación forestal en apoyo de Ucrania"
+    },
+    "HORIZON-CL6-2027-01-ZEROPOLLUTION-01": {
+      "en": "Replacing hazardous substances in biocidal products",
+      "es": "Sustituir las sustancias peligrosas en los biocidas"
+    },
+    "HORIZON-CL6-2027-01-ZEROPOLLUTION-02": {
+      "en": "Developing effective air quality planning strategies through innovative multi-scale modelling",
+      "es": "Desarrollar estrategias eficaces de planificación de la calidad del aire mediante una modelización multiescala innovadora"
+    },
+    "HORIZON-CL6-2027-01-ZEROPOLLUTION-03": {
+      "en": "Improve the capacity to monitor and reduce air pollution from agriculture",
+      "es": "Mejorar la capacidad de seguimiento y reducción de la contaminación atmosférica procedente de la agricultura"
+    },
+    "HORIZON-CL6-2027-01-ZEROPOLLUTION-04": {
+      "en": "Europe-wide environmental benchmarking system of the industrial bioeconomy sectors",
+      "es": "Sistema de evaluación comparativa medioambiental a escala europea de los sectores de la bioeconomía industrial"
+    },
+    "HORIZON-CL6-2027-02-CLIMATE-01": {
+      "en": "Governance, sustainable development and international politics of a future ice-free Arctic",
+      "es": "Gobernanza, desarrollo sostenible y política internacional de un futuro Ártico sin hielo"
+    },
+    "HORIZON-CL6-2027-02-CLIMATE-01-two-stage": {
+      "en": "Open topic: Innovative solutions for the European Water Resilience Strategy",
+      "es": "Tema abierto: soluciones innovadoras para la Estrategia Europea de Resiliencia Hídrica"
+    },
+    "HORIZON-CL6-2027-02-CLIMATE-02": {
+      "en": "Strengthening evidence-based policies for the resilience of European agriculture and forestry and related supply chains against crises and systemic risks",
+      "es": "Reforzar las políticas basadas en datos contrastados para la resiliencia de la agricultura y la silvicultura europeas y de las cadenas de suministro asociadas frente a crisis y riesgos sistémicos"
+    },
+    "HORIZON-CL6-2027-02-CLIMATE-03": {
+      "en": "Carbon farming innovation and scale-up",
+      "es": "Innovación y ampliación de escala de la carbonocultura"
+    },
+    "HORIZON-CL6-2027-02-CLIMATE-04": {
+      "en": "Unlocking a safe operating space for Antarctica and the Southern Ocean",
+      "es": "Liberar un espacio operativo seguro para la Antártida y el océano Austral"
+    },
+    "HORIZON-CL6-2027-02-COMMUNITIES-01": {
+      "en": "Strengthening rural communities' resilience to shocks",
+      "es": "Reforzar la resiliencia de las comunidades rurales frente a las perturbaciones"
+    },
+    "HORIZON-CL6-2027-02-COMMUNITIES-02": {
+      "en": "Empowering local urban food systems entrepreneurship and innovation",
+      "es": "Potenciar el emprendimiento y la innovación en los sistemas alimentarios urbanos locales"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-01": {
+      "en": "Increasing the resilience of agriculture in water and nutrient-scarce environments through digital innovations",
+      "es": "Aumentar la resiliencia de la agricultura en entornos con escasez de agua y nutrientes mediante innovaciones digitales"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-01-two-stage": {
+      "en": "Strengthening plant health: addressing emerging plant pest risks",
+      "es": "Reforzar la sanidad vegetal: abordar los riesgos emergentes de plagas de los vegetales"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-02": {
+      "en": "Increasing mitigation of GHG emissions and feed efficiency through feed additives",
+      "es": "Aumentar la mitigación de las emisiones de GEI y la eficiencia alimentaria mediante aditivos para piensos"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-02-two-stage": {
+      "en": "Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA)",
+      "es": "Optimizar el nexo agua-nutrientes-energía para una agricultura sostenible y climáticamente inteligente en África (FNSSA)"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-03": {
+      "en": "Microbiome for terrestrial livestock sustainability and health within a One Health approach",
+      "es": "Microbioma para la sostenibilidad y la salud del ganado terrestre en el marco de un enfoque «Una sola salud»"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-04": {
+      "en": "Improving understanding of the contribution of the organic farming sector to sustainability",
+      "es": "Mejorar la comprensión de la contribución del sector de la agricultura ecológica a la sostenibilidad"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-05": {
+      "en": "Enhancing farmer's profitability and resilience through innovations for diversified crops and value chains",
+      "es": "Mejorar la rentabilidad y la resiliencia del agricultor mediante innovaciones para cultivos y cadenas de valor diversificados"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-06": {
+      "en": "Unleashing the potential of sustainable small-scale aquatic food production and recreational fisheries for prosperous local communities",
+      "es": "Liberar el potencial de la producción sostenible de alimentos acuáticos a pequeña escala y de la pesca recreativa para comunidades locales prósperas"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-07": {
+      "en": "Towards commercialization of food systems microbiome solutions",
+      "es": "Hacia la comercialización de soluciones de microbioma para los sistemas alimentarios"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-08": {
+      "en": "AI-powered foodome characterization",
+      "es": "Caracterización del foodoma basada en IA"
+    },
+    "HORIZON-CL6-2027-02-FARM2FORK-09": {
+      "en": "African Union – European Union Partnership on Food and Nutrition Security and Sustainable Agriculture (FNSSA)",
+      "es": "Asociación entre la Unión Africana y la Unión Europea sobre seguridad alimentaria y nutricional y agricultura sostenible (FNSSA)"
+    },
+    "HORIZON-CL6-2027-03-GOVERNANCE-01": {
+      "en": "Strengthening the resilience of European farmers through improved capacity in coping with risks and crises",
+      "es": "Reforzar la resiliencia de los agricultores europeos mediante una mejor capacidad para afrontar riesgos y crisis"
+    },
+    "HORIZON-CL6-2027-03-GOVERNANCE-02": {
+      "en": "Improving analytical capacity for sustainable competitiveness of the agricultural sector",
+      "es": "Mejorar la capacidad analítica para la competitividad sostenible del sector agrícola"
+    },
+    "HORIZON-CL6-2027-03-GOVERNANCE-03": {
+      "en": "International dimension of the circular bio-based economy: seeking win-win opportunities",
+      "es": "Dimensión internacional de la economía circular de base biológica: buscar oportunidades mutuamente beneficiosas"
+    },
+    "HORIZON-CL6-2027-03-GOVERNANCE-04": {
+      "en": "AI supporting informed advice for farmers and foresters to improve competitiveness and sustainability",
+      "es": "IA que apoya un asesoramiento fundamentado para agricultores y silvicultores con el fin de mejorar la competitividad y la sostenibilidad"
+    },
+    "HORIZON-CL6-2027-03-GOVERNANCE-05": {
+      "en": "Increasing knowledge flows to practice within AKIS via EU thematic knowledge hubs",
+      "es": "Aumentar los flujos de conocimiento hacia la práctica en los AKIS mediante centros de conocimiento temáticos de la UE"
+    },
+    "HORIZON-CL6-2027-03-GOVERNANCE-06": {
+      "en": "Fostering generational renewal in agriculture via EU advisory network",
+      "es": "Fomentar el relevo generacional en la agricultura mediante una red de asesoramiento de la UE"
+    },
+    "HORIZON-CL6-2027-03-GOVERNANCE-07": {
+      "en": "Strengthening strategic advice and synergies between EU and national Research and Innovation agendas and investments",
+      "es": "Reforzar el asesoramiento estratégico y las sinergias entre las agendas e inversiones de investigación e innovación de la UE y las nacionales"
+    },
+    "HORIZON-EIC-2026-PRIZE-WIP": {
+      "en": "The European Prize for Women Innovators",
+      "es": "Premio Europeo para Mujeres Innovadoras"
+    },
+    "HORIZON-EIC-2026-PRIZE-WIP-RisingInnovators": {
+      "en": "Rising Innovators category",
+      "es": "Categoría «Innovadoras emergentes»"
+    },
+    "HORIZON-EIE-2027-01-CONNECT-02": {
+      "en": "Reinforcing synergies between experimentation spaces and innovation procurement",
+      "es": "Reforzar las sinergias entre los espacios de experimentación y la compra pública de innovación"
+    },
+    "HORIZON-EIE-2027-01-CONNECT-03": {
+      "en": "Enhancing the involvement of philanthropic organisations in innovation ecosystems",
+      "es": "Mejorar la implicación de las organizaciones filantrópicas en los ecosistemas de innovación"
+    },
+    "HORIZON-EIE-2027-02-CONNECT-01": {
+      "en": "European Startup and Scaleup Hubs pilot",
+      "es": "Proyecto piloto de centros europeos de empresas emergentes y en expansión"
+    },
+    "HORIZON-EIT-2026-PRIZE-WIP-LEADERSHIP": {
+      "en": "Women Leadership Category",
+      "es": "Categoría «Liderazgo femenino»"
+    },
+    "HORIZON-EURATOM-2027-01-01": {
+      "en": "Key enabling technologies for fusion power plants (European Partnership on Fusion Energy)",
+      "es": "Tecnologías facilitadoras esenciales para centrales de fusión (asociación europea sobre energía de fusión)"
+    },
+    "HORIZON-EURATOM-2027-02-01": {
+      "en": "Key enabling technologies for fusion power plants (European Partnership on Fusion Energy)",
+      "es": "Tecnologías facilitadoras esenciales para centrales de fusión (asociación europea sobre energía de fusión)"
+    },
+    "HORIZON-HLTH-2026-03-DISEASE-13": {
+      "en": "European Partnership for Pandemic Preparedness (Phase 2)",
+      "es": "Asociación europea para la preparación frente a pandemias (fase 2)"
+    },
+    "HORIZON-HLTH-2027-01-CARE-02": {
+      "en": "Personalised approaches to reduce risks from Adverse Drug Reactions due to administration of multiple medications",
+      "es": "Enfoques personalizados para reducir los riesgos de reacciones adversas a medicamentos debidas a la administración de múltiples fármacos"
+    },
+    "HORIZON-HLTH-2027-01-DISEASE-05": {
+      "en": "Development of novel small molecule antiviral therapeutics for pathogens with epidemic potential",
+      "es": "Desarrollo de nuevas terapias antivirales de molécula pequeña contra patógenos con potencial epidémico"
+    },
+    "HORIZON-HLTH-2027-01-DISEASE-06": {
+      "en": "Development of monoclonal antibodies to prevent and treat infections from Flaviviruses",
+      "es": "Desarrollo de anticuerpos monoclonales para prevenir y tratar infecciones por flavivirus"
+    },
+    "HORIZON-HLTH-2027-01-DISEASE-07": {
+      "en": "Development of monoclonal antibodies to prevent and treat infections from Filo-, Nairo-, Phenui-, Picorna- and Toga viruses",
+      "es": "Desarrollo de anticuerpos monoclonales para prevenir y tratar infecciones por filo-, nairo-, fenui-, picorna- y togavirus"
+    },
+    "HORIZON-HLTH-2027-01-DISEASE-08": {
+      "en": "Development of innovative antimicrobials against pathogens resistant to antimicrobials",
+      "es": "Desarrollo de antimicrobianos innovadores contra patógenos resistentes a los antimicrobianos"
+    },
+    "HORIZON-HLTH-2027-01-DISEASE-10": {
+      "en": "Prevention and management of chronic non-communicable diseases in children and young people (GACD)",
+      "es": "Prevención y gestión de las enfermedades crónicas no transmisibles en niños y jóvenes (GACD)"
+    },
+    "HORIZON-HLTH-2027-01-ENVHLTH-02": {
+      "en": "Integrating climate-related exposures into the human exposome and characterising its changes in response to climate change",
+      "es": "Integrar las exposiciones relacionadas con el clima en el exposoma humano y caracterizar sus cambios en respuesta al cambio climático"
+    },
+    "HORIZON-HLTH-2027-01-ENVHLTH-MISSCLIMA-03": {
+      "en": "Tools and technologies to support health adaptation to climate change",
+      "es": "Herramientas y tecnologías para apoyar la adaptación al cambio climático en el ámbito de la salud"
+    },
+    "HORIZON-HLTH-2027-01-IND-01": {
+      "en": "Development of cell-free protein synthesis platforms for discovery and/or production of biologicals",
+      "es": "Desarrollo de plataformas de síntesis de proteínas libre de células para el descubrimiento o la producción de productos biológicos"
+    },
+    "HORIZON-HLTH-2027-01-STAYHLTH-01": {
+      "en": "Addressing disabilities through the life course to support independent living and inclusion",
+      "es": "Abordar las discapacidades a lo largo del ciclo vital para apoyar la vida independiente y la inclusión"
+    },
+    "HORIZON-HLTH-2027-02-DISEASE-01-two-stage": {
+      "en": "Innovative healthcare interventions for non-communicable diseases",
+      "es": "Intervenciones innovadoras de asistencia sanitaria para las enfermedades no transmisibles"
+    },
+    "HORIZON-HLTH-2027-02-DISEASE-14-two-stage": {
+      "en": "Clinical trials for advancing innovative interventions for neurodegenerative diseases",
+      "es": "Ensayos clínicos para avanzar en intervenciones innovadoras contra las enfermedades neurodegenerativas"
+    },
+    "HORIZON-HLTH-2027-02-IND-02-two-stage": {
+      "en": "Portable and versatile Point-of-care diagnostics",
+      "es": "Diagnóstico portátil y versátil en el punto de atención"
+    },
+    "HORIZON-HLTH-2027-02-TOOL-01-two-stage": {
+      "en": "Development of predictive biomarkers of disease progression and treatment response by using AI methodologies for chronic non-communicable diseases",
+      "es": "Desarrollo de biomarcadores predictivos de la progresión de la enfermedad y de la respuesta al tratamiento mediante metodologías de IA para las enfermedades crónicas no transmisibles"
+    },
+    "HORIZON-HLTH-2027-03-TOOL-02": {
+      "en": "Advancing bio-printing of living cells for regenerative medicine",
+      "es": "Avanzar en la bioimpresión de células vivas para la medicina regenerativa"
+    },
+    "HORIZON-HLTH-2027-03-TOOL-04": {
+      "en": "Virtual Human Twins (VHTs) for integrated clinical decision support in prevention and diagnosis",
+      "es": "Gemelos humanos virtuales (VHT) para el apoyo integrado a la decisión clínica en la prevención y el diagnóstico"
+    },
+    "HORIZON-HLTH-2027-03-TOOL-08": {
+      "en": "Towards the next generation of frontier Artificial Intelligence models for healthcare",
+      "es": "Hacia la próxima generación de modelos de inteligencia artificial de frontera para la asistencia sanitaria"
+    },
+    "HORIZON-INFRA-2027-01-EOSC-01": {
+      "en": "Expanding and deepening the EOSC Federation (EOSC Partnership)",
+      "es": "Ampliar y profundizar la Federación EOSC (asociación europea EOSC)"
+    },
+    "HORIZON-INFRA-2027-01-EOSC-02": {
+      "en": "Strengthening the potential of the EOSC for knowledge valorisation and industry-academia collaboration (EOSC Partnership)",
+      "es": "Reforzar el potencial de la EOSC para la valorización del conocimiento y la colaboración entre la industria y el mundo académico (asociación europea EOSC)"
+    },
+    "HORIZON-INFRA-2027-DEV-01-01": {
+      "en": "Preparatory phase of new ESFRI research infrastructure projects",
+      "es": "Fase preparatoria de nuevos proyectos de infraestructuras de investigación ESFRI"
+    },
+    "HORIZON-INFRA-2027-DEV-01-02": {
+      "en": "Consolidation of the research infrastructure landscape – development of complementarities, synergies and/or integration between a set of pan-European research infrastructures",
+      "es": "Consolidación del panorama de las infraestructuras de investigación: desarrollo de complementariedades, sinergias o integración entre un conjunto de infraestructuras de investigación paneuropeas"
+    },
+    "HORIZON-INFRA-2027-DEV-01-03": {
+      "en": "Consolidation of the research infrastructure landscape – individual support for evolution, long-term sustainability and emerging needs of pan-European research infrastructures",
+      "es": "Consolidación del panorama de las infraestructuras de investigación: apoyo individual para la evolución, la sostenibilidad a largo plazo y las necesidades emergentes de las infraestructuras de investigación paneuropeas"
+    },
+    "HORIZON-INFRA-2027-SERV-01-01": {
+      "en": "Access to research infrastructures, their resources and services: large-scale pilots for more integrated scheme across (sub)domains",
+      "es": "Acceso a las infraestructuras de investigación, sus recursos y servicios: proyectos piloto a gran escala para un programa más integrado entre (sub)ámbitos"
+    },
+    "HORIZON-INFRA-2027-SERV-01-02": {
+      "en": "Access to research infrastructure services to enable R&I addressing EU priorities and emerging challenges",
+      "es": "Acceso a los servicios de infraestructuras de investigación para posibilitar una I+i que aborde las prioridades de la UE y los retos emergentes"
+    },
+    "HORIZON-INFRA-2027-SERV-01-03": {
+      "en": "Connecting research infrastructures and a wider user community across the European Research Area through access to advanced research infrastructure services",
+      "es": "Conectar las infraestructuras de investigación con una comunidad de usuarios más amplia en todo el Espacio Europeo de Investigación mediante el acceso a servicios avanzados de infraestructuras de investigación"
+    },
+    "HORIZON-INFRA-2027-TECH-01-01": {
+      "en": "Testing and optimising models of co-creation of advanced research infrastructure technologies",
+      "es": "Probar y optimizar modelos de cocreación de tecnologías avanzadas de infraestructuras de investigación"
+    },
+    "HORIZON-INFRA-2027-TECH-01-02": {
+      "en": "Pioneering Destination Earth for a Sustainable Future: Large-Scale Pilots and Demonstrators",
+      "es": "Abrir camino con Destination Earth para un futuro sostenible: proyectos piloto y demostradores a gran escala"
+    },
+    "HORIZON-JU-EUROHPC-2026-NAPT-11-01": {
+      "en": "Neutral-Atom Platform Technologies",
+      "es": "Tecnologías de plataforma de átomos neutros"
+    },
+    "HORIZON-JU-EUROHPC-2026-NQKD-12-01": {
+      "en": "Next-Generation QKD Systems",
+      "es": "Sistemas de QKD de nueva generación"
+    },
+    "HORIZON-JU-EUROHPC-2026-QEXP-14-01": {
+      "en": "Quantum Experimental Pilot Lines for Quantum Technologies",
+      "es": "Líneas piloto cuánticas experimentales para tecnologías cuánticas"
+    },
+    "HORIZON-JU-EUROHPC-2026-QML-07-01": {
+      "en": "Quantum Machine Learning",
+      "es": "Aprendizaje automático cuántico"
+    },
+    "HORIZON-JU-EUROHPC-2026-QTI-13-01": {
+      "en": "Quantum-Testing Infrastructure for Quantum Technologies",
+      "es": "Infraestructura de ensayos cuánticos para tecnologías cuánticas"
+    },
+    "HORIZON-JU-EUROHPC-2026-SPT-10-01": {
+      "en": "Superconducting Platform Technologies",
+      "es": "Tecnologías de plataforma superconductora"
+    },
+    "HORIZON-JU-EUROHPC-2026-TIPT-09-01": {
+      "en": "Trapped-Ion Platform Technologies",
+      "es": "Tecnologías de plataforma de iones atrapados"
+    },
+    "HORIZON-MISS-2026-07-CROSS-04": {
+      "en": "Demonstrating place-based experimentation and innovation spaces as enabling environments for scaling EU Missions",
+      "es": "Demostrar espacios de experimentación e innovación de base territorial como entornos propicios para ampliar la escala de las misiones de la UE"
+    },
+    "HORIZON-MISS-2027-01-CLIMA-01": {
+      "en": "Demonstrating transformative solutions to increase cross-border climate resilience",
+      "es": "Demostrar soluciones transformadoras para aumentar la resiliencia climática transfronteriza"
+    },
+    "HORIZON-MISS-2027-01-CLIMA-02": {
+      "en": "Researching and applying the potential of Artificial Intelligence to foster climate resilience at the regional and local levels",
+      "es": "Investigar y aprovechar el potencial de la inteligencia artificial para fomentar la resiliencia climática a escala regional y local"
+    },
+    "HORIZON-MISS-2027-02-CANCER-01": {
+      "en": "Leveraging functional genomics to reveal novel targets for cancer treatment",
+      "es": "Aprovechar la genómica funcional para descubrir nuevas dianas para el tratamiento del cáncer"
+    },
+    "HORIZON-MISS-2027-02-CANCER-02": {
+      "en": "Clinical research by Comprehensive Cancer Infrastructures for the benefit of patients with common cancers",
+      "es": "Investigación clínica a cargo de infraestructuras oncológicas integrales en beneficio de los pacientes con cánceres frecuentes"
+    },
+    "HORIZON-MISS-2027-02-CANCER-03": {
+      "en": "Phase 1 including first-in-human clinical trials to test biomarker-guided medicines or multi-modal treatment interventions for patients with rare or very rare cancers or cancer subtypes",
+      "es": "Ensayos clínicos de fase 1, incluidos los de primera administración en humanos, para probar medicamentos guiados por biomarcadores o intervenciones terapéuticas multimodales en pacientes con cánceres o subtipos de cáncer raros o muy raros"
+    },
+    "HORIZON-MISS-2027-02-CANCER-04": {
+      "en": "Improving equitable health outcomes and added value for and with cancer patients through health-economics research, health systems research and outcomes research",
+      "es": "Mejorar los resultados equitativos en salud y el valor añadido para y con los pacientes oncológicos mediante la investigación en economía de la salud, la investigación en sistemas sanitarios y la investigación de resultados"
+    },
+    "HORIZON-MISS-2027-02-CANCER-05": {
+      "en": "Pre-commercial procurement of affordable solutions for healthcare systems in the areas of cancer technologies, cancer medical devices, or cancer medicines",
+      "es": "Compra pública precomercial de soluciones asequibles para los sistemas de asistencia sanitaria en los ámbitos de las tecnologías, los productos sanitarios o los medicamentos contra el cáncer"
+    },
+    "HORIZON-MISS-2027-02-CANCER-06": {
+      "en": "Support a Young Cancer Survivor Quality of Life (QoL) research programme by cancer charities and funding agencies",
+      "es": "Apoyar un programa de investigación sobre la calidad de vida (QoL) de jóvenes supervivientes de cáncer promovido por organizaciones benéficas contra el cáncer y organismos de financiación"
+    },
+    "HORIZON-MISS-2027-03-OCEAN-01": {
+      "en": "Increasing riparian and coastal areas resilience to climate change, including in waterfront cities and islands.",
+      "es": "Aumentar la resiliencia de las zonas de ribera y costeras frente al cambio climático, también en ciudades ribereñas e islas"
+    },
+    "HORIZON-MISS-2027-03-OCEAN-02": {
+      "en": "Circularity of seafood supply chain",
+      "es": "Circularidad de la cadena de suministro de productos del mar"
+    },
+    "HORIZON-MISS-2027-03-OCEAN-03": {
+      "en": "Green, circular and resilient harbours",
+      "es": "Puertos verdes, circulares y resilientes"
+    },
+    "HORIZON-MISS-2027-03-OCEAN-04": {
+      "en": "Towards community-driven business models: coastal and freshwaters sustainable tourism",
+      "es": "Hacia modelos de negocio impulsados por la comunidad: turismo sostenible en zonas costeras y de agua dulce"
+    },
+    "HORIZON-MISS-2027-03-OCEAN-05": {
+      "en": "Large-scale demonstration of protection, restoration and management of blue forest ecosystems in European sea basins",
+      "es": "Demostración a gran escala de la protección, la restauración y la gestión de los ecosistemas de bosques azules en las cuencas marítimas europeas"
+    },
+    "HORIZON-MISS-2027-04-CIT-01": {
+      "en": "Innovative microgrids for improved energy system integration and efficiency in urban contexts",
+      "es": "Microrredes innovadoras para mejorar la integración y la eficiencia del sistema energético en entornos urbanos"
+    },
+    "HORIZON-MISS-2027-04-CIT-02": {
+      "en": "Hydrogen cities",
+      "es": "Ciudades del hidrógeno"
+    },
+    "HORIZON-MISS-2027-04-CIT-03": {
+      "en": "Inclusive and climate resilient multimodal passenger hubs enhancing modal shift towards sustainable transport and shared mobility",
+      "es": "Intercambiadores multimodales de pasajeros inclusivos y resilientes al clima que potencien el cambio modal hacia el transporte sostenible y la movilidad compartida"
+    },
+    "HORIZON-MISS-2027-04-CIT-05": {
+      "en": "Boosting the transformation towards climate-neutral cities, the net-zero economy and open strategic autonomy through Pre-Commercial Procurement (PCP)",
+      "es": "Impulsar la transformación hacia ciudades climáticamente neutras, la economía de cero emisiones netas y la autonomía estratégica abierta mediante la compra pública precomercial (CPP)"
+    },
+    "HORIZON-MISS-2027-04-CIT-CCRI-04": {
+      "en": "Advancing circular logistics solutions in cities",
+      "es": "Avanzar en soluciones de logística circular en las ciudades"
+    },
+    "HORIZON-MISS-2027-05-SOIL-01-two-stage": {
+      "en": "Living labs to enhance soil health in Continental, Black Sea, Pannonian and Steppic biogeographical regions",
+      "es": "Laboratorios vivientes para mejorar la salud del suelo en las regiones biogeográficas continental, del mar Negro, panónica y estépica"
+    },
+    "HORIZON-MISS-2027-05-SOIL-02-two-stage": {
+      "en": "Living Labs for co-creating solutions to reduce eutrophication from agriculture",
+      "es": "Laboratorios vivientes para cocrear soluciones que reduzcan la eutrofización de origen agrícola"
+    },
+    "HORIZON-MISS-2027-05-SOIL-03-two-stage": {
+      "en": "Agroforestry for soil health at landscape level",
+      "es": "Agrosilvicultura para la salud del suelo a escala de paisaje"
+    },
+    "HORIZON-MISS-2027-05-SOIL-04-two-stage": {
+      "en": "Participatory research on the health of communities in contact with polluted soils",
+      "es": "Investigación participativa sobre la salud de las comunidades en contacto con suelos contaminados"
+    },
+    "HORIZON-MISS-2027-05-SOIL-05-two-stage": {
+      "en": "Innovative biotechnologies to restore soil health and improve agricultural competitiveness and resilience",
+      "es": "Biotecnologías innovadoras para restaurar la salud del suelo y mejorar la competitividad y la resiliencia de la agricultura"
+    },
+    "HORIZON-MISS-2027-05-SOIL-06-two-stage": {
+      "en": "Long-term drivers and consequences of soil degradation: learning from the past to improve future soil health",
+      "es": "Factores impulsores y consecuencias a largo plazo de la degradación del suelo: aprender del pasado para mejorar la salud del suelo en el futuro"
+    },
+    "HORIZON-MISS-2027-06-SOIL-CANCER": {
+      "en": "Living labs to monitor and mitigate carcinogenic substances in and originating from soils: Evaluating their effects on human cancer risks",
+      "es": "Laboratorios vivientes para el seguimiento y la mitigación de las sustancias carcinógenas presentes en los suelos y procedentes de ellos: evaluar sus efectos sobre los riesgos de cáncer en el ser humano"
+    },
+    "HORIZON-MISS-2027-07-CLIMA-CIT-CCRI-02": {
+      "en": "Deploying innovative wastewater management, treatment and valorisation solutions in European cities and regions in the context of climate change",
+      "es": "Desplegar soluciones innovadoras de gestión, tratamiento y valorización de las aguas residuales en ciudades y regiones europeas en el contexto del cambio climático"
+    },
+    "HORIZON-MISS-2027-07-CLIMA-CIT-NEB-01": {
+      "en": "Urban nature: supporting restoration of urban ecosystems, along urban transport networks and in the built environment  ",
+      "es": "Naturaleza urbana: apoyar la restauración de los ecosistemas urbanos, a lo largo de las redes de transporte urbano y en el entorno construido"
+    },
+    "HORIZON-MSCA-2026-DN-01-01": {
+      "en": "MSCA Doctoral Networks 2026",
+      "es": "Redes doctorales MSCA 2026"
+    },
+    "HORIZON-MSCA-2027-CITIZENS-01-01": {
+      "en": "MSCA and Citizens 2027",
+      "es": "MSCA y la ciudadanía 2027"
+    },
+    "HORIZON-MSCA-2027-COFUND-01-01": {
+      "en": "MSCA COFUND 2027",
+      "es": "MSCA COFUND 2027"
+    },
+    "HORIZON-MSCA-2027-COFUND-02-01": {
+      "en": "MSCA Choose Europe for Science 2027",
+      "es": "MSCA «Elige Europa para la ciencia» 2027"
+    },
+    "HORIZON-MSCA-2027-DN-01-01": {
+      "en": "MSCA Doctoral Networks 2027",
+      "es": "Redes doctorales MSCA 2027"
+    },
+    "HORIZON-MSCA-2027-PF-01-01": {
+      "en": "MSCA Postdoctoral Fellowships 2027",
+      "es": "Becas posdoctorales MSCA 2027"
+    },
+    "HORIZON-MSCA-2027-SE-01-01": {
+      "en": "MSCA Staff Exchanges 2027",
+      "es": "Intercambios de personal MSCA 2027"
+    },
+    "HORIZON-NATURE-2027-01-01": {
+      "en": "Understanding the nature and the extent of the effects of PFAS on biodiversity and ecosystem services",
+      "es": "Comprender la naturaleza y el alcance de los efectos de las PFAS sobre la biodiversidad y los servicios ecosistémicos"
+    },
+    "HORIZON-NATURE-2027-01-02": {
+      "en": "Better understanding, anticipating and addressing the biodiversity benefits and impacts of the clean and digital industries",
+      "es": "Comprender mejor, anticipar y abordar los beneficios y los impactos de las industrias limpias y digitales en la biodiversidad"
+    },
+    "HORIZON-NATURE-2027-01-03": {
+      "en": "Systemic approaches to accelerate transformative change for biodiversity",
+      "es": "Enfoques sistémicos para acelerar el cambio transformador en favor de la biodiversidad"
+    },
+    "HORIZON-NATURE-2027-02-01": {
+      "en": "Assessing direct and indirect drivers of biodiversity decline of invertebrates",
+      "es": "Evaluar los factores impulsores directos e indirectos del declive de la biodiversidad de los invertebrados"
+    },
+    "HORIZON-NATURE-2027-02-02": {
+      "en": "Living labs co-creating solutions for the restoration of ecosystems addressing implementation bottlenecks and improving resilience to risks",
+      "es": "Laboratorios vivientes que cocrean soluciones para la restauración de los ecosistemas orientadas a abordar los cuellos de botella en la aplicación y a mejorar la resiliencia frente a los riesgos"
+    },
+    "HORIZON-NATURE-2027-02-03": {
+      "en": "Networking to scale up living labs for nature restoration solutions and to address bottlenecks to implementation",
+      "es": "Trabajar en red para ampliar la escala de los laboratorios vivientes sobre soluciones de restauración de la naturaleza y para abordar los cuellos de botella en la aplicación"
+    },
+    "HORIZON-NATURE-2027-02-04": {
+      "en": "Innovative solutions to fight wildlife trafficking and to reduce invasion of invasive alien species",
+      "es": "Soluciones innovadoras para combatir el tráfico de especies silvestres y reducir la invasión de especies exóticas invasoras"
+    },
+    "HORIZON-NATURE-2027-02-05": {
+      "en": "Cost-effective biodiversity monitoring for EU policies",
+      "es": "Seguimiento de la biodiversidad eficaz en relación con los costes para las políticas de la UE"
+    },
+    "HORIZON-NATURE-2027-03-01": {
+      "en": "Advancing interdisciplinary, data-driven research at the biodiversity- health interface under a One Health approach",
+      "es": "Avanzar en la investigación interdisciplinar y basada en datos en la interfaz entre la biodiversidad y la salud con un enfoque «Una sola salud»"
+    },
+    "HORIZON-NATURE-2027-04-01": {
+      "en": "A stronger Global Ocean Observing System to enhance Europe’s strategic autonomy, climate resilience and biodiversity conservation",
+      "es": "Un Sistema Mundial de Observación de los Océanos más sólido para reforzar la autonomía estratégica de Europa, su resiliencia climática y la conservación de la biodiversidad"
+    },
+    "HORIZON-NEB-2026-01-BUSINESS-01": {
+      "en": "Structurally addressing homelessness through coordinated social infrastructure and services in neighbourhoods",
+      "es": "Abordar de forma estructural el sinhogarismo mediante infraestructuras y servicios sociales coordinados en los barrios"
+    },
+    "HORIZON-NEB-2026-01-BUSINESS-02": {
+      "en": "Understanding capital market dynamics for increased investment in New European Bauhaus projects in neighbourhoods",
+      "es": "Comprender la dinámica de los mercados de capitales para una mayor inversión en proyectos de la Nueva Bauhaus Europea en los barrios"
+    },
+    "HORIZON-NEB-2026-01-BUSINESS-03": {
+      "en": "Approaches to reuse vacant, obsolete or underutilised spaces",
+      "es": "Enfoques para reutilizar espacios desocupados, obsoletos o infrautilizados"
+    },
+    "HORIZON-NEB-2026-01-PARTICIPATION-01": {
+      "en": "Addressing homelessness through housing-led approaches aligned with the New European Bauhaus",
+      "es": "Abordar el sinhogarismo mediante enfoques centrados en la vivienda en consonancia con la Nueva Bauhaus Europea"
+    },
+    "HORIZON-NEB-2026-01-PARTICIPATION-02": {
+      "en": "Innovative approaches for the spatial design of neighbourhoods",
+      "es": "Enfoques innovadores para el diseño espacial de los barrios"
+    },
+    "HORIZON-NEB-2026-01-PARTICIPATION-03": {
+      "en": "Understanding inhabitant’s experiences of neighbourhoods to support their health and well-being",
+      "es": "Comprender las experiencias de los habitantes en sus barrios para favorecer su salud y su bienestar"
+    },
+    "HORIZON-NEB-2026-01-REGEN-01": {
+      "en": "Sustainable, inclusive, affordable and beautiful solutions for thermal comfort in buildings",
+      "es": "Soluciones sostenibles, inclusivas, asequibles y bellas para el confort térmico en los edificios"
+    },
+    "HORIZON-NEB-2026-01-REGEN-02": {
+      "en": "Advancing sustainable maintenance and repair measures for existing buildings",
+      "es": "Avanzar en medidas sostenibles de mantenimiento y reparación de los edificios existentes"
+    },
+    "HORIZON-NEB-2026-01-REGEN-03": {
+      "en": "Innovative solutions for the sustainable and beautiful use of vertical space",
+      "es": "Soluciones innovadoras para el uso sostenible y bello del espacio vertical"
+    },
+    "HORIZON-NEB-2027-01-BUSINESS-01": {
+      "en": "Mass customisation of offsite manufactured modular construction components to transform the existing built environment",
+      "es": "Personalización en masa de componentes de construcción modulares fabricados fuera de obra para transformar el entorno construido existente"
+    },
+    "HORIZON-NEB-2027-01-BUSINESS-02": {
+      "en": "Innovative models for collective community investment and ownership",
+      "es": "Modelos innovadores de inversión y propiedad colectivas de la comunidad"
+    },
+    "HORIZON-NEB-2027-01-BUSINESS-03": {
+      "en": "Anticipating the long-term future of neighbourhoods in line with the New European Bauhaus",
+      "es": "Anticipar el futuro a largo plazo de los barrios en consonancia con la Nueva Bauhaus Europea"
+    },
+    "HORIZON-NEB-2027-01-PARTICIPATION-01": {
+      "en": "The transformative potential of co-governance in the green transition of neighbourhoods",
+      "es": "El potencial transformador de la cogobernanza en la transición ecológica de los barrios"
+    },
+    "HORIZON-NEB-2027-01-PARTICIPATION-02": {
+      "en": "Intergenerational neighbourhoods and communities aligned with the New European Bauhaus",
+      "es": "Barrios y comunidades intergeneracionales en consonancia con la Nueva Bauhaus Europea"
+    },
+    "HORIZON-NEB-2027-01-PARTICIPATION-03": {
+      "en": "Novel combinations of knowledge and research methods to address social issues and advance a fair green transition of neighbourhoods",
+      "es": "Nuevas combinaciones de conocimientos y métodos de investigación para abordar cuestiones sociales e impulsar una transición ecológica justa de los barrios"
+    },
+    "HORIZON-NEB-2027-01-REGEN-01": {
+      "en": "Combining conventional and innovative construction materials, products and techniques for sustainable and beautiful buildings",
+      "es": "Combinar materiales, productos y técnicas de construcción convencionales e innovadores para edificios sostenibles y bellos"
+    },
+    "HORIZON-NEB-2027-01-REGEN-02": {
+      "en": "Sustainable, beautiful and healthy construction and renovation sites",
+      "es": "Obras de construcción y renovación sostenibles, bellas y saludables"
+    },
+    "HORIZON-NEB-2027-01-REGEN-03-CANCELLED": {
+      "en": "Revitalising neighbourhoods around existing railway and motorway corridors",
+      "es": "Revitalizar los barrios en torno a los corredores ferroviarios y de autopista existentes"
+    },
+    "HORIZON-NEB-2027-01-REGEN-04": {
+      "en": "Enabling environments for a sustainable and circular construction sector",
+      "es": "Entornos propicios para un sector de la construcción sostenible y circular"
+    },
+    "HORIZON-NEB-2027-02-NEB-SOIL-01": {
+      "en": "Reducing soil sealing through sustainable urban and territorial design in the New European Bauhaus",
+      "es": "Reducir el sellado del suelo mediante un diseño urbano y territorial sostenible en el marco de la Nueva Bauhaus Europea"
+    },
+    "HORIZON-RAISE-2026-01-03": {
+      "en": "RAISE Doctoral Networks for AI in Science (RAISE pilot)",
+      "es": "Redes doctorales RAISE para la IA en la ciencia (piloto de RAISE)"
+    },
+    "HORIZON-RAISE-2027-01-01": {
+      "en": "Automated Scientific Discovery - Materials Science (RAISE pilot) (RIA)",
+      "es": "Descubrimiento científico automatizado: ciencia de materiales (piloto de RAISE) (acción de investigación e innovación)"
+    },
+    "HORIZON-RAISE-2027-01-02": {
+      "en": "Automated Scientific Discovery – Food (RAISE pilot)",
+      "es": "Descubrimiento científico automatizado: alimentación (piloto de RAISE)"
+    },
+    "HORIZON-RAISE-2027-01-04": {
+      "en": "Developing a model for a Data Lab for Science linking with EOSC and RAISE (RAISE pilot) (CSA)",
+      "es": "Desarrollar un modelo de laboratorio de datos para la ciencia vinculado con la EOSC y RAISE (piloto de RAISE) (acción de coordinación y apoyo)"
+    },
+    "HORIZON-WIDERA-2027-01-WIDENING-01": {
+      "en": "EIC Pre-accelerator - Widening",
+      "es": "EIC Pre-accelerator: Widening"
+    },
+    "HORIZON-WIDERA-2027-02-WIDENING-01": {
+      "en": "ERA Chairs",
+      "es": "ERA Chairs"
+    },
+    "HORIZON-WIDERA-2027-02-WIDENING-02": {
+      "en": "ERA Research Managers",
+      "es": "ERA Research Managers"
+    },
+    "HORIZON-WIDERA-2027-03-WIDENING-01": {
+      "en": "ERA Fellowships",
+      "es": "ERA Fellowships"
+    },
+    "HORIZON-WIDERA-2027-04-WIDENING-01": {
+      "en": "Excellence Hubs",
+      "es": "Excellence Hubs"
+    },
+    "HORIZON-WIDERA-2027-05-ERA-01": {
+      "en": "Pillar I: Facilitating development of institutional open access policies through the retention of intellectual property rights",
+      "es": "Pilar I: facilitar el desarrollo de políticas institucionales de acceso abierto mediante la retención de los derechos de propiedad intelectual"
+    },
+    "HORIZON-WIDERA-2027-05-ERA-02": {
+      "en": "Pillar II: Talent ecosystems for attractive early research careers",
+      "es": "Pilar II: ecosistemas de talento para carreras investigadoras atractivas en sus etapas iniciales"
+    },
+    "HORIZON-WIDERA-2027-05-ERA-03": {
+      "en": "Pillar III: Science comes to town 2029",
+      "es": "Pilar III: Science comes to town 2029"
+    },
+    "HORIZON-WIDERA-2027-05-ERA-04": {
+      "en": "Pillar III: Promoting public engagement in R&I and scientific literacy",
+      "es": "Pilar III: promover la participación ciudadana en la I+i y la alfabetización científica"
+    },
+    "HORIZON-WIDERA-2027-05-ERA-05": {
+      "en": "Pillar IV: Upgrading the EU’s independent knowledge on China's Science, Technology and Innovation system",
+      "es": "Pilar IV: mejorar el conocimiento independiente de la UE sobre el sistema de ciencia, tecnología e innovación de China"
+    },
+    "HUMA-2028-2034-PARTNERSHIP-CERT": {
+      "en": "EU Humanitarian Partnership Certificate 2028-2034",
+      "es": "Certificado de asociación humanitaria de la UE 2028-2034"
+    },
+    "I3-2026-INV1": {
+      "en": "I3-2026-INV1 - Interregional Innovation Investments Strand 1",
+      "es": "I3-2026-INV1: Inversiones en Innovación Interregional, capítulo 1"
+    },
+    "I3-2026-INV2a": {
+      "en": "I3-2026-INV2a - Interregional Innovation Investments Strand 2a",
+      "es": "I3-2026-INV2a: Inversiones en Innovación Interregional, capítulo 2a"
+    },
+    "IMCAP-2027-INFOME": {
+      "en": "Support for information measures relating to the common agricultural policy (IMCAP)",
+      "es": "Apoyo para medidas de información relativas a la política agrícola común (IMCAP)"
+    },
+    "IMREG-2026-INFOME": {
+      "en": "Information measures for the EU Cohesion policy for 2026",
+      "es": "Medidas de información sobre la política de cohesión de la UE para 2026"
+    },
+    "ISF-2026-TF2-AG-CYBER-DIGITAL": {
+      "en": "Digital Investigations",
+      "es": "Investigaciones digitales"
+    },
+    "ISF-2026-TF2-AG-CYBER-STANDARD": {
+      "en": "Standardisation",
+      "es": "Normalización"
+    },
+    "JTM-2026-PSLF-FRAMEWORK-LOANS": {
+      "en": "Framework Loans",
+      "es": "Préstamos marco"
+    },
+    "JTM-2026-PSLF-STANDALONE-PROJECTS": {
+      "en": "Standalone projects",
+      "es": "Proyectos independientes"
+    },
+    "JUST-2027-JTRA": {
+      "en": "Call for proposals for action grants to support transnational projects on judicial training covering civil law, criminal law or fundamental rights",
+      "es": "Convocatoria de propuestas de subvenciones para acciones destinadas a apoyar proyectos transnacionales de formación judicial en materia de Derecho civil, Derecho penal o derechos fundamentales"
+    },
+    "NDICI-2026-MOBAF": {
+      "en": "Intra-Africa Academic Mobility Scheme",
+      "es": "Programa de Movilidad Académica Intraafricana"
+    },
+    "PPPA-2026-REGIONAL-SUBMARINE-ISM-CABLE-HUBS": {
+      "en": "Integrated Surveillance mechanism: Regional Cable hubs",
+      "es": "Mecanismo de vigilancia integrada: centros regionales de cables"
+    },
+    "PPPA-SPORT-2026-EMERGENCY-YOUTH": {
+      "en": "Sport Supports - emergency sport actions for youth",
+      "es": "Sport Supports: acciones deportivas de emergencia para los jóvenes"
+    },
+    "SOCPL-2026-INFO-REPR": {
+      "en": "SOCPL-2026-INFO-REPR",
+      "es": "SOCPL-2026-INFO-REPR"
+    }
+  }
+}

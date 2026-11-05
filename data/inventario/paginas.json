@@ -1,0 +1,294 @@
+{
+  "generado": "2026-11-05T17:24:22.333Z",
+  "base": "https://www.ullswaterinvestments.com/",
+  "verificado": true,
+  "paginas": [
+    {
+      "ruta": "/home",
+      "url": "https://www.ullswaterinvestments.com/home",
+      "estado": 200,
+      "error": null,
+      "titulo": "EUROPEAN FUNDING Advisors",
+      "enlaces_externos": 17,
+      "enlaces_internos": 23,
+      "bloques_insertados": 5,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls",
+      "url": "https://www.ullswaterinvestments.com/calls",
+      "estado": 200,
+      "error": null,
+      "titulo": "Call for Proposals",
+      "enlaces_externos": 13,
+      "enlaces_internos": 23,
+      "bloques_insertados": 2,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/calls-for-genai",
+      "url": "https://www.ullswaterinvestments.com/calls/calls-for-genai",
+      "estado": 200,
+      "error": null,
+      "titulo": "Calls for GenAI",
+      "enlaces_externos": 52,
+      "enlaces_internos": 23,
+      "bloques_insertados": 2,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/eic-pre-accelerator",
+      "url": "https://www.ullswaterinvestments.com/calls/eic-pre-accelerator",
+      "estado": 200,
+      "error": null,
+      "titulo": "EIC Pre-Accelerator",
+      "enlaces_externos": 9,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/calls-2026",
+      "url": "https://www.ullswaterinvestments.com/calls/calls-2026",
+      "estado": 200,
+      "error": null,
+      "titulo": "Calls 2026",
+      "enlaces_externos": 142,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/cascade-funding",
+      "url": "https://www.ullswaterinvestments.com/calls/cascade-funding",
+      "estado": 200,
+      "error": null,
+      "titulo": "Cascade Funding",
+      "enlaces_externos": 48,
+      "enlaces_internos": 23,
+      "bloques_insertados": 2,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/horizon-health",
+      "url": "https://www.ullswaterinvestments.com/calls/horizon-health",
+      "estado": 200,
+      "error": null,
+      "titulo": "Horizon Health",
+      "enlaces_externos": 21,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/horizon-society",
+      "url": "https://www.ullswaterinvestments.com/calls/horizon-society",
+      "estado": 200,
+      "error": null,
+      "titulo": "Horizon Society",
+      "enlaces_externos": 28,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/horizon-security",
+      "url": "https://www.ullswaterinvestments.com/calls/horizon-security",
+      "estado": 200,
+      "error": null,
+      "titulo": "Horizon Security",
+      "enlaces_externos": 42,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/horizon-digital",
+      "url": "https://www.ullswaterinvestments.com/calls/horizon-digital",
+      "estado": 200,
+      "error": null,
+      "titulo": "Horizon Digital",
+      "enlaces_externos": 41,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/horizon-climate-energy",
+      "url": "https://www.ullswaterinvestments.com/calls/horizon-climate-energy",
+      "estado": 200,
+      "error": null,
+      "titulo": "Horizon Climate & Energy",
+      "enlaces_externos": 64,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/horizon-food-environment",
+      "url": "https://www.ullswaterinvestments.com/calls/horizon-food-environment",
+      "estado": 200,
+      "error": null,
+      "titulo": "Horizon Food & Environment",
+      "enlaces_externos": 61,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/horizon-missions",
+      "url": "https://www.ullswaterinvestments.com/calls/horizon-missions",
+      "estado": 200,
+      "error": null,
+      "titulo": "EU Missions & Bridging",
+      "enlaces_externos": 63,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/horizon-science-widening",
+      "url": "https://www.ullswaterinvestments.com/calls/horizon-science-widening",
+      "estado": 200,
+      "error": null,
+      "titulo": "Science & Widening",
+      "enlaces_externos": 39,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/digital-europe-defence",
+      "url": "https://www.ullswaterinvestments.com/calls/digital-europe-defence",
+      "estado": 200,
+      "error": null,
+      "titulo": "Digital Europe & Defence",
+      "enlaces_externos": 20,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/other-eu-programmes",
+      "url": "https://www.ullswaterinvestments.com/calls/other-eu-programmes",
+      "estado": 200,
+      "error": null,
+      "titulo": "Other EU Programmes",
+      "enlaces_externos": 37,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/calls/international-cooperation",
+      "url": "https://www.ullswaterinvestments.com/calls/international-cooperation",
+      "estado": 200,
+      "error": null,
+      "titulo": "International Cooperation",
+      "enlaces_externos": 19,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": [
+        "https://fh-topics.emilio-mulet.workers.dev/"
+      ]
+    },
+    {
+      "ruta": "/investment-readiness",
+      "url": "https://www.ullswaterinvestments.com/investment-readiness",
+      "estado": 200,
+      "error": null,
+      "titulo": "Investment Readiness",
+      "enlaces_externos": 2,
+      "enlaces_internos": 23,
+      "bloques_insertados": 3,
+      "fuentes_datos": []
+    },
+    {
+      "ruta": "/eu-fund-matching",
+      "url": "https://www.ullswaterinvestments.com/eu-fund-matching",
+      "estado": 200,
+      "error": null,
+      "titulo": "EU Fund Matching",
+      "enlaces_externos": 13,
+      "enlaces_internos": 23,
+      "bloques_insertados": 4,
+      "fuentes_datos": []
+    },
+    {
+      "ruta": "/about",
+      "url": "https://www.ullswaterinvestments.com/about",
+      "estado": 200,
+      "error": null,
+      "titulo": "About",
+      "enlaces_externos": 2,
+      "enlaces_internos": 23,
+      "bloques_insertados": 0,
+      "fuentes_datos": []
+    },
+    {
+      "ruta": "/strategic-positioning",
+      "url": "https://www.ullswaterinvestments.com/strategic-positioning",
+      "estado": 200,
+      "error": null,
+      "titulo": "Strategic Positioning",
+      "enlaces_externos": 1,
+      "enlaces_internos": 23,
+      "bloques_insertados": 3,
+      "fuentes_datos": []
+    },
+    {
+      "ruta": "/eu-funding-news",
+      "url": "https://www.ullswaterinvestments.com/eu-funding-news",
+      "estado": 200,
+      "error": null,
+      "titulo": "EU FUNDING NEWS",
+      "enlaces_externos": 6,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": []
+    },
+    {
+      "ruta": "/cursos",
+      "url": "https://www.ullswaterinvestments.com/cursos",
+      "estado": 200,
+      "error": null,
+      "titulo": "Courses",
+      "enlaces_externos": 1,
+      "enlaces_internos": 23,
+      "bloques_insertados": 1,
+      "fuentes_datos": []
+    }
+  ]
+}

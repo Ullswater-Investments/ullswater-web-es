@@ -1,0 +1,74 @@
+---
+// Listado de las convocatorias que cierran en un año, agrupadas por mes de cierre.
+// Se activa desde el frontmatter de una página: `listadoConvocatorias: { anioCierre: 2026 }`.
+import TarjetaConvocatoria from './TarjetaConvocatoria.astro';
+import { datosActualizados, queCierranEn, tituloEs, type Convocatoria } from '../lib/convocatorias';
+import { fechaHoraPeninsular, mesLargo } from '../lib/fecha';
+
+interface Props {
+  anioCierre: number;
+}
+const { anioCierre } = Astro.props;
+
+const lista = queCierranEn(anioCierre);
+const meses = new Map<string, Convocatoria[]>();
+for (const c of lista) {
+  const mes = c.cierre.slice(0, 7);
+  meses.set(mes, [...(meses.get(mes) ?? []), c]);
+}
+const cuantas = (n: number) => `${n} ${n === 1 ? 'convocatoria' : 'convocatorias'}`;
+// La nota describe lo que se ve: todas las convocatorias traducidas, solo algunas o ninguna
+// (las nuevas llegan sin traducir hasta que se revisa su título).
+const traducidas = lista.filter((c) => tituloEs(c) !== null).length;
+const notaTitulos =
+  traducidas === lista.length
+    ? 'Los títulos son traducciones de Ullswater Investments; debajo de cada uno figura el título oficial en inglés, el que aparece en el portal junto al código.'
+    : traducidas > 0
+      ? 'Los títulos son traducciones de Ullswater Investments, con el título oficial en inglés debajo; las convocatorias que aún no se han traducido muestran solo el título oficial.'
+      : 'Los títulos son los oficiales del portal, en inglés.';
+const mayuscula = (s: string) => s.charAt(0).toUpperCase() + s.slice(1);
+---
+<section class="listado" aria-label={`Convocatorias que cierran en ${anioCierre}`}>
+  {lista.length === 0 ? (
+    <p class="resumen">Ya no quedan convocatorias abiertas con plazo en {anioCierre}.</p>
+  ) : (
+    <>
+      <p class="resumen"><strong>{cuantas(lista.length)}</strong> con plazo hasta el 31 de diciembre de {anioCierre}.</p>
+      <nav class="chips" aria-label="Ir al mes de cierre">
+        {[...meses].map(([mes, cs]) => <><a class="chip" href={`#cierre-${mes}`}>{mayuscula(mesLargo(mes))} ({cs.length})</a>{' '}</>)}
+      </nav>
+      <p class="nota">
+        {notaTitulos} Cada título enlaza a la ficha oficial, donde se presenta la solicitud y figura
+        la hora exacta de cierre (la hora de Bruselas es la misma que la peninsular; en Canarias, una
+        hora menos). «≈» indica un importe orientativo.
+      </p>
+      {[...meses].map(([mes, cs]) => (
+        <section class="mes" id={`cierre-${mes}`}>
+          <h2>Cierran en {mesLargo(mes)}</h2>
+          <p class="mes-n">{cuantas(cs.length)}</p>
+          <ul class="lista-conv">
+            {cs.map((c) => <li><TarjetaConvocatoria c={c} /></li>)}
+          </ul>
+        </section>
+      ))}
+    </>
+  )}
+  <p class="fuente">
+    Fuente: portal Funding &amp; Tenders de la Comisión Europea. Datos actualizados el {fechaHoraPeninsular(datosActualizados)} (hora peninsular).
+  </p>
+</section>
+
+<style>
+  .resumen { font-size: 1.05rem; margin: 0 0 12px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 12px; }
+  .chip {
+    display: inline-block; padding: .4em 1em; border: 1px solid var(--borde); border-radius: 999px;
+    background: #fff; color: var(--marino); font-weight: 600; font-size: .9rem; text-decoration: none;
+  }
+  .chip:hover { border-color: var(--dorado); color: var(--marino); }
+  .nota, .fuente { font-size: .9rem; color: var(--texto-2); max-width: 72ch; }
+  .mes { scroll-margin-top: 16px; }
+  .mes h2 { margin-bottom: 0; }
+  .mes-n { margin: .2em 0 0; font-size: .9rem; color: var(--texto-2); }
+  .fuente { margin-top: 2em; }
+</style>

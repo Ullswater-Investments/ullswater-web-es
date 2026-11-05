@@ -1,0 +1,82 @@
+---
+import '../styles/global.css';
+// Fichero de la letra que usa casi todo el texto: se precarga para que aparezca antes.
+import interLatin from '../assets/fonts/inter/inter-latin-wght-normal.woff2?url';
+
+interface Props {
+  titulo: string;
+  descripcion: string;
+  // URL equivalente en la web inglesa, para hreflang.
+  origen?: string;
+}
+const { titulo, descripcion, origen } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const canonica = new URL(Astro.url.pathname, Astro.site).href;
+// Solo se deja indexar la web del dominio oficial. La copia de pruebas (github.io) lleva
+// «noindex» para que los buscadores no la tomen por la web definitiva.
+const indexable = Astro.site?.origin === 'https://es.ullswaterinvestments.com';
+
+const menu = [
+  { texto: 'Inicio', href: `${base}/` },
+  { texto: 'Convocatorias', href: `${base}/convocatorias/` },
+  { texto: 'Noticias', href: `${base}/noticias/` },
+  { texto: 'Eventos', href: 'https://events.ullswaterinvestments.com/' },
+];
+---
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titulo} · Ullswater Investments</title>
+    <meta name="description" content={descripcion} />
+    {!indexable && <meta name="robots" content="noindex" />}
+    <link rel="canonical" href={canonica} />
+    <link rel="alternate" hreflang="es" href={canonica} />
+    {origen && <link rel="alternate" hreflang="en" href={origen} />}
+    <meta property="og:title" content={titulo} />
+    <meta property="og:description" content={descripcion} />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_ES" />
+    <link rel="preload" href={interLatin} as="font" type="font/woff2" crossorigin />
+  </head>
+  <body>
+    <header class="cabecera">
+      <div class="contenedor fila">
+        <a class="marca" href={`${base}/`}>Ullswater Investments<span>Asesores de financiación europea</span></a>
+        <nav aria-label="Principal">
+          <ul>
+            {menu.map((m) => <li><a href={m.href}>{m.texto}</a></li>)}
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="contenedor principal">
+      <slot />
+    </main>
+
+    <footer class="pie">
+      <div class="contenedor">
+        <p><strong>Ullswater Investments S.L.</strong> · Calle Ramírez de Arellano, 17 · 28043 Madrid</p>
+        <p>
+          <a href="mailto:emilio.mulet@ullswaterinvestments.com">emilio.mulet@ullswaterinvestments.com</a>
+          {origen && <> · <a href={origen} hreflang="en">English version</a></>}
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+<style>
+  .cabecera { background: var(--marino); color: #fff; border-bottom: 3px solid var(--dorado); }
+  .fila { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding-top: 14px; padding-bottom: 14px; }
+  .marca { color: #fff; text-decoration: none; font-weight: 700; font-size: 1.1rem; display: flex; flex-direction: column; }
+  .marca span { font-weight: 400; font-size: .8rem; color: var(--dorado); }
+  nav ul { list-style: none; display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 0; padding: 0; }
+  nav a { color: #fff; text-decoration: none; font-weight: 600; font-size: .95rem; }
+  nav a:hover { color: var(--dorado); }
+  .principal { padding-top: 32px; padding-bottom: 56px; }
+  .pie { background: var(--fondo-2); border-top: 1px solid var(--borde); font-size: .9rem; color: var(--texto-2); padding: 20px 0; }
+  .pie p { margin: .3em 0; }
+</style>

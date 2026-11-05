@@ -1,0 +1,91 @@
+---
+// Ficha resumida de una convocatoria (portada y páginas de convocatorias).
+// Título en español con el oficial en inglés debajo; código, fechas e importe salen de los
+// datos. El título enlaza a la ficha oficial del portal de la Comisión, que es donde se
+// presenta la solicitud. Sin traducción revisada, se muestra solo el título oficial.
+//
+// Los {' '} entre elementos en línea son necesarios: Astro 7 elimina el salto de línea entre
+// ellos y el texto quedaría pegado sin CSS (lectores, buscadores, modo lectura).
+import type { Convocatoria } from '../lib/convocatorias';
+import { estadoHoy, financiacion, nombrePrograma, tituloEs } from '../lib/convocatorias';
+import { fechaIso } from '../lib/fecha';
+
+interface Props {
+  c: Convocatoria;
+}
+const { c } = Astro.props;
+const importe = financiacion(c);
+// Algunos nombres de programa se usan en España en inglés («ERC Consolidator Grant»): si la
+// traducción coincide con el oficial, se muestra una sola vez y marcado como inglés.
+const es = tituloEs(c);
+const titulo = es !== null && es !== c.titulo ? es : null;
+const estado = estadoHoy(c);
+---
+<article class="conv">
+  <div>
+    <h3 class="conv-titulo">
+      {titulo
+        ? <a href={c.enlace} hreflang="en" rel="noopener">{titulo}</a>
+        : <a href={c.enlace} hreflang="en" lang="en" rel="noopener">{c.titulo}</a>}
+    </h3>
+    {titulo && <p class="conv-oficial">Título oficial: <span lang="en">{c.titulo}</span></p>}
+    <p class="conv-meta">
+      <span class:list={['estado', estado === 'Abierta' ? 'estado-abierta' : 'estado-proxima']}>{estado}</span>{' '}
+      <span class="conv-codigo">{c.codigo}</span>{' '}
+      <span>{nombrePrograma(c.programa)}</span>
+    </p>
+  </div>
+  <dl class="conv-datos">
+    <div>
+      <dt>Cierre</dt>
+      <dd class="conv-cierre">{fechaIso(c.cierre)}</dd>
+    </div>
+    {c.apertura && (
+      <div>
+        <dt>{estado === 'Próxima' ? 'Abre' : 'Abierta desde'}</dt>
+        <dd>{fechaIso(c.apertura)}</dd>
+      </div>
+    )}
+    <div>
+      <dt>Financiación UE</dt>
+      <dd>{importe ?? 'Ver ficha oficial'}</dd>
+    </div>
+  </dl>
+</article>
+
+<style>
+  .conv {
+    display: grid;
+    gap: 12px 28px;
+    padding: 14px 16px;
+    background: #fff;
+    border: 1px solid var(--borde);
+    border-left: 4px solid var(--dorado);
+    border-radius: var(--radio);
+  }
+  .conv-titulo { margin: 0; font-size: 1rem; line-height: 1.4; font-weight: 600; }
+  .conv-titulo a { color: var(--marino); text-decoration: none; }
+  .conv-titulo a:hover { color: var(--marino-2); text-decoration: underline; }
+  .conv-oficial { margin: 4px 0 0; font-size: .8rem; line-height: 1.4; color: var(--texto-2); }
+  .conv-oficial span { font-style: italic; }
+  .conv-meta {
+    display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px;
+    margin: 8px 0 0; font-size: .85rem; color: var(--texto-2);
+  }
+  .conv-codigo { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: .8rem; overflow-wrap: anywhere; }
+  .estado {
+    font-size: .7rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase;
+    border-radius: 999px; padding: .15em .7em;
+  }
+  .estado-abierta { background: #e3f3e8; color: #1d6b38; }
+  .estado-proxima { background: var(--dorado-suave); color: var(--marino); }
+  /* Una fila por dato: etiqueta a la izquierda, valor a la derecha (las fechas caben en una línea). */
+  .conv-datos { margin: 0; display: grid; gap: 4px; font-size: .9rem; }
+  .conv-datos div { display: grid; grid-template-columns: 7.6rem minmax(0, 1fr); gap: 10px; align-items: baseline; }
+  .conv-datos dt { font-size: .7rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--texto-2); }
+  .conv-datos dd { margin: 0; font-weight: 600; }
+  .conv-cierre { color: var(--marino); }
+  @media (min-width: 760px) {
+    .conv { grid-template-columns: minmax(0, 1fr) 21.5rem; align-items: start; }
+  }
+</style>

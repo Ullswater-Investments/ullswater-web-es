@@ -1,0 +1,25 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { fechaLarga } from '../../lib/fecha';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const noticias = (await getCollection('noticias', ({ data }) => !data.borrador))
+  .sort((a, b) => b.data.fecha.valueOf() - a.data.fecha.valueOf());
+---
+<Base
+  titulo="Noticias de financiación europea"
+  descripcion="Novedades sobre convocatorias y programas de financiación de la Unión Europea, en español."
+  origen="https://www.ullswaterinvestments.com/eu-funding-news"
+>
+  <h1>Noticias de financiación europea</h1>
+  <ul class="tarjetas">
+    {noticias.map((n) => (
+      <li class="tarjeta">
+        <span class="etiqueta">{n.data.programa}</span>
+        <h3><a href={`${base}/noticias/${n.id}/`}>{n.data.titulo}</a></h3>
+        <p>{fechaLarga(n.data.fecha)} · {n.data.resumen}</p>
+      </li>
+    ))}
+  </ul>
+</Base>

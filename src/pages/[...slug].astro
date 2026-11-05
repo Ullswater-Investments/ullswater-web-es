@@ -1,0 +1,34 @@
+---
+// Una página por cada .md de src/content/paginas (incluidas subcarpetas).
+// Ej.: src/content/paginas/convocatorias/2026.md → /convocatorias/2026/
+// Si el frontmatter trae `listadoConvocatorias`, debajo del texto se añade el listado
+// de convocatorias generado a partir de data/convocatorias.json.
+import { getCollection, render } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import ListadoConvocatorias from '../components/ListadoConvocatorias.astro';
+import { fechaLarga } from '../lib/fecha';
+
+export async function getStaticPaths() {
+  const paginas = await getCollection('paginas', ({ data }) => !data.borrador);
+  return paginas.map((p) => ({ params: { slug: p.id }, props: { pagina: p } }));
+}
+
+const { pagina } = Astro.props;
+const { Content } = await render(pagina);
+const { titulo, descripcion, origen, actualizado, listadoConvocatorias } = pagina.data;
+const etiquetaFecha = listadoConvocatorias ? 'Texto de la página actualizado el' : 'Última actualización:';
+---
+<Base titulo={titulo} descripcion={descripcion} origen={origen}>
+  <article>
+    <div class="prosa">
+      <h1>{titulo}</h1>
+      <Content />
+    </div>
+    {listadoConvocatorias && <ListadoConvocatorias anioCierre={listadoConvocatorias.anioCierre} />}
+    <p class="actualizado">{etiquetaFecha} {fechaLarga(actualizado)}</p>
+  </article>
+</Base>
+
+<style>
+  .actualizado { color: var(--texto-2); font-size: .85rem; margin-top: 3em; }
+</style>

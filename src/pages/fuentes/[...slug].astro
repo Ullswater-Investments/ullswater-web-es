@@ -1,0 +1,53 @@
+---
+// Plantilla de página fuente traducida.
+// En producción irá en el repo de fuentes (fuentes.ullswaterinvestments.com/<fuente>/<pagina>).
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import AvisoFuente from '../../components/AvisoFuente.astro';
+
+export async function getStaticPaths() {
+  const fuentes = await getCollection('fuentes', ({ data }) => !data.borrador);
+  return fuentes.map((f) => ({ params: { slug: f.id }, props: { fuente: f } }));
+}
+
+const { fuente } = Astro.props;
+const { Content } = await render(fuente);
+const d = fuente.data;
+---
+<Base titulo={d.titulo} descripcion={`${d.titulo} — ${d.organismo}. Versión en español.`} origen={d.urlOriginal}>
+  <article class="prosa">
+    <span class="etiqueta">{d.organismo}</span>
+    <h1>{d.titulo}</h1>
+    <p class="original" lang="en">Título original: {d.tituloOriginal}</p>
+
+    {d.urlSolicitud && (
+      <p><a class="boton" href={d.urlSolicitud} rel="noopener">Ir a la convocatoria oficial</a></p>
+    )}
+
+    {d.datos.length > 0 && (
+      <table>
+        <caption class="visually-hidden">Datos clave copiados del original</caption>
+        <tbody>
+          {d.datos.map((x) => <tr><th scope="row">{x.etiqueta}</th><td>{x.valor}</td></tr>)}
+        </tbody>
+      </table>
+    )}
+
+    <Content />
+
+    <AvisoFuente
+      organismo={d.organismo}
+      urlOriginal={d.urlOriginal}
+      fechaCopia={d.fechaCopia}
+      tratamiento={d.tratamiento}
+      licencia={d.licencia}
+    />
+  </article>
+</Base>
+
+<style>
+  .original { color: var(--texto-2); font-style: italic; margin-top: -.5em; }
+  table { margin: 1.5em 0; }
+  .aviso { margin-top: 2.5em; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+</style>

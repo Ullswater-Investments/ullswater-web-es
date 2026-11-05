@@ -1,0 +1,24 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const paginas = (await getCollection('paginas', ({ id, data }) => id.startsWith('convocatorias/') && !data.borrador))
+  .sort((a, b) => a.data.orden - b.data.orden);
+---
+<Base
+  titulo="Convocatorias"
+  descripcion="Convocatorias europeas abiertas para empresas, startups y centros tecnológicos, explicadas en español."
+  origen="https://www.ullswaterinvestments.com/calls"
+>
+  <h1>Convocatorias</h1>
+  <p class="prosa">Texto provisional: introducción adaptada de la página Calls de la web inglesa.</p>
+  <ul class="tarjetas">
+    {paginas.map((p) => (
+      <li class="tarjeta">
+        <h3><a href={`${base}/${p.id}/`}>{p.data.titulo}</a></h3>
+        <p>{p.data.descripcion}</p>
+      </li>
+    ))}
+  </ul>
+</Base>

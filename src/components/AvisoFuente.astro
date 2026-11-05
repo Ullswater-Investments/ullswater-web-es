@@ -1,0 +1,28 @@
+---
+// Aviso obligatorio en cada página fuente (apartado 9 de la propuesta).
+import { fechaLarga } from '../lib/fecha';
+interface Props {
+  organismo: string;
+  urlOriginal: string;
+  fechaCopia: Date;
+  tratamiento: 'reutilizable' | 'resumen';
+  licencia?: string;
+}
+const { organismo, urlOriginal, fechaCopia, tratamiento, licencia } = Astro.props;
+const fecha = fechaLarga(fechaCopia);
+---
+<aside class="aviso" aria-label="Información sobre la fuente">
+  {tratamiento === 'reutilizable' ? (
+    <p>
+      Traducción al español realizada por Ullswater Investments del contenido publicado
+      por <strong>{organismo}</strong>{licencia && <> ({licencia})</>}. El texto se ha traducido y adaptado.
+    </p>
+  ) : (
+    <p>
+      Resumen propio de Ullswater Investments del contenido publicado por <strong>{organismo}</strong>.
+      No es una reproducción del original.
+    </p>
+  )}
+  <p>Copia realizada el {fecha}. <strong>En caso de discrepancia, prevalece la versión original.</strong></p>
+  <p><a href={urlOriginal} rel="noopener">Ver la página original</a></p>
+</aside>

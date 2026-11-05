@@ -1,0 +1,129 @@
+# Primer paso del agente Vigía. Cada día laborable:
+#  1. rehace el inventario de la web inglesa y comprueba sus enlaces externos,
+#  2. descarga los datos de convocatorias (copia en data/convocatorias.json),
+#  3. pasa las pruebas y comprueba que la web compila con esos datos (el build valida cada campo).
+# Si cambian páginas, enlaces o convocatorias, abre (o actualiza) un Pull Request con la
+# revisión automática (títulos sin traducir, importes raros). Nada se publica hasta que una
+# persona lo revisa y hace merge.
+name: Vigía de la web inglesa y las convocatorias
+
+on:
+  schedule:
+    - cron: "17 5 * * 1-5" # días laborables, 05:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  vigia:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24 # Astro 7.4 exige Node ≥ 22.23.4; la 22 en caché del runner puede ser más antigua
+          cache: npm
+      - run: npm ci
+      - name: Inventario de la web inglesa (visita los enlaces externos)
+        run: npm run inventario:verificar
+      - name: Datos de convocatorias
+        run: npm run convocatorias
+      - name: Pruebas (importes con las mismas cifras que el original)
+        run: npm test
+      - name: La web compila con los datos nuevos
+        run: npm run build
+      # La fecha del informe cambia en cada ejecución; solo cuenta si cambia el contenido.
+      - name: ¿Ha cambiado algo de verdad?
+        id: cambios
+        run: |
+          if [ -n "$(git status --porcelain -- data/convocatorias.json data/inventario/paginas.csv data/inventario/enlaces.csv)" ]; then
+            echo "hay=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "hay=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Texto del Pull Request (qué revisar + revisión automática)
+        if: steps.cambios.outputs.hay == 'true'
+        run: |
+          cat > "$RUNNER_TEMP/pr.md" <<'EOF'
+          Cambios detectados en www.ullswaterinvestments.com o en los datos de convocatorias.
+          Al hacer merge, se publican en la web española.
+
+          Qué revisar:
+          - `data/convocatorias.json`: convocatorias nuevas o retiradas, y cambios de plazo o de importe.
+          - `data/inventario/enlaces.csv`: enlaces externos nuevos, retirados o rotos (columna `estado_http`).
+          - `data/inventario/resumen.md`: resumen legible del inventario.
+          - Los títulos sin traducir que aparecen abajo: tradúcelos en `data/titulos-es.json` en un PR aparte contra `main`, no en esta rama (si una persona la edita, el Vigía deja de actualizarla hasta que se haga merge).
+
+          EOF
+          node scripts/revisar.mjs --informe "$RUNNER_TEMP/revision.md" > /dev/null
+          cat "$RUNNER_TEMP/revision.md" >> "$RUNNER_TEMP/pr.md"
+      # create-pull-request rehace la rama desde main en cada ejecución: si una persona le ha
+      # añadido commits, se perderían. En ese caso no se toca la rama hasta el merge.
+      - name: ¿Ha editado alguien la rama del Vigía?
+        id: rama
+        if: steps.cambios.outputs.hay == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          AJENOS=0
+          if git ls-remote --exit-code --heads origin vigia/actualizacion > /dev/null; then
+            AJENOS=$(gh api "repos/${{ github.repository }}/compare/main...vigia/actualizacion" \
+              --jq '[.commits[] | select(.commit.committer.email != "41898282+github-actions[bot]@users.noreply.github.com")] | length')
+          fi
+          echo "ajenos=$AJENOS" >> "$GITHUB_OUTPUT"
+          if [ "$AJENOS" != "0" ]; then
+            echo "::warning::La rama vigia/actualizacion tiene $AJENOS commit(s) de una persona. El Vigía no la actualiza hasta que se haga merge del PR o se borre la rama."
+          fi
+      - name: Abrir o actualizar el Pull Request
+        id: pr
+        if: steps.cambios.outputs.hay == 'true' && steps.rama.outputs.ajenos == '0'
+        continue-on-error: true
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: vigia/actualizacion
+          commit-message: "Vigía: cambios en la web inglesa o en las convocatorias"
+          title: "Vigía: cambios en la web inglesa o en las convocatorias"
+          body-path: ${{ runner.temp }}/pr.md
+          add-paths: |
+            data/
+      # Si la organización no deja que GitHub Actions abra PR («Allow GitHub Actions to create
+      # and approve pull requests», en los ajustes de la organización), los cambios ya están en
+      # la rama vigia/actualizacion: se avisa en un issue con el enlace para abrir el PR a mano.
+      - name: Aviso en un issue si no se ha podido abrir el PR
+        if: steps.cambios.outputs.hay == 'true' && steps.pr.outcome == 'failure'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git ls-remote --exit-code --heads origin vigia/actualizacion > /dev/null || { echo "::error::No se subió la rama vigia/actualizacion"; exit 1; }
+          ENLACE="${{ github.server_url }}/${{ github.repository }}/compare/main...vigia/actualizacion?expand=1"
+          {
+            echo "El Vigía ha encontrado cambios y los ha dejado en la rama \`vigia/actualizacion\`, pero la organización no permite que GitHub Actions abra Pull Requests."
+            echo
+            echo "**[Abrir el Pull Request]($ENLACE)**, revisarlo y hacer merge para publicar. Este aviso se actualiza en cada ejecución mientras siga abierto."
+            echo
+            echo "---"
+            echo
+            cat "$RUNNER_TEMP/pr.md"
+          } > "$RUNNER_TEMP/issue.md"
+          gh label create vigia --color FBCA04 --description "Avisos del Vigía" --force > /dev/null
+          NUM=$(gh issue list --label vigia --state open --json number --jq '.[0].number // empty')
+          if [ -n "$NUM" ]; then
+            gh issue edit "$NUM" --body-file "$RUNNER_TEMP/issue.md"
+          else
+            gh issue create --title "Vigía: cambios pendientes de revisar" --label vigia --body-file "$RUNNER_TEMP/issue.md"
+          fi
+      - name: Cerrar el aviso si ya hay PR o no queda nada pendiente
+        if: steps.pr.outcome == 'success' || steps.cambios.outputs.hay == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          MOTIVO="No quedan cambios pendientes: la web publicada ya tiene los datos del día."
+          if [ -n "${{ steps.pr.outputs.pull-request-number }}" ]; then
+            MOTIVO="Los cambios están en el PR #${{ steps.pr.outputs.pull-request-number }}."
+          fi
+          for NUM in $(gh issue list --label vigia --state open --json number --jq '.[].number' 2> /dev/null); do
+            gh issue close "$NUM" --comment "$MOTIVO"
+          done

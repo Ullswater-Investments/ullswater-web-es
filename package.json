@@ -1,0 +1,23 @@
+{
+  "name": "ullswater-es",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Web de Ullswater Investments en español (piloto)",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node --test \"tests/*.test.mjs\"",
+    "revisar": "node scripts/revisar.mjs",
+    "convocatorias": "node scripts/convocatorias.mjs",
+    "inventario": "node scripts/inventario.mjs",
+    "inventario:verificar": "node scripts/inventario.mjs --verificar"
+  },
+  "engines": {
+    "node": ">=22.23.4"
+  },
+  "dependencies": {
+    "astro": "^7.4.5"
+  }
+}
