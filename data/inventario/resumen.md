@@ -1,6 +1,6 @@
 # Inventario de la web inglesa
 
-*6 de noviembre de 2026 a las 0:11 · https://www.ullswaterinvestments.com/*
+*6 de noviembre de 2026 a las 1:10 · https://www.ullswaterinvestments.com/*
 
 - **Páginas recorridas:** 23
 - **Enlaces externos únicos:** 546
@@ -50,7 +50,7 @@
 - **https://fh-topics.emilio-mulet.workers.dev/**
   - total: 392
   - source: EU Funding & Tenders Portal (SEDIA)
-  - updated: 2026-11-05T20:14:33.198Z
+  - updated: 2026-11-05T23:13:28.389Z
   - Enlaces que contiene: 392
   - La cargan 17 páginas: /home, /calls, /calls/calls-for-genai, /calls/eic-pre-accelerator, /calls/calls-2026, /calls/cascade-funding, /calls/horizon-health, /calls/horizon-society, /calls/horizon-security, /calls/horizon-digital, /calls/horizon-climate-energy, /calls/horizon-food-environment, /calls/horizon-missions, /calls/horizon-science-widening, /calls/digital-europe-defence, /calls/other-eu-programmes, /calls/international-cooperation
 
