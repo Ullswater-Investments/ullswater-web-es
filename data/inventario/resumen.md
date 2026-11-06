@@ -1,6 +1,6 @@
 # Inventario de la web inglesa
 
-*6 de noviembre de 2026 a las 1:10 · https://www.ullswaterinvestments.com/*
+*6 de noviembre de 2026 a las 13:57 · https://www.ullswaterinvestments.com/*
 
 - **Páginas recorridas:** 23
 - **Enlaces externos únicos:** 546
@@ -50,7 +50,7 @@
 - **https://fh-topics.emilio-mulet.workers.dev/**
   - total: 392
   - source: EU Funding & Tenders Portal (SEDIA)
-  - updated: 2026-11-05T23:13:28.389Z
+  - updated: 2026-11-06T12:57:16.913Z
   - Enlaces que contiene: 392
   - La cargan 17 páginas: /home, /calls, /calls/calls-for-genai, /calls/eic-pre-accelerator, /calls/calls-2026, /calls/cascade-funding, /calls/horizon-health, /calls/horizon-society, /calls/horizon-security, /calls/horizon-digital, /calls/horizon-climate-energy, /calls/horizon-food-environment, /calls/horizon-missions, /calls/horizon-science-widening, /calls/digital-europe-defence, /calls/other-eu-programmes, /calls/international-cooperation
 
@@ -58,9 +58,9 @@
 
 - Con versión oficial en español: 5
 - Idioma en: 31
-- Idioma (sin dato): 8
-- Idioma es: 2
-- Con error o caídos: 7
+- Idioma (sin dato): 9
+- Idioma es: 1
+- Con error o caídos: 8
   - https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/167264EN → HTTP 404
   - https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/170893EN → HTTP 404
   - https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/172802EN → HTTP 404
@@ -68,6 +68,7 @@
   - https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/173682EN → HTTP 404
   - https://ec.europa.eu/info/funding-tenders/opportunities/data/topicDetails/ERASMUS-EDU-2022-ECHE-CERT-FP.json → HTTP 404
   - https://ec.europa.eu/regional_policy/en/funding → HTTP 404
+  - http://red.es/ → tiempo agotado
 
 ## Páginas
 

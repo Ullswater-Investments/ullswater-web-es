@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-06T00:10:13.250Z",
+  "generado": "2026-11-06T12:57:02.612Z",
   "base": "https://www.ullswaterinvestments.com/",
   "verificado": true,
   "enlaces": [
@@ -12491,13 +12491,13 @@
         "Red.es"
       ],
       "verificacion": {
-        "estado": 200,
-        "url_final": "https://www.red.es/es",
-        "tipo_contenido": "text/html",
-        "idioma": "es",
+        "estado": null,
+        "url_final": null,
+        "tipo_contenido": null,
+        "idioma": null,
         "version_es": null,
         "version_es_automatica": null,
-        "error": null
+        "error": "tiempo agotado"
       }
     },
     {
