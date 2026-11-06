@@ -1,7 +1,7 @@
 {
   "source": "EU Funding & Tenders Portal (SEDIA)",
-  "updated": "2026-11-05T20:14:33.198Z",
-  "total": 392,
+  "updated": "2026-11-05T12:00:00.000Z",
+  "total": 391,
   "topics": [
     {
       "codigo": "CEF-DIG-2026-CABLE-REPAIR-CAPACITIES-WORKS",
@@ -7944,21 +7944,6 @@
       "resumen": "Enhancing the European R&I system",
       "palabrasClave": [],
       "enlace": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/horizon-widera-2027-05-era-05"
-    },
-    {
-      "codigo": "HUMA-2028-2034-PARTNERSHIP-CERT",
-      "titulo": "EU Humanitarian Partnership Certificate 2028-2034",
-      "programa": "otros",
-      "cluster": "general",
-      "anio": 2033,
-      "estado": "Próxima",
-      "apertura": "2026-11-17",
-      "cierre": "2033-06-30",
-      "presupuesto": null,
-      "trl": null,
-      "resumen": "EU Humanitarian Partnership Certificate 2028-2034",
-      "palabrasClave": [],
-      "enlace": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/huma-2028-2034-partnership-cert"
     },
     {
       "codigo": "I3-2026-INV1",
