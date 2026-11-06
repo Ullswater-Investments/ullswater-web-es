@@ -3,15 +3,15 @@
  * Descarga los datos de convocatorias que usa la web inglesa y guarda una copia en
  * data/convocatorias.json.
  *
- * La web española se genera a partir de esa copia y nunca directamente del servicio:
- * así cualquier cambio en las convocatorias llega como un Pull Request que una persona
- * revisa antes de publicarse.
+ * La web española se genera a partir de esa copia y nunca directamente del servicio: el
+ * Vigía compara cada copia nueva con la publicada y solo la publica si pasa las pruebas y no
+ * hay anomalías (scripts/comparar-convocatorias.mjs); si las hay, la revisa una persona.
  *
  * Origen: el Worker de Cloudflare que alimenta www.ullswaterinvestments.com, que a su vez
  * consulta la API del portal Funding & Tenders de la Comisión Europea (SEDIA).
  *
  * Si las convocatorias no han cambiado, el fichero no se toca (aunque el servicio
- * haya cambiado su fecha de actualización), para no abrir PR vacíos.
+ * haya cambiado su fecha de actualización), para no publicar commits vacíos.
  *
  * Uso: npm run convocatorias
  * Sin dependencias. Requiere Node 22 o superior.
@@ -59,7 +59,13 @@ try {
 } catch {
   // Primera descarga: no hay copia anterior.
 }
-if (anterior && JSON.stringify(anterior.topics) === JSON.stringify(topics)) {
+// El servicio a veces devuelve una versión en caché más antigua que la que ya tenemos (el
+// 6-11-2026 devolvió la de las 15:38 UTC del día anterior, con 26 convocatorias ya cerradas,
+// después de haber servido la de las 23:09). Nunca se sustituye la copia por datos más antiguos:
+// se desharían cambios de plazo o de importe más recientes.
+if (anterior && Date.parse(datos.updated) < Date.parse(anterior.updated)) {
+  console.log(`Sin cambios: el servicio ha devuelto datos del ${datos.updated}, más antiguos que la copia actual (${anterior.updated}); se ignoran.`);
+} else if (anterior && JSON.stringify(anterior.topics) === JSON.stringify(topics)) {
   console.log(`Sin cambios: ${topics.length} convocatorias, igual que la copia del ${anterior.updated}.`);
 } else {
   await mkdir(path.dirname(SALIDA), { recursive: true });

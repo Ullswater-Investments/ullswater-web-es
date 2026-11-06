@@ -15,7 +15,7 @@ Ullswater Investments S.L. (Madrid) es una consultora de financiación europea (
 1. **Web nueva en español** en `es.ullswaterinvestments.com`. No es una traducción literal: se redacta de nuevo para el lector español (tono propio, SEO en español, formato de fecha español).
 2. **Páginas fuente traducidas** en `fuentes.ullswaterinvestments.com/<fuente>/<pagina>`: cada enlace externo de la web inglesa se convierte en una página propia con el contenido de la fuente traducido al español (opción A del documento: un único subdominio para todas las fuentes).
 3. Todo se construye y mantiene con **agentes**, alojado en **GitHub Pages** (requisito obligatorio) y servido con **Cloudflare** (solo DNS/CDN/HTTPS).
-4. **Ningún agente publica sin aprobación humana.**
+4. **Ningún agente publica textos sin aprobación humana.** Excepción decidida el 5 nov. 2026: los **datos oficiales de convocatorias** se publican solos cada día si pasan las comprobaciones automáticas y no hay anomalías (como en la web de noticias); si las hay, se paran y los revisa una persona.
 
 ## Los cinco agentes
 
@@ -27,7 +27,7 @@ Ullswater Investments S.L. (Madrid) es una consultora de financiación europea (
 | 4 · Revisor | Revisa cifras, fechas, enlaces rotos, licencias y calidad del español | Validaciones automáticas + revisión en el PR |
 | 5 · Publicador | Publica lo aprobado | Merge del Pull Request → build y deploy a GitHub Pages |
 
-El «publica» se implementará como **Pull Request**: los agentes abren un PR, una persona lo revisa y al hacer merge se publica.
+El «publica» de los textos se implementa como **Pull Request**: los agentes abren un PR, una persona lo revisa y al hacer merge se publica. Los datos de convocatorias los publica el Vigía directamente (commit en `main`) cuando pasan las pruebas y `scripts/comparar-convocatorias.mjs` no detecta anomalías.
 
 ## Stack
 
@@ -39,7 +39,7 @@ El «publica» se implementará como **Pull Request**: los agentes abren un PR, 
 - Dos repos: uno para `es.` y otro para `fuentes.` (GitHub Pages solo admite un dominio personalizado por repo).
 - **Repo de `es.`:** https://github.com/Ullswater-Investments/ullswater-web-es — **público**, porque la organización está en el plan gratuito de GitHub y ahí Pages solo funciona con repos públicos (el resto de repos de la organización son privados). Web de pruebas: https://ullswater-investments.github.io/ullswater-web-es/ (variables del repo `SITE`/`BASE`). Con cualquier `SITE` distinto del dominio oficial, las páginas llevan `noindex`.
 - Commits con la dirección `noreply` de GitHub de quien los hace, no con su correo personal: el repo es público.
-- **La organización no deja que GitHub Actions abra PR** (ajuste de organización; solo lo cambia un propietario). Mientras siga así, el Vigía sube sus cambios a la rama `vigia/actualizacion` y abre o actualiza un issue con la etiqueta `vigia` y el enlace para crear el PR.
+- **La organización no deja que GitHub Actions abra PR** (ajuste de organización; solo lo cambia un propietario). Solo importa en caso de anomalía: el Vigía sube los datos a la rama `vigia/actualizacion` y abre o actualiza un issue con la etiqueta `vigia` y el enlace para crear el PR. Un push hecho con el token de Actions no lanza otros workflows: el Vigía lanza `deploy.yml` con `gh workflow run`.
 
 ## Estructura sugerida (repo `es.`)
 
@@ -90,6 +90,7 @@ URLs: `https://www.ullswaterinvestments.com/<slug>` y `/calls/<slug>`.
 - La hora peninsular española es la misma que la de Bruselas (CET/CEST). Solo cambia el formato de fecha (y Canarias, una hora menos).
 - **Datos de convocatorias**: la web inglesa los carga en el navegador desde un Worker de Cloudflare (`https://fh-topics.emilio-mulet.workers.dev/`, cuenta de Emilio Mulet) que consulta la API del portal (SEDIA). Campos: `codigo`, `titulo` (inglés), `programa`, `cluster`, `anio` (año del plazo), `estado` (`Abierta`/`Próxima`), `apertura` y `cierre` (AAAA-MM-DD), `presupuesto{es,en}`, `trl`, `resumen`, `palabrasClave`, `enlace`. Retira cada convocatoria el día en que vence. `npm run convocatorias` guarda una copia en `data/convocatorias.json` y la web se genera desde esa copia: cada cambio pasa por un PR.
 - **Fallo conocido del Worker** (pendiente de corregir en origen): si un topic tiene varias variantes que comparten presupuesto, las suma. `HORIZON-MSCA-2026-DN-01-01` muestra €1884.1M, pero el portal da €628 033 846 en cada una de sus 3 variantes; `HORIZON-RAISE-2026-01-03` muestra €90M frente a 3 × €30 000 000. La web copia el importe tal cual. Los 68 plazos de 2026 se contrastaron con la API oficial el 5 nov. 2026 y coincidían todos.
+- **El Worker a veces sirve una versión antigua en caché**: el 6 nov. 2026 (00:30 UTC) devolvió la de las 15:38 UTC del día anterior (418 convocatorias, con 26 ya cerradas), después de haber servido la de las 23:09 (392); en peticiones seguidas alterna entre las dos. `scripts/convocatorias.mjs` nunca sustituye la copia por datos con `updated` más antiguo. Comunicárselo a Emilio. El inventario (`datos-dinamicos`) sí puede reflejar esa alternancia.
 - **API oficial del portal (SEDIA)**: `POST https://api.tech.ec.europa.eu/search-api/prod/rest/search?apiKey=SEDIA&text="<CÓDIGO>"&pageSize=10&pageNumber=1` → `results[].metadata` con `identifier`, `deadlineDate`, `startDate`, `deadlineModel` y `budgetOverview` (JSON con el presupuesto por variante y año).
 - **`fetch` de Node contra Cloudflare**: desde algunas redes falla con «fetch failed» aunque curl funcione (Node solo espera 250 ms por IP). Los scripts usan `net.setDefaultAutoSelectFamilyAttemptTimeout(2500)`.
 - **Fechas**: formatear siempre con `src/lib/fecha.ts`. Una fecha AAAA-MM-DD formateada con la zona horaria del ordenador sale un día antes al oeste de UTC.
@@ -134,7 +135,7 @@ Generado con `npm run inventario:verificar`; detalle en `data/inventario/` (`res
 - **Inicio** (`/`) y **Convocatorias 2026** (`/convocatorias/2026/`) con contenido real. Los textos están adaptados de la web inglesa y las 42 convocatorias salen de los datos, copiadas tal cual.
 - Copia de los datos de convocatorias: `scripts/convocatorias.mjs` → `data/convocatorias.json`, validada en el build (`src/lib/convocatorias.ts`).
 - Letra Inter alojada en la propia web.
-- Workflows `deploy.yml` (pruebas + GitHub Pages en cada push a `main` y cada noche, para retirar las convocatorias vencidas con los datos ya aprobados) e `inventario.yml` (Vigía diario: inventario, convocatorias, pruebas y build → PR con la revisión automática de `scripts/revisar.mjs`; no reescribe su rama si una persona le ha añadido commits).
+- Workflows `deploy.yml` (pruebas + GitHub Pages en cada push a `main` y cada noche, para retirar las convocatorias vencidas con los datos ya aprobados) e `inventario.yml` (Vigía diario: inventario, convocatorias, pruebas y build; publica solo si no hay anomalías y, si las hay, para y avisa; mantiene el aviso «títulos sin traducir» con `scripts/revisar.mjs`; no reescribe su rama si una persona le ha añadido commits).
 - Títulos de las convocatorias en español (`data/titulos-es.json`) e importes en formato español (`src/lib/importe.ts`, con pruebas en `tests/`).
 - Repo público en la organización y web de pruebas en GitHub Pages (ver «Stack»).
 - La noticia y la ficha de fuente siguen siendo ejemplos de plantilla.
@@ -146,9 +147,10 @@ Generado con `npm run inventario:verificar`; detalle en `data/inventario/` (`res
 4. Espejo de fuentes: fichas traducidas a partir de la API SEDIA.
 
 **Bloqueado / pendiente del equipo:**
-- Acceso al código del Worker de convocatorias y corrección de la suma de presupuestos (ver «Detalles técnicos»).
+- Acceso al código del Worker de convocatorias, corrección de la suma de presupuestos y de la caché que a veces sirve datos antiguos (ver «Detalles técnicos»).
 - Qué hacer con los enlaces a páginas que solo existen en inglés: servicios, eventos y portal de la Comisión.
-- Que un propietario de la organización permita que GitHub Actions abra PR (ver «Stack»).
+- Que un propietario de la organización permita que GitHub Actions abra PR (ver «Stack»); con la publicación automática solo hace falta para las anomalías.
+- Comunicar al Socio Director la excepción a la regla 4 (publicación automática de los datos de convocatorias).
 - Repo de eventos (el de noticias ya se ha visto: ver «Contexto»). Decidir si la web española sigue su modelo de publicación diaria automática de convocatorias o mantiene el PR (ahora: PR).
 - Conectar `es.` y `fuentes.` al dominio en Cloudflare.
 - Publicar en el dominio oficial.

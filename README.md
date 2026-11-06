@@ -41,22 +41,29 @@ Requiere Node 22.23.4 o superior (lo exige Astro 7.4; en local y en GitHub Actio
 | `data/glosario-titulos.json` | Glosario (246 términos) y normas de estilo con los que se tradujeron los títulos: terminología oficial de la UE en español. Usarlo para traducir los nuevos. |
 | `data/inventario/` | Último inventario de la web inglesa: `resumen.md`, `enlaces.csv`, `paginas.csv` y sus `.json`. |
 | `scripts/convocatorias.mjs` | Descarga los datos de convocatorias (no toca el fichero si no han cambiado). |
-| `scripts/revisar.mjs` | Revisión automática para el PR: títulos sin traducir o desfasados e importes con formato desconocido. |
+| `scripts/comparar-convocatorias.mjs` | Compara los datos nuevos con los publicados y decide si el Vigía puede publicarlos solo (sin anomalías). |
+| `scripts/revisar.mjs` | Revisión automática: títulos sin traducir o desfasados e importes con formato desconocido. |
 | `scripts/inventario.mjs` | Inventario de páginas y enlaces externos de la web inglesa, incluidos los bloques «Insertar código» y los datos que cargan. |
-| `.github/workflows/deploy.yml` | Pruebas, build y publicación en GitHub Pages en cada push a `main`, y cada noche con los mismos datos (retira las convocatorias vencidas). |
-| `.github/workflows/inventario.yml` | Vigía diario (días laborables): inventario + convocatorias + pruebas + build; si cambia algo, abre un PR con la revisión automática. |
+| `.github/workflows/deploy.yml` | Pruebas, build y publicación en GitHub Pages en cada push a `main`, cuando el Vigía publica y cada noche (retira las convocatorias vencidas). |
+| `.github/workflows/inventario.yml` | Vigía diario: inventario + convocatorias + pruebas + build. Si no hay anomalías, publica solo; si las hay, para y abre un aviso. |
 
 Inicio y Convocatorias 2026 tienen contenido real. La noticia y la ficha de fuente siguen siendo ejemplos de plantilla, marcados como tales.
 
-## Convocatorias nuevas: el título en español
+## Cómo se actualiza la web
 
-Cuando el Vigía trae convocatorias nuevas, su PR (o su issue) lista las que no tienen título en
-español; hasta que se traducen, la web muestra el título oficial en inglés. Para traducirlas,
-añadirlas a `data/titulos-es.json` (código → `en`: título oficial tal cual, `es`: traducción) en
-un **PR aparte contra `main`**, a mano o pidiéndoselo a Claude Code, siguiendo
-`data/glosario-titulos.json`. No en la rama del Vigía: la
-rehace cada día, y si una persona la edita deja de actualizarla hasta que se hace merge.
-Cuando se apruebe la API de IA, lo hará el Adaptador ES.
+- **Cada día (06:17 en Madrid)** el Vigía descarga las convocatorias y revisa la web inglesa. Si
+  pasan las pruebas y no hay nada raro, **publica solo** (commit en `main` + publicación). Así se
+  decidió el 5 nov. 2026 para los datos oficiales, igual que en la web de noticias.
+- **Si algo parece anómalo** (caen de golpe más del 20 % de las convocatorias o desaparecen más
+  de 10 que aún no han cerrado), no publica: deja los datos en la rama `vigia/actualizacion` y
+  abre un aviso (issue con la etiqueta `vigia`) para que una persona lo revise.
+- **Cada noche** se recompila la web con los mismos datos para retirar las convocatorias vencidas.
+- **Títulos nuevos:** las convocatorias nuevas se publican con su título oficial en inglés hasta
+  que se traducen. El aviso «Pendiente: títulos de convocatorias sin traducir» (etiqueta
+  `traducir`) las lista y se cierra solo. Para traducirlas, pedírselo a Claude Code: las añade a
+  `data/titulos-es.json` siguiendo `data/glosario-titulos.json`. Cuando se apruebe la API de IA,
+  lo hará el Adaptador ES.
+- **Textos redactados por IA** (páginas, noticias): siguen necesitando aprobación humana.
 
 ## Configuración del repo en GitHub (ya aplicada)
 
@@ -67,7 +74,7 @@ funciona con repos públicos. No contiene claves.
 2. **Settings → Secrets and variables → Actions → Variables:**
    - `SITE` = `https://ullswater-investments.github.io`
    - `BASE` = `/ullswater-web-es`
-3. **Pendiente (lo tiene que hacer un propietario de la organización):** en los ajustes de la organización, **Actions → General → Workflow permissions**, marcar «Allow GitHub Actions to create and approve pull requests», y después lo mismo en los ajustes de este repo. Mientras tanto, el Vigía deja los cambios en la rama `vigia/actualizacion` y abre un issue (etiqueta `vigia`) con el enlace para crear el PR con un clic.
+3. La organización no deja que GitHub Actions abra PR. Con la publicación automática solo hace falta en el caso de anomalía; mientras no se active («Allow GitHub Actions to create and approve pull requests» en los ajustes de la organización y del repo, lo hace un propietario), el aviso trae un enlace para crear el PR con un clic.
 4. Cada push a `main` publica la web; también se puede lanzar «Publicar en GitHub Pages» a mano desde la pestaña Actions.
 
 ## Cuando se conecte el dominio (pendiente de aprobación)

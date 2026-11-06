@@ -1,6 +1,6 @@
-# Compila la web con Astro y la publica en GitHub Pages en cada push a main (merge de un PR).
-# Además se recompila cada noche, con los datos ya aprobados de main: así desaparecen las
-# convocatorias cuyo plazo ha vencido y cambian de estado las que abren. No publica nada nuevo.
+# Compila la web con Astro y la publica en GitHub Pages: en cada push a main, cuando el Vigía
+# publica datos nuevos (lo lanza él) y cada noche con los datos de main, para que desaparezcan
+# las convocatorias cuyo plazo ha vencido y cambien de estado las que abren.
 # Requisito: Settings → Pages → Source: "GitHub Actions".
 name: Publicar en GitHub Pages
 
