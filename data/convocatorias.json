@@ -1,6 +1,6 @@
 {
   "source": "EU Funding & Tenders Portal (SEDIA)",
-  "updated": "2026-11-05T23:13:28.389Z",
+  "updated": "2026-11-07T00:20:31.098Z",
   "total": 392,
   "topics": [
     {
@@ -254,7 +254,10 @@
       },
       "trl": null,
       "resumen": "NEWS - Media Freedom Rapid Response Mechanism",
-      "palabrasClave": [],
+      "palabrasClave": [
+        "Journalism",
+        "Rapid Response Mechanism"
+      ],
       "enlace": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/crea-cross-2027-mfp"
     },
     {
